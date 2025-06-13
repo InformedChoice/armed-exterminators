@@ -1,0 +1,156 @@
+{{ define "main" }}
+<section class="hero-section">
+    <div class="hero-background">
+        <div class="neon-grid"></div>
+        <div class="hero-bugs">
+            <span class="bug bug-1">🪳</span>
+            <span class="bug bug-2">🐀</span>
+            <span class="bug bug-3">🕷️</span>
+            <span class="bug bug-4">🐜</span>
+        </div>
+    </div>
+    
+    <div class="hero-content">
+        <div class="hero-badge">
+            <span class="badge-text">EST. FAMILY OWNED</span>
+        </div>
+        
+        <h1 class="hero-title">
+            <span class="title-line-1">ARMED</span>
+            <span class="title-line-2">EXTERMINATORS</span>
+        </h1>
+        
+        <div class="hero-subtitle">
+            <p class="subtitle-main">{{ .Site.Params.heroSubtitle }}</p>
+            <p class="subtitle-tagline">{{ .Site.Params.heroTagline }}</p>
+        </div>
+        
+        <div class="hero-cta">
+            <a href="tel:{{ .Site.Params.phone }}" class="cta-button cta-primary">
+                <span class="cta-icon">📞</span>
+                <span class="cta-text">
+                    <strong>CALL NOW</strong>
+                    <small>{{ .Site.Params.phone }}</small>
+                </span>
+            </a>
+            <a href="/pasadena-pest-control/" class="cta-button cta-secondary">
+                <span class="cta-text">View Services</span>
+                <span class="cta-arrow">→</span>
+            </a>
+        </div>
+        
+        <div class="hero-features">
+            <div class="feature">
+                <span class="feature-icon">✓</span>
+                <span>Family Owned</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">✓</span>
+                <span>Licensed & Insured</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">✓</span>
+                <span>Serving Pasadena</span>
+            </div>
+        </div>
+    </div>
+    
+    <a href="#services" class="hero-scroll-indicator">
+        <span class="scroll-text">Scroll</span>
+        <span class="scroll-arrow">↓</span>
+    </a>
+</section>
+
+<section class="services-preview" id="services">
+    <div class="container">
+        <h2 class="section-title">
+            <span class="title-accent">PEST PROBLEMS?</span>
+            <span class="title-main">We've Got You Covered</span>
+        </h2>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🐀</div>
+                <h3>Rodent Control</h3>
+                <p>Expert rat and mouse elimination. Safe, effective, and guaranteed.</p>
+                <a href="/services/rodent-control/" class="service-link">Learn More →</a>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">🦝</div>
+                <h3>Wildlife Removal</h3>
+                <p>Humane removal of raccoons, opossums, and other wildlife.</p>
+                <a href="/wildlife-control-services/" class="service-link">Learn More →</a>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon">🪳</div>
+                <h3>General Pest Control</h3>
+                <p>Complete protection from ants, roaches, spiders, and more.</p>
+                <a href="/pasadena-pest-control/" class="service-link">Learn More →</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="service-areas-preview">
+    <div class="container">
+        <h2 class="section-title">
+            <span class="title-accent">SERVING THE SAN GABRIEL VALLEY</span>
+            <span class="title-main">Our Service Areas</span>
+        </h2>
+        
+        <div class="areas-grid">
+            <a href="/locations/pasadena/" class="area-card primary">
+                <h3>Pasadena</h3>
+                <p>Our home base - from Old Town to the Rose Bowl</p>
+            </a>
+            
+            <a href="/locations/arcadia/" class="area-card">
+                <h3>Arcadia</h3>
+                <p>Santa Anita area</p>
+            </a>
+            
+            <a href="/locations/monrovia/" class="area-card">
+                <h3>Monrovia</h3>
+                <p>Foothill communities</p>
+            </a>
+            
+            <a href="/locations/san-gabriel/" class="area-card">
+                <h3>San Gabriel</h3>
+                <p>Mission District</p>
+            </a>
+            
+            <a href="/locations/altadena/" class="area-card">
+                <h3>Altadena</h3>
+                <p>Mountain areas</p>
+            </a>
+            
+            <a href="/locations/south-pasadena/" class="area-card">
+                <h3>South Pasadena</h3>
+                <p>Historic neighborhoods</p>
+            </a>
+            
+            <a href="/locations/san-marino/" class="area-card">
+                <h3>San Marino</h3>
+                <p>Luxury estates</p>
+            </a>
+            
+            <a href="/locations/sierra-madre/" class="area-card">
+                <h3>Sierra Madre</h3>
+                <p>Canyon communities</p>
+            </a>
+            
+            <a href="/locations/la-canada-flintridge/" class="area-card">
+                <h3>La Cañada</h3>
+                <p>Hillside homes</p>
+            </a>
+            
+            <a href="/locations/rosemead/" class="area-card">
+                <h3>Rosemead</h3>
+                <p>Valley communities</p>
+            </a>
+        </div>
+    </div>
+</section>
+{{ end }}

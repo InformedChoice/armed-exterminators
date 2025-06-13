@@ -1,0 +1,63 @@
+{{ define "main" }}
+<article class="service-page">
+    <div class="container">
+        <div class="service-content">
+            {{ .Content }}
+            
+            <div class="cta-banner">
+                <div class="cta-content">
+                    <h2>Ready to Solve Your Pest Problem?</h2>
+                    <p>Don't let pests take over your home. Our expert technicians are ready to help.</p>
+                    <a href="tel:{{ .Site.Params.phone }}" class="cta-button cta-primary">
+                        <span class="cta-icon">📞</span>
+                        <span class="cta-text">
+                            <strong>CALL NOW</strong>
+                            <small>{{ .Site.Params.phone }}</small>
+                        </span>
+                    </a>
+                    <p class="cta-tagline">Same-Day Service Available</p>
+                </div>
+            </div>
+        </div>
+        
+        <aside class="service-sidebar">
+            <div class="sidebar-card contact-card">
+                <h3>Get a Free Quote</h3>
+                <a href="tel:{{ .Site.Params.phone }}" class="phone-link">
+                    <span class="phone-icon">📞</span>
+                    {{ .Site.Params.phone }}
+                </a>
+                <a href="mailto:{{ .Site.Params.email }}" class="email-link">
+                    <span class="email-icon">✉️</span>
+                    Email Us
+                </a>
+            </div>
+            
+            <div class="sidebar-card">
+                <h3>Our Services</h3>
+                <ul class="services-list">
+                    <li><a href="/services/rodent-control/">Rodent Control</a></li>
+                    <li><a href="/services/ant-control/">Ant Control</a></li>
+                    <li><a href="/services/cockroach-exterminator/">Cockroach Exterminator</a></li>
+                    <li><a href="/services/spider-control/">Spider Control</a></li>
+                    <li><a href="/services/bed-bug-treatment/">Bed Bug Treatment</a></li>
+                    <li><a href="/services/flea-treatment/">Flea Treatment</a></li>
+                    <li><a href="/services/wasp-bee-removal/">Wasp & Bee Removal</a></li>
+                    <li><a href="/services/wildlife-control/">Wildlife Control</a></li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-card trust-badges">
+                <h3>Why Choose Us</h3>
+                <div class="badge-list">
+                    <div class="badge">✓ Licensed & Insured</div>
+                    <div class="badge">✓ Family Owned</div>
+                    <div class="badge">✓ Same-Day Service</div>
+                    <div class="badge">✓ Guaranteed Results</div>
+                    <div class="badge">✓ Pet-Safe Methods</div>
+                </div>
+            </div>
+        </aside>
+    </div>
+</article>
+{{ end }}

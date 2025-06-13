@@ -1,0 +1,66 @@
+{{ define "main" }}
+<section class="contact-hero">
+    <div class="container">
+        <h1 class="page-title">
+            <span class="title-accent">GET IN TOUCH</span>
+            <span class="title-main">We're Here to Help</span>
+        </h1>
+        
+        <div class="contact-content">
+            <div class="contact-primary">
+                <div class="contact-method phone-priority">
+                    <h2 class="contact-label">Call Us Now</h2>
+                    <a href="tel:{{ .Site.Params.phone }}" class="phone-display">
+                        <span class="phone-icon-large">📞</span>
+                        <span class="phone-number-large">{{ .Site.Params.phone }}</span>
+                    </a>
+                    <p class="contact-note">For immediate service and fastest response</p>
+                </div>
+                
+                <div class="contact-method email-secondary">
+                    <h2 class="contact-label">Email Us</h2>
+                    <a href="mailto:{{ .Site.Params.email }}" class="email-display">
+                        <span class="email-icon">✉️</span>
+                        <span class="email-address">{{ .Site.Params.email }}</span>
+                    </a>
+                    <p class="contact-note">We'll respond within 24 hours</p>
+                </div>
+            </div>
+            
+            <div class="contact-info">
+                <div class="info-card">
+                    <h3>Office Location</h3>
+                    <p class="info-detail">{{ .Site.Params.address }}</p>
+                    <p class="info-note">Proudly serving Pasadena and surrounding communities</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Service Hours</h3>
+                    <p class="info-detail">Monday - Friday: 8:00 AM - 5:00 PM</p>
+                    <p class="info-detail">Saturday: 9:00 AM - 2:00 PM</p>
+                    <p class="info-note">Emergency services available</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>Service Areas</h3>
+                    <div class="service-areas">
+                        <span class="area-tag">Pasadena</span>
+                        <span class="area-tag">Duarte</span>
+                        <span class="area-tag">Monrovia</span>
+                        <span class="area-tag">Arcadia</span>
+                        <span class="area-tag">San Marino</span>
+                        <span class="area-tag">South Pasadena</span>
+                        <span class="area-tag">Altadena</span>
+                        <span class="area-tag">Sierra Madre</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-bottom">
+                <p class="tagline-large">When Pests Invade, We Terminate</p>
+                <p class="family-note">Family owned and operated • Licensed and insured • Serving our community with pride</p>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

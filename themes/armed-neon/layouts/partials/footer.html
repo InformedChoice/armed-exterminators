@@ -1,0 +1,62 @@
+<footer class="site-footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Armed Exterminators</h3>
+                <p>Family-owned pest control serving Pasadena and surrounding areas with pride.</p>
+                <div class="service-area">
+                    <p><strong>Based in:</strong> {{ .Site.Params.address }}</p>
+                    <p><strong>Serving:</strong> Pasadena and surrounding communities</p>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    {{ range .Site.Menus.main }}
+                    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Service Areas</h3>
+                <ul class="footer-links footer-areas">
+                    <li><a href="/locations/pasadena/">Pasadena</a></li>
+                    <li><a href="/locations/arcadia/">Arcadia</a></li>
+                    <li><a href="/locations/monrovia/">Monrovia</a></li>
+                    <li><a href="/locations/san-gabriel/">San Gabriel</a></li>
+                    <li><a href="/locations/altadena/">Altadena</a></li>
+                    <li><a href="/locations/south-pasadena/">South Pasadena</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <div class="contact-info">
+                    <p>
+                        <strong>Phone:</strong> 
+                        <a href="tel:{{ .Site.Params.phone }}" class="contact-link">{{ .Site.Params.phone }}</a>
+                    </p>
+                    <p>
+                        <strong>Email:</strong> 
+                        <a href="mailto:{{ .Site.Params.email }}" class="contact-link">{{ .Site.Params.email }}</a>
+                    </p>
+                    <p>
+                        <strong>Office:</strong> {{ .Site.Params.address }}
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; {{ now.Year }} Armed Exterminators. All rights reserved.</p>
+            <p class="tagline">When pests invade, we terminate.</p>
+            <div class="footer-legal">
+                <a href="/privacy-policy/" class="legal-link">Privacy Policy</a>
+                <span class="separator">|</span>
+                <a href="/terms-of-service/" class="legal-link">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>

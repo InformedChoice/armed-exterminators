@@ -1,0 +1,50 @@
+{{ define "main" }}
+<article class="location-page">
+    <div class="container">
+        <div class="location-content">
+            {{ .Content }}
+        </div>
+        
+        <aside class="location-sidebar">
+            <div class="sidebar-card cta-card">
+                <h3>Get Immediate Help</h3>
+                <a href="tel:{{ .Site.Params.phone }}" class="phone-button">
+                    <span class="phone-icon">📞</span>
+                    <span class="phone-text">
+                        <strong>CALL NOW</strong>
+                        <span>{{ .Site.Params.phone }}</span>
+                    </span>
+                </a>
+                <p class="availability">Same-Day Service Available</p>
+            </div>
+            
+            <div class="sidebar-card">
+                <h3>Why Choose Armed?</h3>
+                <ul class="benefits-list">
+                    <li>✓ Family Owned Since Day One</li>
+                    <li>✓ Licensed & Insured</li>
+                    <li>✓ 90-Day Guarantee</li>
+                    <li>✓ Pet-Safe Methods</li>
+                    <li>✓ Local Technicians</li>
+                </ul>
+            </div>
+            
+            <div class="sidebar-card">
+                <h3>Service Areas</h3>
+                <div class="city-links">
+                    <a href="/locations/pasadena/">Pasadena</a>
+                    <a href="/locations/arcadia/">Arcadia</a>
+                    <a href="/locations/monrovia/">Monrovia</a>
+                    <a href="/locations/san-gabriel/">San Gabriel</a>
+                    <a href="/locations/altadena/">Altadena</a>
+                    <a href="/locations/south-pasadena/">South Pasadena</a>
+                    <a href="/locations/san-marino/">San Marino</a>
+                    <a href="/locations/sierra-madre/">Sierra Madre</a>
+                    <a href="/locations/la-canada-flintridge/">La Cañada</a>
+                    <a href="/locations/rosemead/">Rosemead</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+</article>
+{{ end }}

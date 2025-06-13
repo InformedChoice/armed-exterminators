@@ -1,5 +1,41 @@
-baseURL = 'https://armedexterminators.net/'
-languageCode = 'en-us'
+baseURL = "https://armedexterminators.net/"
+languageCode = "en-us"
+title = "Armed Exterminators - Professional Pest Control Serving Pasadena"
+theme = "armed-neon"
 
-title = "Pest Control Pasadena, CA | Armed Exterminators"
-description= "Need an exterminator in Pasadena? Family‑owned Armed Exterminators removes rats, ants, roaches, spiders & wildlife. Call (626) 256-3200."
+[params]
+  description = "Professional pest control services serving Pasadena and surrounding areas. Family-owned business based in Duarte, CA. Rodent control, wildlife removal, and comprehensive pest management."
+  author = "Armed Exterminators"
+  email = "armedex@sbcglobal.net"
+  phone = "(626) 256-3200"
+  address = "Duarte, CA"
+  
+  # Hero section
+  heroTitle = "ARMED EXTERMINATORS"
+  heroSubtitle = "DEFENDING PASADENA SINCE DAY ONE"
+  heroTagline = "When Pests Invade, We Terminate"
+  
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About Us"
+    url = "/about-us/"
+    weight = 2
+  [[menu.main]]
+    name = "Services"
+    url = "/pasadena-pest-control/"
+    weight = 3
+  [[menu.main]]
+    name = "Service Areas"
+    url = "/locations/pasadena/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact-us/"
+    weight = 5
+
+[permalinks]
+  posts = "/:slug/"
