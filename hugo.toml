@@ -39,3 +39,8 @@ theme = "armed-neon"
 
 [permalinks]
   posts = "/:slug/"
+
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5

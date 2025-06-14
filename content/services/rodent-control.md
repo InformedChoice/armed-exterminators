@@ -6,7 +6,7 @@ draft: false
 
 # Rodent Control in Pasadena, CA
 
-Hearing scratching in the walls? Finding droppings in your pantry? Pasadena's warm climate allows **roof rats** and **house mice** to thrive year-round. Armed Exterminators has specialized in **safe, effective rodent removal** for over 20 years, protecting homes and businesses throughout the San Gabriel Valley.
+Hearing scratching in the walls? Finding droppings in your pantry? Pasadena's warm climate allows **roof rats** and **house mice** to thrive year-round. Armed Exterminators has specialized in **safe, effective rodent removal** for 28 years, protecting homes and businesses throughout the San Gabriel Valley.
 
 ## Why Pasadena Gets Rodents
 

@@ -6,7 +6,7 @@ draft: false
 
 # Pasadena Pest Control Services
 
-Armed Exterminators provides comprehensive pest control solutions for homes and businesses throughout Pasadena and the San Gabriel Valley. As a family-owned company, we understand the unique pest challenges our community faces and deliver personalized service that larger companies can't match.
+Armed Exterminators provides comprehensive pest control solutions for homes and businesses throughout Pasadena and the San Gabriel Valley. As a family-owned company with 28 years of experience, we understand the unique pest challenges our community faces and deliver personalized service that larger companies can't match.
 
 ## Our Complete Pest Control Services
 

@@ -30,7 +30,7 @@ Home to the historic Mission and a thriving restaurant district, San Gabriel bat
 
 ## Why San Gabriel Residents Choose Armed Exterminators
 
-* Serving the San Gabriel Valley for over 20 years  
+* Serving the San Gabriel Valley for 28 years  
 * Licensed & insured — Structural Pest Control Board #OPR9437  
 * Bilingual technicians available  
 * Discreet service for businesses and homes  

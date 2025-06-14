@@ -30,7 +30,7 @@ Set against the San Gabriel Mountains with historic homes along Foothill Bouleva
 
 ## Why Monrovia Residents Choose Armed Exterminators
 
-* Family-owned since establishment  
+* Family-owned for 28 years  
 * Licensed & insured — Structural Pest Control Board #OPR9437  
 * Technicians familiar with foothill wildlife patterns  
 * Safe treatments for families and pets  

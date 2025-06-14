@@ -30,7 +30,7 @@ Nestled beside the Santa Anita Race Track and the Los Angeles County Arboretum, 
 
 ## Why Arcadia Residents Choose Armed Exterminators
 
-* Over 20 years serving the San Gabriel Valley  
+* 28 years serving the San Gabriel Valley  
 * Licensed & insured — Structural Pest Control Board #OPR9437  
 * Locally staffed technicians familiar with Arcadia neighborhoods  
 * Pet-safe treatments for homes with animals  

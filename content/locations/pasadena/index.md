@@ -5,7 +5,7 @@ description: "Need an exterminator in Pasadena? Family-owned Armed Exterminators
 
 # Pest Control in **Pasadena, California**
 
-From the historic Craftsman homes of Bungalow Heaven to busy Old Town restaurants, Pasadena faces year-round pest pressure. **Roof rats nest in attics, Argentine ants invade kitchens, and skunks wander the Arroyo Seco at night.** Armed Exterminators has protected Pasadena properties for over 20 years with fast, family-owned service.
+From the historic Craftsman homes of Bungalow Heaven to busy Old Town restaurants, Pasadena faces year-round pest pressure. **Roof rats nest in attics, Argentine ants invade kitchens, and skunks wander the Arroyo Seco at night.** Armed Exterminators has protected Pasadena properties for 28 years with fast, family-owned service.
 
 ## Common Pasadena Pest Problems We Solve
 
@@ -30,7 +30,7 @@ From the historic Craftsman homes of Bungalow Heaven to busy Old Town restaurant
 
 ## Why Pasadena Residents Choose Armed Exterminators
 
-* Over 20 years serving the San Gabriel Valley  
+* 28 years serving the San Gabriel Valley  
 * Licensed & insured — Structural Pest Control Board #OPR9437  
 * Locally staffed technicians; no out-of-area subcontractors  
 * Eco-friendly products safe for pets & kids  
