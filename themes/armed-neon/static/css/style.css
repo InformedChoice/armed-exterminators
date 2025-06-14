@@ -255,7 +255,6 @@ html {
         linear-gradient(rgba(57, 255, 20, 0.1) 1px, transparent 1px),
         linear-gradient(90deg, rgba(57, 255, 20, 0.1) 1px, transparent 1px);
     background-size: 50px 50px;
-    animation: grid-move 20s linear infinite;
 }
 
 @keyframes grid-move {
@@ -273,7 +272,6 @@ html {
     position: absolute;
     font-size: 2rem;
     opacity: 0.3;
-    animation: float 10s infinite ease-in-out;
 }
 
 .bug-1 {
@@ -359,12 +357,24 @@ html {
                  0 0 40px var(--neon-green),
                  0 0 60px var(--neon-green),
                  0 0 80px var(--neon-green);
-    animation: neon-flicker 3s infinite alternate;
 }
 
 @keyframes neon-flicker {
     0%, 100% { opacity: 1; }
     50% { opacity: 0.8; }
+}
+
+/* Only animate after page load */
+body.loaded .title-line-2 {
+    animation: neon-flicker 3s infinite alternate;
+}
+
+body.loaded .neon-grid {
+    animation: grid-move 20s linear infinite;
+}
+
+body.loaded .bug {
+    animation: float 10s infinite ease-in-out;
 }
 
 .hero-subtitle {

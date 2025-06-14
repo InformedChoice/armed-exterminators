@@ -75,6 +75,16 @@
             overflow-x: hidden;
         }
         
+        .site-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            background: rgba(10, 10, 10, 0.95);
+            border-bottom: 2px solid var(--neon-green);
+        }
+        
         .hero-section {
             position: relative;
             min-height: 100vh;
@@ -84,6 +94,14 @@
             margin-top: 80px;
         }
         
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            padding: 2rem;
+            max-width: 1000px;
+        }
+        
         .hero-title {
             font-family: var(--font-display);
             font-size: clamp(4rem, 12vw, 8rem);
@@ -91,10 +109,26 @@
             margin-bottom: 1rem;
         }
         
+        .title-line-1 {
+            display: block;
+            color: var(--text-primary);
+        }
+        
         .title-line-2 {
             display: block;
             color: var(--neon-green);
-            text-shadow: 0 0 20px var(--neon-green);
+            text-shadow: 0 0 20px var(--neon-green),
+                         0 0 40px var(--neon-green);
+        }
+        
+        /* Defer animations until after load */
+        .hero-title {
+            animation: none !important;
+        }
+        
+        /* Simple initial state for animations */
+        .hero-bugs, .neon-grid {
+            opacity: 0;
         }
     </style>
     
