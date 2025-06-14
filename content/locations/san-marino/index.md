@@ -7,6 +7,14 @@ description: "Discrete pest control for San Marino estates. Expert rodent, ant &
 
 Home to the Huntington Library and some of Southern California's finest estates, San Marino demands pest control that matches its standards. **Roof rats hide in Spanish tile roofs, Argentine ants invade manicured gardens, and gophers threaten pristine lawns.** Armed Exterminators provides discrete, professional service that protects both your property and privacy.
 
+<div class="location-services-box">
+<h3>🎯 Quick Links: San Marino Pest Control Services</h3>
+<ul>
+<li><a href="/ant-control-san-marino/">Ant Control in San Marino - Estate Specialists <span class="arrow">→</span></a></li>
+<li><a href="/opossum-removal-san-marino/">Opossum Removal in San Marino - Humane Wildlife Control <span class="arrow">→</span></a></li>
+</ul>
+</div>
+
 ## Common San Marino Pest Problems We Solve
 
 - **Roof Rats** in luxury attics and garages
@@ -18,8 +26,13 @@ Home to the Huntington Library and some of Southern California's finest estates,
 
 ## Our Local Services
 
+### Specialized San Marino Pest Control:
+* **[Ant Control in San Marino](/ant-control-san-marino/)** - Luxury estate specialists
+* **[Opossum Removal in San Marino](/opossum-removal-san-marino/)** - Discrete wildlife control
+
+### General Services:
 * **Rodent Control & Exclusion**  
-* **Ant, Roach & Spider Extermination**  
+* **Roach & Spider Extermination**  
 * **Bed Bug & Flea Treatments**  
 * **Wasp & Humane Bee Removal**  
 * **Wildlife Trapping & Relocation**  

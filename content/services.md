@@ -1,119 +1,114 @@
 ---
-title: "Pest Control Services | Armed Exterminators"
-description: "Complete pest control services in Pasadena & San Gabriel Valley. Choose your location for specialized local service. Family-owned since 1997."
+title: "Pest Control Services | Complete Pest Solutions"
+description: "Professional pest control services throughout San Gabriel Valley. Choose your pest problem for specialized solutions. Family-owned since 1996."
 draft: false
 ---
 
 # Professional Pest Control Services
 
-Armed Exterminators provides comprehensive pest control solutions throughout the San Gabriel Valley. With 28 years of experience, we understand that each community has unique pest challenges. Select your city below for localized service information.
+Choose your specific pest problem below for targeted solutions throughout the San Gabriel Valley. Armed Exterminators has been solving pest problems since 1996 with specialized treatments for every situation.
 
-## Choose Your Location
+## Select Your Pest Problem
 
-### Primary Service Areas
+<div class="pest-services-grid">
 
-**[Pasadena](/locations/pasadena/)**  
-Old Town to the Rose Bowl - Our primary service area
+### 🐀 [Rodent Control](/services/rodent-control/)
+**Rats & Mice** - Complete elimination and prevention programs for homes and businesses. Specialists in roof rats, Norway rats, and house mice.
 
-**[Arcadia](/locations/arcadia/)**  
-Santa Anita area - Foothill pest challenges
+### 🐜 [Ant Control](/services/ant-control/)
+**All Ant Species** - Expert elimination of Argentine ants, carpenter ants, and other species. Target the colony, not just the workers.
 
-**[Monrovia](/locations/monrovia/)**  
-Foothill communities - Wildlife and general pests
+### 🪳 [Cockroach Control](/services/cockroach-exterminator/)
+**Roach Elimination** - German, American, and Oriental cockroach specialists. Discrete service for severe infestations.
 
-**[San Gabriel](/locations/san-gabriel/)**  
-Mission District - Dense urban pest control
+### 🕷️ [Spider Control](/services/spider-control/)
+**Black Widow Experts** - Safe removal of venomous and common spiders. Web removal and prevention included.
 
-**[Altadena](/locations/altadena/)**  
-Mountain communities - Wildlife specialists
+### 🦝 [Wildlife Control](/wildlife-control-services/)
+**Humane Removal** - Raccoons, opossums, skunks, and squirrels. Licensed wildlife specialists.
 
-**[South Pasadena](/locations/south-pasadena/)**  
-Historic neighborhoods - Careful, discrete service
+### 🛏️ [Bed Bug Treatment](/services/bed-bug-treatment/)
+**Discrete Elimination** - Thorough inspection and treatment of all life stages. Heat and traditional options.
 
-**[San Marino](/locations/san-marino/)**  
-Luxury estates - Premium pest solutions
+### 🦟 [Flea Treatment](/services/flea-treatment/)
+**Home & Yard** - Break the flea life cycle with comprehensive indoor and outdoor treatments.
 
-**[Sierra Madre](/locations/sierra-madre/)**  
-Canyon areas - Wildlife and pest control
+### 🐝 [Wasp & Bee Removal](/services/wasp-bee-removal/)
+**Safe Nest Removal** - Yellow jackets, wasps, and bee relocation services. Emergency response available.
 
-**[La Cañada Flintridge](/locations/la-canada-flintridge/)**  
-Hillside homes - Specialized treatments
+</div>
 
-**[Rosemead](/locations/rosemead/)**  
-Valley communities - Comprehensive pest control
+## Quick City Links for Common Services
 
-## Our Pest Control Services
+### Rodent Control by City
+- [Pasadena](/rodent-control-pasadena/) • [Arcadia](/rat-control-arcadia/) • [Monrovia](/rat-control-monrovia/) • [San Gabriel](/rat-control-san-gabriel/) • [Altadena](/rat-control-altadena/)
 
-### General Pest Control
-- **[Ant Control](/services/ant-control/)** - Argentine ants, carpenter ants, and more
-- **[Cockroach Extermination](/services/cockroach-exterminator/)** - German, American, and Oriental roaches
-- **[Spider Control](/services/spider-control/)** - Black widows, brown recluses, and house spiders
-- **[Flea Treatment](/services/flea-treatment/)** - Complete home and yard treatments
-- **[Bed Bug Treatment](/services/bed-bug-treatment/)** - Discrete and effective elimination
+### Ant Control by City
+- [Pasadena](/ant-control-pasadena/) • [Arcadia](/ant-control-arcadia/) • [Monrovia](/ant-control-monrovia/) • [San Gabriel](/ant-control-san-gabriel/) • [San Marino](/ant-control-san-marino/)
 
-### Rodent & Wildlife Services
-- **[Rodent Control](/rodent-control-pasadena/)** - Rats, mice, and prevention
-- **[Wildlife Removal](/wildlife-control-services/)** - Raccoons, opossums, skunks, and more
-- **[Wasp & Bee Removal](/services/wasp-bee-removal/)** - Safe nest removal
+### Wildlife Removal by City
+- [Raccoon - Pasadena](/raccoon-removal-pasadena/) • [Opossum - Arcadia](/opossum-removal-arcadia/) • [Skunk - Monrovia](/skunk-removal-monrovia/)
 
-### Specialized Wildlife Services
-- **[Raccoon Removal Pasadena](/raccoon-removal-pasadena/)** - Attic cleanup and exclusion
-- **[Skunk Removal Monrovia](/skunk-removal-monrovia/)** - Humane removal and odor control
+## Why Professional Pest Control?
 
----
+### DIY Methods Often Fail Because:
+- **Incomplete Treatment** - Missing hidden nests and breeding sites
+- **Wrong Products** - Using repellents that scatter pests
+- **Reinfestations** - Not addressing root causes
+- **Safety Risks** - Improper chemical handling
+- **Wasted Money** - Multiple attempts without success
 
-## Need Immediate Pest Control?
+### Professional Service Provides:
+- **Expert Identification** - Correct pest and best treatment
+- **Targeted Solutions** - Right method for each situation
+- **Complete Elimination** - All life stages addressed
+- **Prevention Plans** - Stop future problems
+- **Guaranteed Results** - We back our work
 
-Don't let pests take over your property. Our expert technicians are ready to help with same-day service throughout the San Gabriel Valley.
+## Service Process
 
-### 📞 Call [(626) 256-3200](tel:6262563200) Now
+1. **Free Inspection** - Identify pest, extent, and causes
+2. **Custom Plan** - Tailored to your specific situation
+3. **Safe Treatment** - EPA-approved methods
+4. **Follow-Up** - Ensure complete elimination
+5. **Prevention** - Long-term protection strategies
 
-**Same-Day Service Available • Free Estimates • 90-Day Guarantee**
+## Coverage Areas
 
----
-
-## Why Choose Armed Exterminators?
-
-### ✓ 28 Years of Experience
-Serving the San Gabriel Valley since 1997 with proven results
-
-### ✓ Family Owned & Operated
-Personal service you can trust - we treat you like neighbors, not numbers
-
-### ✓ Licensed & Insured
-Full compliance with California regulations (License #OPR9437)
-
-### ✓ Pet-Safe Methods
-Protecting your entire family with eco-friendly solutions
-
-### ✓ Guaranteed Results
-We stand behind our work with a 90-day satisfaction guarantee
-
-### ✓ Same-Day Service
-Emergency response available when you need us most
+We provide all pest control services throughout:
+- **Pasadena** - Old Town to Rose Bowl
+- **Arcadia** - Santa Anita neighborhoods  
+- **Monrovia** - Foothill communities
+- **San Gabriel** - Mission District
+- **Altadena** - Mountain interface
+- **South Pasadena** - Historic areas
+- **San Marino** - Luxury estates
+- **Sierra Madre** - Canyon homes
+- **La Cañada Flintridge** - Hillside properties
+- **Rosemead** - Valley communities
 
 ---
 
-## Service Area Coverage
+## Common Questions
 
-We provide complete pest control services throughout:
+### Which service do I need?
+Not sure what pest you have? Our free inspection will identify the problem and recommend the right solution. Many pests look similar but require different treatments.
 
-- Pasadena (91101, 91103, 91104, 91105, 91106, 91107)
-- Altadena (91001, 91003)
-- Arcadia (91006, 91007)
-- Monrovia (91016, 91017)
-- San Gabriel (91775, 91776)
-- San Marino (91108)
-- South Pasadena (91030, 91031)
-- Sierra Madre (91024, 91025)
-- La Cañada Flintridge (91011, 91012)
-- Rosemead (91770)
+### How quickly can you respond?
+Same-day service is available for most pest problems. Emergency wildlife removal and stinging insect issues get priority scheduling.
+
+### Are treatments safe?
+Yes. We use EPA-registered products applied by licensed technicians. We'll explain all safety precautions for your family and pets.
+
+### What's included in the service?
+Each service includes inspection, treatment, and warranty. Most include follow-up visits if needed. We'll detail everything before starting.
 
 ---
 
-> **Ready for a Pest-Free Property?**
-> 
-> *"The best pest control company in the valley! Professional, thorough, and they really care about their customers."*  
-> — **Michael R., Pasadena**
-> 
-> ### Call [(626) 256-3200](tel:6262563200) for Fast, Professional Service
+> **Ready to solve your pest problem? Select your specific pest above or call for expert guidance.**
+> ### Call [(626) 256-3200](tel:6262563200) for immediate assistance.
+> Free Inspections • Same-Day Service • 90-Day Guarantee
+
+---
+
+*Not sure which service you need? Our experts can identify your pest problem over the phone. Call now for immediate help.*

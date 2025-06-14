@@ -1,0 +1,129 @@
+{{ define "main" }}
+<article class="service-page">
+    <div class="container">
+        {{ partial "breadcrumbs.html" . }}
+    </div>
+    
+    <div class="container">
+        <div class="service-content">
+            {{ .Content }}
+            
+            <div class="cta-banner">
+                <div class="cta-content">
+                    <h2>Ready to Solve Your Pest Problem?</h2>
+                    <p>Don't let pests take over your home. Our expert technicians are ready to help.</p>
+                    <a href="tel:{{ .Site.Params.phone }}" class="cta-button cta-primary">
+                        <span class="cta-icon">📞</span>
+                        <span class="cta-text">
+                            <strong>CALL NOW</strong>
+                        </span>
+                    </a>
+                    <p class="cta-tagline">Same-Day Service Available</p>
+                </div>
+            </div>
+        </div>
+        
+        <aside class="service-sidebar">
+            <div class="sidebar-card contact-card">
+                <h3>Get a Free Quote</h3>
+                <a href="tel:{{ .Site.Params.phone }}" class="phone-link">
+                    <span class="phone-icon">📞</span>
+                    {{ .Site.Params.phone }}
+                </a>
+                <a href="mailto:{{ .Site.Params.email }}" class="email-link">
+                    <span class="email-icon">✉️</span>
+                    Email Us
+                </a>
+            </div>
+            
+            <div class="sidebar-card">
+                <h3>Our Services</h3>
+                <ul class="services-list">
+                    {{/* Detect location from URL */}}
+                    {{ $location := "" }}
+                    {{ $urlParts := split .RelPermalink "-" }}
+                    {{ if gt (len $urlParts) 1 }}
+                        {{ $location := index $urlParts (sub (len $urlParts) 1) }}
+                        {{ $location = strings.TrimSuffix "/" $location }}
+                        
+                        {{/* If this is a location-specific page, show location-specific links */}}
+                        {{ if or (in .RelPermalink "pasadena") (in .RelPermalink "arcadia") (in .RelPermalink "monrovia") (in .RelPermalink "san-gabriel") (in .RelPermalink "san-marino") (in .RelPermalink "altadena") }}
+                            {{/* Extract location name */}}
+                            {{ $loc := "" }}
+                            {{ if in .RelPermalink "pasadena" }}{{ $loc = "pasadena" }}
+                            {{ else if in .RelPermalink "arcadia" }}{{ $loc = "arcadia" }}
+                            {{ else if in .RelPermalink "monrovia" }}{{ $loc = "monrovia" }}
+                            {{ else if in .RelPermalink "san-gabriel" }}{{ $loc = "san-gabriel" }}
+                            {{ else if in .RelPermalink "san-marino" }}{{ $loc = "san-marino" }}
+                            {{ else if in .RelPermalink "altadena" }}{{ $loc = "altadena" }}
+                            {{ end }}
+                            
+                            {{/* Show location-specific service links */}}
+                            <li><a href="/rodent-control-{{ $loc }}/">Rodent Control</a></li>
+                            <li><a href="/ant-control-{{ $loc }}/">Ant Control</a></li>
+                            <li><a href="/roach-control-{{ $loc }}/">Roach Control</a></li>
+                            <li><a href="/spider-control-{{ $loc }}/">Spider Control</a></li>
+                            {{ if or (eq $loc "pasadena") (eq $loc "arcadia") (eq $loc "monrovia") (eq $loc "san-gabriel") (eq $loc "san-marino") }}
+                                <li><a href="/opossum-removal-{{ $loc }}/">Opossum Removal</a></li>
+                            {{ end }}
+                            {{ if or (eq $loc "pasadena") (eq $loc "arcadia") (eq $loc "monrovia") (eq $loc "san-gabriel") }}
+                                <li><a href="/skunk-removal-{{ $loc }}/">Skunk Removal</a></li>
+                            {{ end }}
+                            {{ if or (eq $loc "pasadena") (eq $loc "arcadia") }}
+                                <li><a href="/raccoon-removal-{{ $loc }}/">Raccoon Removal</a></li>
+                            {{ end }}
+                        {{ else }}
+                            {{/* Default to service hub pages */}}
+                            <li><a href="/services/rodent-control/">Rodent Control</a></li>
+                            <li><a href="/services/ant-control/">Ant Control</a></li>
+                            <li><a href="/services/cockroach-exterminator/">Cockroach Control</a></li>
+                            <li><a href="/services/spider-control/">Spider Control</a></li>
+                            <li><a href="/services/bed-bug-treatment/">Bed Bug Treatment</a></li>
+                            <li><a href="/services/flea-treatment/">Flea Treatment</a></li>
+                            <li><a href="/services/wasp-bee-removal/">Wasp & Bee Removal</a></li>
+                            <li><a href="/wildlife-control-services/">Wildlife Control</a></li>
+                        {{ end }}
+                    {{ else }}
+                        {{/* Default service links */}}
+                        <li><a href="/services/rodent-control/">Rodent Control</a></li>
+                        <li><a href="/services/ant-control/">Ant Control</a></li>
+                        <li><a href="/services/cockroach-exterminator/">Cockroach Control</a></li>
+                        <li><a href="/services/spider-control/">Spider Control</a></li>
+                        <li><a href="/services/bed-bug-treatment/">Bed Bug Treatment</a></li>
+                        <li><a href="/services/flea-treatment/">Flea Treatment</a></li>
+                        <li><a href="/services/wasp-bee-removal/">Wasp & Bee Removal</a></li>
+                        <li><a href="/wildlife-control-services/">Wildlife Control</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+            
+            <div class="sidebar-card trust-badges">
+                <h3>Why Choose Us</h3>
+                <div class="badge-list">
+                    <div class="badge">✓ Licensed & Insured</div>
+                    <div class="badge">✓ Family Owned</div>
+                    <div class="badge">✓ Same-Day Service</div>
+                    <div class="badge">✓ Guaranteed Results</div>
+                    <div class="badge">✓ Pet-Safe Methods</div>
+                </div>
+            </div>
+            
+            <div class="sidebar-card">
+                <h3>Service Areas</h3>
+                <div class="area-links">
+                    <a href="/locations/pasadena/">Pasadena</a>
+                    <a href="/locations/south-pasadena/">South Pasadena</a>
+                    <a href="/locations/altadena/">Altadena</a>
+                    <a href="/locations/san-marino/">San Marino</a>
+                    <a href="/locations/arcadia/">Arcadia</a>
+                    <a href="/locations/monrovia/">Monrovia</a>
+                    <a href="/locations/sierra-madre/">Sierra Madre</a>
+                    <a href="/locations/la-canada-flintridge/">La Cañada Flintridge</a>
+                    <a href="/locations/san-gabriel/">San Gabriel</a>
+                    <a href="/locations/rosemead/">Rosemead</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+</article>
+{{ end }}

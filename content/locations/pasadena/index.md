@@ -7,6 +7,18 @@ description: "Need an exterminator in Pasadena? Family-owned Armed Exterminators
 
 From the historic Craftsman homes of Bungalow Heaven to busy Old Town restaurants, Pasadena faces year-round pest pressure. **Roof rats nest in attics, Argentine ants invade kitchens, and skunks wander the Arroyo Seco at night.** Armed Exterminators has protected Pasadena properties for 28 years with fast, family-owned service.
 
+<div class="location-services-box">
+<h3>🎯 Quick Links: Pasadena Pest Control Services</h3>
+<ul>
+<li><a href="/rodent-control-pasadena/">Rodent Control in Pasadena - Rat & Mouse Experts <span class="arrow">→</span></a></li>
+<li><a href="/ant-control-pasadena/">Ant Control in Pasadena - Argentine Ant Specialists <span class="arrow">→</span></a></li>
+<li><a href="/roach-control-pasadena/">Roach Control in Pasadena - Apartment & Restaurant Pros <span class="arrow">→</span></a></li>
+<li><a href="/spider-control-pasadena/">Spider Control in Pasadena - Black Widow Removal <span class="arrow">→</span></a></li>
+<li><a href="/mouse-control-pasadena/">Mouse Control in Pasadena - Urban Rodent Experts <span class="arrow">→</span></a></li>
+<li><a href="/bed-bug-treatment-pasadena/">Bed Bug Treatment in Pasadena - Heat Treatment Available <span class="arrow">→</span></a></li>
+</ul>
+</div>
+
 ## Common Pasadena Pest Problems We Solve
 
 - **Rats & Mice** in attics and crawl spaces
