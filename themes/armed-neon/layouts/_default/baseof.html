@@ -117,8 +117,14 @@
         .title-line-2 {
             display: block;
             color: var(--neon-green);
-            text-shadow: 0 0 20px var(--neon-green),
-                         0 0 40px var(--neon-green);
+            text-shadow: 0 0 20px var(--neon-green);
+        }
+        
+        @media (min-width: 769px) {
+            .title-line-2 {
+                text-shadow: 0 0 20px var(--neon-green),
+                             0 0 40px var(--neon-green);
+            }
         }
         
         /* Defer animations until after load */
@@ -133,6 +139,7 @@
     </style>
     
     <!-- Styles -->
+    <link rel="preload" href="{{ "css/style.css" | relURL }}" as="style">
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
 <body>

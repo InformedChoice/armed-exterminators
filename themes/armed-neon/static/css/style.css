@@ -359,10 +359,16 @@ html {
 .title-line-2 {
     display: block;
     color: var(--neon-green);
-    text-shadow: 0 0 20px var(--neon-green),
-                 0 0 40px var(--neon-green),
-                 0 0 60px var(--neon-green),
-                 0 0 80px var(--neon-green);
+    text-shadow: 0 0 20px var(--neon-green);
+}
+
+@media (min-width: 769px) {
+    .title-line-2 {
+        text-shadow: 0 0 20px var(--neon-green),
+                     0 0 40px var(--neon-green),
+                     0 0 60px var(--neon-green),
+                     0 0 80px var(--neon-green);
+    }
 }
 
 @keyframes neon-flicker {
@@ -370,17 +376,26 @@ html {
     50% { opacity: 0.8; }
 }
 
-/* Only animate after page load */
-body.loaded .title-line-2 {
-    animation: neon-flicker 3s infinite alternate;
+/* Only animate after page load and on desktop */
+@media (min-width: 769px) {
+    body.loaded .title-line-2 {
+        animation: neon-flicker 3s infinite alternate;
+    }
+
+    body.loaded .neon-grid {
+        animation: grid-move 20s linear infinite;
+    }
+
+    body.loaded .bug {
+        animation: float 10s infinite ease-in-out;
+    }
 }
 
-body.loaded .neon-grid {
-    animation: grid-move 20s linear infinite;
-}
-
-body.loaded .bug {
-    animation: float 10s infinite ease-in-out;
+/* On mobile, just show static neon effect */
+@media (max-width: 768px) {
+    .neon-grid, .hero-bugs {
+        display: none;
+    }
 }
 
 .hero-subtitle {

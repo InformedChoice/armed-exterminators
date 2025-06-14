@@ -1,20 +1,22 @@
-// Enable animations after page load
+// Enable animations after page load (desktop only)
 window.addEventListener('load', function() {
     // Add loaded class to body
     document.body.classList.add('loaded');
     
-    // Fade in background elements
-    const neonGrid = document.querySelector('.neon-grid');
-    const heroBugs = document.querySelector('.hero-bugs');
-    
-    if (neonGrid) {
-        neonGrid.style.opacity = '1';
-        neonGrid.style.transition = 'opacity 1s ease-in';
-    }
-    
-    if (heroBugs) {
-        heroBugs.style.opacity = '1';
-        heroBugs.style.transition = 'opacity 1.5s ease-in';
+    // Only fade in background elements on desktop
+    if (window.innerWidth > 768) {
+        const neonGrid = document.querySelector('.neon-grid');
+        const heroBugs = document.querySelector('.hero-bugs');
+        
+        if (neonGrid) {
+            neonGrid.style.opacity = '1';
+            neonGrid.style.transition = 'opacity 1s ease-in';
+        }
+        
+        if (heroBugs) {
+            heroBugs.style.opacity = '1';
+            heroBugs.style.transition = 'opacity 1.5s ease-in';
+        }
     }
 });
 
