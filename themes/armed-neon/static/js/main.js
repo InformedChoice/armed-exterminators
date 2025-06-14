@@ -20,6 +20,32 @@ window.addEventListener('load', function() {
     }
 });
 
+// Sticky Call Button
+window.addEventListener('scroll', function() {
+    const stickyButton = document.getElementById('stickyCallButton');
+    const heroSection = document.querySelector('.hero-section');
+    
+    if (stickyButton) {
+        if (heroSection) {
+            // Homepage behavior
+            const heroBottom = heroSection.offsetTop + heroSection.offsetHeight;
+            
+            if (window.scrollY > heroBottom - 200) {
+                stickyButton.classList.add('show');
+            } else {
+                stickyButton.classList.remove('show');
+            }
+        } else {
+            // Interior pages - show after scrolling 300px
+            if (window.scrollY > 300) {
+                stickyButton.classList.add('show');
+            } else {
+                stickyButton.classList.remove('show');
+            }
+        }
+    }
+});
+
 // Mobile Menu Toggle
 document.addEventListener('DOMContentLoaded', function() {
     const mobileToggle = document.querySelector('.mobile-menu-toggle');

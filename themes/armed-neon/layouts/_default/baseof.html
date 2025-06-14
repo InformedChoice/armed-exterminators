@@ -142,7 +142,7 @@
     <link rel="preload" href="{{ "css/style.css" | relURL }}" as="style">
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 </head>
-<body>
+<body class="{{ if not .IsHome }}interior-page{{ end }}">
     {{ partial "header.html" . }}
     
     <main>
@@ -150,6 +150,12 @@
     </main>
     
     {{ partial "footer.html" . }}
+    
+    <!-- Sticky Call Button -->
+    <a href="tel:{{ .Site.Params.phone }}" class="sticky-call-button" id="stickyCallButton">
+        <span>📞</span>
+        <span>Call Now</span>
+    </a>
     
     <!-- Scripts - Load asynchronously to prevent render blocking -->
     <script src="{{ "js/main.js" | relURL }}" defer></script>

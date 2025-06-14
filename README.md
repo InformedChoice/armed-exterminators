@@ -170,27 +170,51 @@ armed-exterminators/
    *Links to nearby cities*
    ```
 
-### Adding a Blog Post (Future)
+### Adding a Blog Post
 
-1. **Create posts directory:**
+1. **Create blog directory (if it doesn't exist):**
    ```bash
-   mkdir content/posts
+   mkdir content/blog
    ```
 
-2. **Create post with date in filename:**
+2. **Create a blog post:**
    ```bash
-   touch content/posts/2024-01-15-winter-pest-prevention.md
+   # Example: Create a pest prevention tips post
+   touch content/blog/winter-pest-prevention-tips.md
    ```
 
-3. **Add front matter with slug:**
+3. **Use this blog post template:**
    ```markdown
    ---
-   title: "Winter Pest Prevention Tips"
-   date: 2024-01-15
-   slug: "winter-pest-prevention"
-   url: "/winter-pest-prevention/"
+   title: "Winter Pest Prevention Tips for Pasadena Homeowners"
+   date: 2025-01-15
+   description: "Expert tips to keep pests out of your home during winter months in Pasadena."
+   draft: false
    ---
+
+   ![Winter pest prevention](/images/blog/winter-pest-prevention.jpg)
+
+   Winter in Pasadena might be mild, but pests still seek warmth in your home...
+
+   ## Key Prevention Tips
+
+   ### 1. Seal Entry Points
+   [Content here]
+
+   ### 2. Remove Food Sources
+   [Content here]
+
+   ## When to Call a Professional
+
+   If you notice signs of pest activity...
+
+   ---
+
+   **Need immediate pest control?** Call Armed Exterminators at (626) 256-3200.
    ```
+
+4. **Blog posts will be available at:** `/blog/[filename]/`
+   - Example: `winter-pest-prevention-tips.md` → `/blog/winter-pest-prevention-tips/`
 
 ## Updating Existing Content
 
