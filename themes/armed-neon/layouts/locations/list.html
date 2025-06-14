@@ -1,9 +1,7 @@
 {{ define "main" }}
-<article class="page-content">
+<article class="page-content service-areas-hub">
     <div class="container">
-        {{ if not .IsHome }}
-            {{ partial "breadcrumbs.html" . }}
-        {{ end }}
+        {{ partial "breadcrumbs.html" . }}
         
         <h1 class="page-title">
             <span class="title-main">{{ .Title }}</span>

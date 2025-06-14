@@ -30,7 +30,7 @@ theme = "armed-neon"
     weight = 3
   [[menu.main]]
     name = "Service Areas"
-    url = "/locations/pasadena/"
+    url = "/locations/"
     weight = 4
   [[menu.main]]
     name = "Contact"

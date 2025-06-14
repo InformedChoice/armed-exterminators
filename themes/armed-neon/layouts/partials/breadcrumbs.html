@@ -1,0 +1,118 @@
+{{ $url := replace .RelPermalink "//" "/" }}
+{{ $parts := split (trim $url "/") "/" }}
+
+<nav aria-label="Breadcrumb" class="breadcrumb-nav">
+  <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+    <!-- Home -->
+    <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="/" itemprop="item">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </li>
+
+    {{ if not .IsHome }}
+      {{ $position := 2 }}
+      
+      <!-- Handle different URL patterns -->
+      {{ if hasPrefix .RelPermalink "/services/" }}
+        <!-- Service pages under /services/ -->
+        <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/services/" itemprop="item">
+            <span itemprop="name">Services</span>
+          </a>
+          <meta itemprop="position" content="{{ $position }}" />
+        </li>
+        {{ $position = add $position 1 }}
+        
+      {{ else if hasPrefix .RelPermalink "/locations/" }}
+        <!-- Location pages -->
+        <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="/locations/" itemprop="item">
+            <span itemprop="name">Service Areas</span>
+          </a>
+          <meta itemprop="position" content="{{ $position }}" />
+        </li>
+        {{ $position = add $position 1 }}
+        
+      {{ else if or (findRE "-control-" .RelPermalink) (findRE "-removal-" .RelPermalink) (findRE "-treatment-" .RelPermalink) }}
+        <!-- Service + Location combination pages -->
+        {{ $pageName := replace (path.Base .RelPermalink) ".html" "" }}
+        {{ $pageName := replace $pageName "/" "" }}
+        
+        <!-- Determine service type -->
+        {{ $serviceType := "" }}
+        {{ $serviceName := "" }}
+        {{ $location := "" }}
+        
+        {{ if findRE "rat-control-" $pageName }}
+          {{ $serviceType = "rodent-control" }}
+          {{ $serviceName = "Rodent Control" }}
+          {{ $location = replace $pageName "rat-control-" "" }}
+        {{ else if findRE "rodent-control-" $pageName }}
+          {{ $serviceType = "rodent-control" }}
+          {{ $serviceName = "Rodent Control" }}
+          {{ $location = replace $pageName "rodent-control-" "" }}
+        {{ else if findRE "ant-control-" $pageName }}
+          {{ $serviceType = "ant-control" }}
+          {{ $serviceName = "Ant Control" }}
+          {{ $location = replace $pageName "ant-control-" "" }}
+        {{ else if findRE "roach-control-" $pageName }}
+          {{ $serviceType = "cockroach-exterminator" }}
+          {{ $serviceName = "Roach Control" }}
+          {{ $location = replace $pageName "roach-control-" "" }}
+        {{ else if findRE "spider-control-" $pageName }}
+          {{ $serviceType = "spider-control" }}
+          {{ $serviceName = "Spider Control" }}
+          {{ $location = replace $pageName "spider-control-" "" }}
+        {{ else if findRE "bed-bug-treatment-" $pageName }}
+          {{ $serviceType = "bed-bug-treatment" }}
+          {{ $serviceName = "Bed Bug Treatment" }}
+          {{ $location = replace $pageName "bed-bug-treatment-" "" }}
+        {{ else if findRE "-removal-" $pageName }}
+          {{ $serviceType = "wildlife-control" }}
+          {{ $serviceName = "Wildlife Removal" }}
+          <!-- Extract location from wildlife removal pages -->
+          {{ $location = replaceRE ".*-removal-(.*)$" "$1" $pageName }}
+        {{ end }}
+        
+        <!-- Service parent -->
+        {{ if $serviceName }}
+          <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/services/{{ $serviceType }}/" itemprop="item">
+              <span itemprop="name">{{ $serviceName }}</span>
+            </a>
+            <meta itemprop="position" content="{{ $position }}" />
+          </li>
+          {{ $position = add $position 1 }}
+        {{ end }}
+        
+        <!-- Location (if we can determine it) -->
+        {{ if $location }}
+          {{ $locationTitle := title (replace $location "-" " ") }}
+          <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+            <a href="/locations/{{ $location }}/" itemprop="item">
+              <span itemprop="name">{{ $locationTitle }}</span>
+            </a>
+            <meta itemprop="position" content="{{ $position }}" />
+          </li>
+          {{ $position = add $position 1 }}
+        {{ end }}
+        
+      {{ else if eq .Section "about-us" }}
+        <!-- About page -->
+        {{ $position = 2 }}
+        
+      {{ else if eq .Section "contact-us" }}
+        <!-- Contact page -->
+        {{ $position = 2 }}
+      {{ end }}
+      
+      <!-- Current page (no link) -->
+      <li class="breadcrumb-item active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span itemprop="name">{{ .Title }}</span>
+        <meta itemprop="position" content="{{ $position }}" />
+      </li>
+    {{ end }}
+  </ol>
+</nav>
