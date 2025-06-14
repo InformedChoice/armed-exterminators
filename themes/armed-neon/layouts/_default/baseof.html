@@ -139,8 +139,8 @@
     </style>
     
     <!-- Styles -->
-    <link rel="preload" href="{{ "css/style.css" | relURL }}" as="style">
-    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
+    <link rel="preload" href="{{ "css/style.css" | relURL }}?v={{ now.Unix }}" as="style">
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}?v={{ now.Unix }}">
 </head>
 <body class="{{ if not .IsHome }}interior-page{{ end }}">
     {{ partial "header.html" . }}
