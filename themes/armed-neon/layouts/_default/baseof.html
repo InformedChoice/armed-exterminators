@@ -34,10 +34,69 @@
     <link rel="shortcut icon" type="image/png" href="https://imagedelivery.net/uoQWLs2DQGCKz-4i8TTorQ/467d8475-8b21-4dbc-25a3-4d4097a43300/public">
     <link rel="apple-touch-icon" href="https://imagedelivery.net/uoQWLs2DQGCKz-4i8TTorQ/467d8475-8b21-4dbc-25a3-4d4097a43300/public">
     
-    <!-- Fonts -->
+    <!-- Resource Hints -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    
+    <!-- Preload critical font -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" as="style">
+    
+    <!-- Load fonts with display swap for better performance -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <!-- Critical CSS for above-the-fold content -->
+    <style>
+        /* Critical CSS for immediate rendering */
+        :root {
+            --neon-green: #39FF14;
+            --neon-yellow: #FFFF00;
+            --bg-dark: #0a0a0a;
+            --text-primary: #ffffff;
+            --font-display: 'Bebas Neue', cursive;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .hero-section {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 80px;
+        }
+        
+        .hero-title {
+            font-family: var(--font-display);
+            font-size: clamp(4rem, 12vw, 8rem);
+            line-height: 0.9;
+            margin-bottom: 1rem;
+        }
+        
+        .title-line-2 {
+            display: block;
+            color: var(--neon-green);
+            text-shadow: 0 0 20px var(--neon-green);
+        }
+    </style>
     
     <!-- Styles -->
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
@@ -51,7 +110,7 @@
     
     {{ partial "footer.html" . }}
     
-    <!-- Scripts -->
-    <script src="{{ "js/main.js" | relURL }}"></script>
+    <!-- Scripts - Load asynchronously to prevent render blocking -->
+    <script src="{{ "js/main.js" | relURL }}" defer></script>
 </body>
 </html>
