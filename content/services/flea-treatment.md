@@ -121,5 +121,8 @@ If pets spend time outdoors or you have wildlife visitors, yard treatment is rec
 ---
 
 > **Stop the flea cycle and reclaim your home.**  
-> ### Call (626) 256-3200 for comprehensive flea treatment in Pasadena.  
-> Pet-Safe Methods • Child-Safe Application • Guaranteed Elimination
+> ### Call [(626) 256-3200](tel:6262563200) for comprehensive flea treatment in Pasadena.  
+> Pet-Safe Methods • Child-Safe Application • Guaranteed Elimination  
+> 
+> *"Our dogs brought in fleas and it was a nightmare. Armed treated our entire house and yard. No more fleas and our pets are comfortable again!"* ⭐⭐⭐⭐⭐  
+> — **Jennifer P., Altadena**

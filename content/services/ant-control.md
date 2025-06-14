@@ -69,14 +69,16 @@ Long-term ant control requires:
 ## Service Areas
 
 Fast, reliable ant control throughout:
-- Pasadena
-- South Pasadena
-- Altadena
-- San Marino
-- Arcadia
-- Monrovia
-- Sierra Madre
-- Duarte
+- **[Pasadena](/locations/pasadena/)** - Old Town to the Rose Bowl
+- **[South Pasadena](/locations/south-pasadena/)** - Historic neighborhoods
+- **[Altadena](/locations/altadena/)** - Mountain communities
+- **[San Marino](/locations/san-marino/)** - Luxury estates
+- **[Arcadia](/locations/arcadia/)** - Santa Anita area
+- **[Monrovia](/locations/monrovia/)** - Foothill communities
+- **[Sierra Madre](/locations/sierra-madre/)** - Canyon areas
+- **[San Gabriel](/locations/san-gabriel/)** - Mission District
+- **[La Cañada Flintridge](/locations/la-canada-flintridge/)** - Hillside homes
+- **[Rosemead](/locations/rosemead/)** - Valley communities
 
 ---
 
@@ -94,5 +96,8 @@ You'll notice reduced activity within 24-48 hours. Complete colony elimination t
 ---
 
 > **Stop the ant invasion before it gets worse.**  
-> ### Call (626) 256-3200 for professional ant control in Pasadena.  
-> Same-Day Service • Pet-Safe Methods • Guaranteed Results
+> ### Call [(626) 256-3200](tel:6262563200) for professional ant control in Pasadena.  
+> Same-Day Service • Pet-Safe Methods • Guaranteed Results  
+> 
+> *"We tried everything for months. Armed came out same day and our ant problem was gone within 48 hours. Worth every penny!"* ⭐⭐⭐⭐⭐  
+> — **James T., South Pasadena**

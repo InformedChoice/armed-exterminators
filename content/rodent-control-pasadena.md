@@ -88,5 +88,8 @@ Our rodent control service includes a 90-day warranty. If rodents return during 
 ---
 
 > **Don't let rodents damage your home or threaten your family's health.**  
-> ### Call (626) 256-3200 for immediate rodent control in Pasadena.  
-> Licensed • Insured • Family Owned • Serving Pasadena Since Day One
+> ### Call [(626) 256-3200](tel:6262563200) for immediate rodent control in Pasadena.  
+> Licensed • Insured • Family Owned  
+> 
+> *"Armed Exterminators solved our rat problem when others couldn't. They found entry points we never knew existed and sealed everything up. Haven't seen a single rodent since!"* ⭐⭐⭐⭐⭐  
+> — **Maria G., Pasadena**

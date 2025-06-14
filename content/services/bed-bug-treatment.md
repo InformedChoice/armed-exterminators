@@ -113,5 +113,8 @@ While bed bugs don't transmit diseases, their bites can cause allergic reactions
 ---
 
 > **Don't let bed bugs disrupt your life any longer.**  
-> ### Call (626) 256-3200 for discrete bed bug treatment in Pasadena.  
-> Confidential Service • Proven Methods • Sleep Peacefully Again
+> ### Call [(626) 256-3200](tel:6262563200) for discrete bed bug treatment in Pasadena.  
+> Confidential Service • Proven Methods • Sleep Peacefully Again  
+> 
+> *"Armed was professional, discrete, and effective. They walked us through the entire process and followed up to ensure the bed bugs were completely gone."* ⭐⭐⭐⭐⭐  
+> — **Sarah K., Monrovia**

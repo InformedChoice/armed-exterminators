@@ -98,5 +98,8 @@ Foggers drive roaches deeper into walls without eliminating them. They also spre
 ---
 
 > **Don't let roaches threaten your family's health.**  
-> ### Call (626) 256-3200 for immediate cockroach extermination in Pasadena.  
-> Discreet Service • Health-Safe Methods • Complete Elimination Guaranteed
+> ### Call [(626) 256-3200](tel:6262563200) for immediate cockroach extermination in Pasadena.  
+> Discreet Service • Health-Safe Methods • Complete Elimination Guaranteed  
+> 
+> *"Professional, thorough, and discreet. They eliminated our roach problem completely and explained everything they were doing. Highly recommend!"* ⭐⭐⭐⭐⭐  
+> — **Linda H., Arcadia**

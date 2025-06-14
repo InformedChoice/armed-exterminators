@@ -111,5 +111,8 @@ We offer same-day service for urgent situations. If someone is allergic or nests
 ---
 
 > **Don't risk dangerous stings—let professionals handle it.**  
-> ### Call (626) 256-3200 for safe wasp & bee removal in Pasadena.  
-> Emergency Service • Safe Removal • Prevention Included
+> ### Call [(626) 256-3200](tel:6262563200) for safe wasp & bee removal in Pasadena.  
+> Emergency Service • Safe Removal • Prevention Included  
+> 
+> *"Huge wasp nest by our front door! Armed came out within an hour and safely removed it. Very knowledgeable about different species too."* ⭐⭐⭐⭐⭐  
+> — **Michael D., Sierra Madre**

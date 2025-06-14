@@ -147,5 +147,8 @@ Prevention is key: secure food sources, maintain your property, and seal potenti
 ---
 
 > **Protect your home from wildlife damage and disease.**  
-> ### Call (626) 256-3200 for humane wildlife control in Pasadena.  
-> Licensed & Insured • Humane Methods • Permanent Solutions
+> ### Call [(626) 256-3200](tel:6262563200) for humane wildlife control in Pasadena.  
+> Licensed & Insured • Humane Methods • Permanent Solutions  
+> 
+> *"Raccoons were living in our attic. Armed removed them humanely and sealed everything up perfectly. Great communication throughout the process."* ⭐⭐⭐⭐⭐  
+> — **Patricia L., La Cañada Flintridge**

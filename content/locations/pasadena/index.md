@@ -18,13 +18,13 @@ From the historic Craftsman homes of Bungalow Heaven to busy Old Town restaurant
 
 ## Our Local Services
 
-* **Rodent Control & Exclusion**  
-* **Ant, Roach & Spider Extermination**  
-* **Bed Bug & Flea Treatments**  
-* **Wasp & Humane Bee Removal**  
-* **Wildlife Trapping & Relocation**  
-* **Crawl Space & Attic Clean-up**  
-* **Quarterly & Bi-Monthly Maintenance Plans**
+* **[Rodent Control & Exclusion](/rodent-control-pasadena/)** - Expert rat and mouse elimination
+* **[Ant](/services/ant-control/), [Roach](/services/cockroach-exterminator/) & [Spider](/services/spider-control/) Extermination** - Complete pest protection
+* **[Bed Bug](/services/bed-bug-treatment/) & [Flea](/services/flea-treatment/) Treatments** - Thorough elimination programs
+* **[Wasp & Humane Bee Removal](/services/wasp-bee-removal/)** - Safe nest removal
+* **[Wildlife Trapping & Relocation](/wildlife-control-services/)** - Humane animal control
+* **Crawl Space & Attic Clean-up** - Restoration services
+* **Quarterly & Bi-Monthly Maintenance Plans** - Ongoing protection
 
 > **Same-Day Appointments Available — Call (626) 256-3200**
 

@@ -105,5 +105,8 @@ Spiders follow their food source—other insects. Our treatment addresses both s
 ---
 
 > **Protect your family from dangerous spiders.**  
-> ### Call (626) 256-3200 for professional spider control in Pasadena.  
-> Black Widow Specialists • Pet-Safe Methods • Guaranteed Results
+> ### Call [(626) 256-3200](tel:6262563200) for professional spider control in Pasadena.  
+> Black Widow Specialists • Pet-Safe Methods • Guaranteed Results  
+> 
+> *"Found black widows near our kids' play area. Armed responded immediately and did a thorough treatment. Haven't seen a spider since. Great peace of mind!"* ⭐⭐⭐⭐⭐  
+> — **Robert M., San Marino**

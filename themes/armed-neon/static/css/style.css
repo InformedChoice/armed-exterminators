@@ -235,8 +235,8 @@ body.menu-open {
 
 /* Interior Pages - White Background */
 body.interior-page {
-    background-color: #ffffff;
-    color: #333333;
+    background-color: #f9f9f9 !important;
+    color: #333333 !important;
 }
 
 body.interior-page .site-header {
@@ -246,8 +246,25 @@ body.interior-page .site-header {
 }
 
 body.interior-page main {
-    background: #ffffff;
+    background: #f9f9f9;
     min-height: calc(100vh - 300px);
+}
+
+body.interior-page .site-footer {
+    background: var(--bg-darker);
+    color: var(--text-primary);
+}
+
+body.interior-page .site-footer h3 {
+    color: var(--neon-yellow);
+}
+
+body.interior-page .site-footer a {
+    color: var(--text-secondary);
+}
+
+body.interior-page .site-footer .footer-links a:hover {
+    color: var(--neon-green);
 }
 
 /* Hero Section */
@@ -432,6 +449,28 @@ html {
     font-size: 1.25rem;
     color: var(--text-secondary);
     font-style: italic;
+}
+
+.hero-rating {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.hero-rating .stars {
+    font-size: 1.5rem;
+    color: var(--neon-yellow);
+    filter: drop-shadow(0 0 10px var(--neon-yellow));
+}
+
+.hero-rating .rating-text {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .hero-cta {
@@ -1933,6 +1972,37 @@ body.interior-page .page-content {
     box-shadow: 0 0 15px rgba(57, 255, 20, 0.4);
 }
 
+/* Area Links in Service Pages */
+.area-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+
+.area-links a {
+    display: block;
+    padding: 0.5rem;
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    color: #333333;
+    text-decoration: none;
+    text-align: center;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    border-radius: 5px;
+}
+
+.area-links a:hover {
+    background: var(--neon-green);
+    color: #1a1a1a;
+    border-color: var(--neon-green);
+    box-shadow: 0 0 10px rgba(57, 255, 20, 0.3);
+}
+
 /* Location Page Styles */
 .location-page {
     padding: 120px 0 5rem;
@@ -2131,6 +2201,34 @@ body.interior-page .page-content {
     background: var(--neon-green);
     color: var(--bg-dark);
     box-shadow: 0 0 10px var(--neon-green);
+}
+
+/* Service Links in Location Pages */
+.service-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+}
+
+.service-links a {
+    display: block;
+    padding: 0.75rem 1rem;
+    background: #f9f9f9;
+    border: 1px solid #e0e0e0;
+    color: #333333;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.service-links a:hover {
+    background: var(--neon-green);
+    color: #1a1a1a;
+    border-color: var(--neon-green);
+    box-shadow: 0 0 15px rgba(57, 255, 20, 0.3);
+    transform: translateX(5px);
 }
 
 /* Tablet adjustments */
