@@ -6,7 +6,7 @@ draft: false
 
 # Rodent Control in Pasadena, CA
 
-Hearing scratching in the walls? Finding droppings in your pantry? Pasadena's warm climate allows **roof rats** and **house mice** to thrive year-round. Armed Exterminators has specialized in **safe, effective rodent removal** for 28 years, protecting homes and businesses throughout the San Gabriel Valley.
+Hearing scratching in the walls? Finding droppings in your pantry? Pasadena's warm climate allows **[roof rats](/roof-rat-removal-pasadena/)** and **house mice** to thrive year-round. Armed Exterminators has specialized in **safe, effective rodent removal** for 28 years, protecting homes and businesses throughout the San Gabriel Valley.
 
 ## Why Pasadena Gets Rodents
 
@@ -63,14 +63,20 @@ DIY methods often drive rodents deeper into walls, making elimination more diffi
 ## Our Service Areas
 
 We provide same-day rodent control throughout:
-- Pasadena
-- South Pasadena
-- Altadena
-- San Marino
-- Arcadia
-- Monrovia
-- Sierra Madre
-- Duarte
+- **[Pasadena](/locations/pasadena/)** - Old Town to Rose Bowl
+- **[South Pasadena](/locations/south-pasadena/)** - Historic neighborhoods
+- **[Altadena](/locations/altadena/)** - Mountain communities
+- **[San Marino](/locations/san-marino/)** - Luxury estates
+- **[Arcadia](/rat-control-arcadia/)** - Equestrian properties
+- **[Monrovia](/rat-control-monrovia/)** - Foothill specialists
+- **[Sierra Madre](/locations/sierra-madre/)** - Canyon homes
+- **[San Gabriel](/rat-control-san-gabriel/)** - Commercial districts
+
+### Specialized Rodent Services
+- **[Rat Control in Arcadia](/rat-control-arcadia/)** - Roof rat specialists
+- **[Rat Control in Monrovia](/rat-control-monrovia/)** - Canyon rodent experts
+- **[Rat Control in San Gabriel](/rat-control-san-gabriel/)** - Commercial & residential
+- **[Roof Rat Removal](/roof-rat-removal-pasadena/)** - Attic specialists
 
 ---
 

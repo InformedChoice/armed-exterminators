@@ -73,12 +73,17 @@ Fast, reliable ant control throughout:
 - **[South Pasadena](/locations/south-pasadena/)** - Historic neighborhoods
 - **[Altadena](/locations/altadena/)** - Mountain communities
 - **[San Marino](/locations/san-marino/)** - Luxury estates
-- **[Arcadia](/locations/arcadia/)** - Santa Anita area
-- **[Monrovia](/locations/monrovia/)** - Foothill communities
+- **[Arcadia](/ant-control-arcadia/)** - Santa Anita area
+- **[Monrovia](/ant-control-monrovia/)** - Foothill communities
 - **[Sierra Madre](/locations/sierra-madre/)** - Canyon areas
 - **[San Gabriel](/locations/san-gabriel/)** - Mission District
 - **[La Cañada Flintridge](/locations/la-canada-flintridge/)** - Hillside homes
 - **[Rosemead](/locations/rosemead/)** - Valley communities
+
+### Need Ant Control in Your City?
+- **[Ant Control in Arcadia](/ant-control-arcadia/)** - Horse properties & estates
+- **[Ant Control in Monrovia](/ant-control-monrovia/)** - Foothill specialists
+- **[Ant Control in San Gabriel](/ant-control-san-gabriel/)** - Commercial & residential
 
 ---
 

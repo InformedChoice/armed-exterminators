@@ -9,20 +9,21 @@ Nestled beside the Santa Anita Race Track and the Los Angeles County Arboretum, 
 
 ## Common Arcadia Pest Problems We Solve
 
-- **Roof Rats** using palm trees and power lines as highways
-- **Argentine Ants** invading through sprinkler systems
+- **[Roof Rats](/rat-control-arcadia/)** using palm trees and power lines as highways
+- **[Argentine Ants](/ant-control-arcadia/)** invading through sprinkler systems
 - **Gophers & Moles** destroying manicured lawns
-- **Raccoons & Opossums** nesting under decks
+- **[Raccoons](/raccoon-removal-arcadia/)** & **[Opossums](/opossum-removal-arcadia/)** nesting under decks
 
 *(We do not treat termites, mosquitoes, or coyotes.)*
 
 ## Our Local Services
 
-* **Rodent Control & Exclusion**  
-* **Ant, Roach & Spider Extermination**  
-* **Bed Bug & Flea Treatments**  
-* **Wasp & Humane Bee Removal**  
-* **Wildlife Trapping & Relocation**  
+* **[Rodent Control & Exclusion](/rat-control-arcadia/)**  
+* **[Ant Control & Prevention](/ant-control-arcadia/)**  
+* **[Roach & Spider Extermination](/roach-control-arcadia/)**  
+* **[Bed Bug & Flea Treatments](/bed-bug-treatment-arcadia/)**  
+* **[Wasp & Humane Bee Removal](/wasp-removal-arcadia/)**  
+* **[Wildlife Trapping & Relocation](/wildlife-removal-arcadia/)**  
 * **Crawl Space & Attic Clean-up**  
 * **Quarterly & Bi-Monthly Maintenance Plans**
 
@@ -47,4 +48,4 @@ Serving all Arcadia ZIP codes — 91006, 91007, 91066, 91077.
 
 ---
 
-*Need service in [Pasadena](/locations/pasadena/), [Monrovia](/locations/monrovia/), or [Temple City](/locations/temple-city/)? View our full service area.*
+*Need service in [Pasadena](/locations/pasadena/), [Monrovia](/locations/monrovia/), or [San Gabriel](/locations/san-gabriel/)? View our [full service area](/locations/).*
