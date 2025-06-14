@@ -141,6 +141,9 @@
     <!-- Styles -->
     <link rel="preload" href="{{ "css/style.css" | relURL }}?v={{ now.Unix }}" as="style">
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}?v={{ now.Unix }}">
+    
+    <!-- Schema.org markup -->
+    {{ partial "schema.html" . }}
 </head>
 <body class="{{ if not .IsHome }}interior-page{{ end }}">
     {{ partial "header.html" . }}

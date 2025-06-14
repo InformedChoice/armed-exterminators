@@ -1,0 +1,186 @@
+{{ $phone := .Site.Params.phone | default "(626) 256-3200" }}
+{{ $email := .Site.Params.email | default "armedex@sbcglobal.net" }}
+{{ $address := .Site.Params.address | default "Duarte, CA" }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "PestControl",
+  "name": "Armed Exterminators",
+  "image": "{{ .Site.BaseURL }}images/logo.png",
+  "@id": "{{ .Site.BaseURL }}",
+  "url": "{{ .Site.BaseURL }}",
+  "telephone": "{{ $phone }}",
+  "email": "{{ $email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Duarte",
+    "addressRegion": "CA",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.1394,
+    "longitude": -117.9773
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "07:00",
+    "closes": "18:00"
+  },
+  "sameAs": [],
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "Pasadena",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Arcadia",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"  
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Monrovia",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    },
+    {
+      "@type": "City", 
+      "name": "San Gabriel",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "San Marino",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Altadena",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "South Pasadena",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Sierra Madre",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "La Cañada Flintridge",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    },
+    {
+      "@type": "City",
+      "name": "Rosemead",
+      "containedInPlace": {
+        "@type": "State",
+        "name": "California"
+      }
+    }
+  ],
+  "priceRange": "$$",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "127"
+  }
+}
+</script>
+
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "{{ .Site.BaseURL }}",
+  "name": "Armed Exterminators",
+  "description": "{{ .Site.Params.description }}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "{{ .Site.BaseURL }}search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{{ end }}
+
+{{ if eq .Type "services" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "name": "{{ .Title }}",
+  "description": "{{ .Description }}",
+  "provider": {
+    "@type": "PestControl",
+    "name": "Armed Exterminators",
+    "telephone": "{{ $phone }}"
+  },
+  "areaServed": {
+    "@type": "State",
+    "name": "California"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Pest Control Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "{{ .Title }}"
+        }
+      }
+    ]
+  }
+}
+</script>
+{{ end }}
+
+{{ if .Params.schema }}
+{{ .Params.schema | safeHTML }}
+{{ end }}

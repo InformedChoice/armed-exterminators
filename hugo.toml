@@ -13,7 +13,7 @@ theme = "armed-neon"
   # Hero section
   heroTitle = "ARMED EXTERMINATORS"
   heroSubtitle = "YOUR LOCAL PEST CONTROL"
-  heroTagline = "When Pests Invade, We Terminate"
+  heroTagline = "Local Pest Control"
   
 [menu]
   [[menu.main]]
