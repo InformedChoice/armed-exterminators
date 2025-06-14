@@ -29,8 +29,16 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileMenu = document.createElement('div');
     mobileMenu.className = 'mobile-menu';
     
-    // Add navigation items
-    mobileMenu.innerHTML = navMenu.innerHTML;
+    // Create a proper UL element for the menu
+    const mobileMenuList = document.createElement('ul');
+    mobileMenuList.className = 'mobile-nav-menu';
+    
+    // Copy navigation items from desktop menu
+    const desktopItems = navMenu.querySelectorAll('li');
+    desktopItems.forEach(item => {
+        const clonedItem = item.cloneNode(true);
+        mobileMenuList.appendChild(clonedItem);
+    });
     
     // Add phone number at the bottom
     const phoneNumber = '(626) 256-3200';
@@ -39,13 +47,10 @@ document.addEventListener('DOMContentLoaded', function() {
     phoneItem.innerHTML = `<a href="tel:${phoneNumber}" class="nav-link phone-link-mobile">
         <span>📞</span> ${phoneNumber}
     </a>`;
+    mobileMenuList.appendChild(phoneItem);
     
-    // Append phone to the menu
-    const menuList = mobileMenu.querySelector('ul') || mobileMenu;
-    if (menuList.tagName === 'UL') {
-        menuList.appendChild(phoneItem);
-    }
-    
+    // Add the list to the mobile menu
+    mobileMenu.appendChild(mobileMenuList);
     navContainer.appendChild(mobileMenu);
     
     // Toggle menu
