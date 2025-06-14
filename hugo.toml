@@ -26,7 +26,7 @@ theme = "armed-neon"
     weight = 2
   [[menu.main]]
     name = "Services"
-    url = "/pasadena-pest-control/"
+    url = "/services/"
     weight = 3
   [[menu.main]]
     name = "Service Areas"

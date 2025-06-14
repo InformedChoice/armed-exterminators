@@ -8,33 +8,58 @@ draft: false
 
 Hearing scratching in your attic at night? Finding torn trash bags every morning? Urban wildlife can cause significant damage and health risks. Armed Exterminators provides **humane wildlife removal** and exclusion services to protect your property.
 
-## Common Wildlife Problems in Pasadena
+## Specialized Wildlife Removal Services
 
-Our foothill location attracts various wildlife:
+Click on your specific pest problem for targeted solutions:
 
-### Raccoons
-- **Attic invasions** for nesting sites
-- **Trash raids** and property damage
-- **Disease risks** including rabies
-- **Aggressive behavior** when cornered
+### [Raccoons - Professional Removal Service →](/raccoon-removal-pasadena/)
+- Attic invasions and property damage
+- Disease risks including rabies
+- Humane trapping and exclusion
 
-### Opossums
-- **Under-house dwelling** in crawl spaces
-- **Pet food theft** and garden damage
-- **Parasite carriers** (fleas and ticks)
-- **Defensive hissing** frightens residents
+### [Skunks - Humane Removal & Odor Control →](/skunk-removal-monrovia/)
+- Burrowing under structures
+- Spray risk and odor problems
+- Safe, professional removal
 
-### Skunks
-- **Burrowing** under decks and sheds
-- **Spray risk** to pets and people
-- **Grub hunting** destroys lawns
-- **Rabies carriers** in some cases
+### [Opossums - Expert Removal Service →](/opossum-removal-arcadia/)
+- Under-house dwelling
+- Pet confrontations
+- Humane trapping solutions
+
+### [Roof Rats - Attic Rat Control →](/roof-rat-removal-pasadena/)
+- Attic infestations
+- Night noises and droppings
+- Complete elimination programs
+
+### [Gophers - Lawn & Garden Protection →](/gopher-removal-pasadena/)
+- Mound damage to lawns
+- Garden and landscape destruction
+- Effective control methods
 
 ### Squirrels
 - **Attic nesting** and wire chewing
 - **Bird feeder raids** and garden damage
 - **Fire hazards** from gnawed wiring
 - **Noise disturbances** in walls
+
+### Ground Squirrels
+- **Burrow systems** in yards
+- **Garden damage** and plant destruction
+- **Foundation undermining** risks
+- **Disease concerns** from fleas
+
+### Norway Rats
+- **Basement and ground-level** infestations
+- **Burrow systems** around foundations
+- **Contamination** of stored items
+- **Aggressive behavior** when cornered
+
+### Moles
+- **Tunnel damage** to lawns
+- **Raised ridges** across yards
+- **Plant death** from root disturbance
+- **Mound creation** throughout landscape
 
 ## Our Humane Wildlife Control Process
 
