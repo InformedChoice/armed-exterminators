@@ -18,12 +18,23 @@ From the historic Craftsman homes of Bungalow Heaven to busy Old Town restaurant
 
 ## Our Local Services
 
-* **[Rodent Control & Exclusion](/rodent-control-pasadena/)** - Expert rat and mouse elimination
-* **[Ant](/services/ant-control/), [Roach](/services/cockroach-exterminator/) & [Spider](/services/spider-control/) Extermination** - Complete pest protection
-* **[Bed Bug](/services/bed-bug-treatment/) & [Flea](/services/flea-treatment/) Treatments** - Thorough elimination programs
-* **[Wasp & Humane Bee Removal](/services/wasp-bee-removal/)** - Safe nest removal
-* **[Wildlife Trapping & Relocation](/wildlife-control-services/)** - Humane animal control
-* **Crawl Space & Attic Clean-up** - Restoration services
+### Specialized Pasadena Pest Control:
+* **[Rodent Control in Pasadena](/rodent-control-pasadena/)** - Expert rat and mouse elimination
+* **[Roach Control in Pasadena](/roach-control-pasadena/)** - Apartment & restaurant specialists
+* **[Mouse Control in Pasadena](/mouse-control-pasadena/)** - Discrete urban pest control
+* **[Bed Bug Treatment in Pasadena](/bed-bug-treatment-pasadena/)** - Heat treatment available
+
+### Wildlife Services:
+* **[Raccoon Removal](/raccoon-removal-pasadena/)** - Humane trapping
+* **[Opossum Removal](/opossum-removal-pasadena/)** - Safe relocation
+* **[Skunk Removal](/skunk-removal-pasadena/)** - Odor-free removal
+* **[Gopher Control](/gopher-removal-pasadena/)** - Lawn protection
+
+### General Services:
+* **[Ant Control](/services/ant-control/)** - Argentine ant specialists
+* **[Spider Control](/services/spider-control/)** - Black widow removal
+* **[Flea Treatment](/services/flea-treatment/)** - Pet-safe methods
+* **[Wasp & Bee Removal](/services/wasp-bee-removal/)** - Safe nest removal
 * **Quarterly & Bi-Monthly Maintenance Plans** - Ongoing protection
 
 > **Same-Day Appointments Available — Call (626) 256-3200**

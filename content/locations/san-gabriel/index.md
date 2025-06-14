@@ -18,11 +18,19 @@ Home to the historic Mission and a thriving restaurant district, San Gabriel bat
 
 ## Our Local Services
 
-* **Rodent Control & Exclusion**  
-* **Ant, Roach & Spider Extermination**  
+### Specialized San Gabriel Pest Control:
+* **[Rat Control in San Gabriel](/rat-control-san-gabriel/)** - Commercial specialists  
+* **[Ant Control in San Gabriel](/ant-control-san-gabriel/)** - Restaurant experts  
+* **[Roach Control in San Gabriel](/roach-control-san-gabriel/)** - German roach elimination  
+
+### Wildlife Services:
+* **[Opossum Removal in San Gabriel](/opossum-removal-san-gabriel/)** - Urban wildlife  
+* **[Skunk Removal in San Gabriel](/skunk-removal-san-gabriel/)** - Safe removal  
+
+### General Services:
+* **Spider & General Pest Control**  
 * **Bed Bug & Flea Treatments**  
 * **Wasp & Humane Bee Removal**  
-* **Wildlife Trapping & Relocation**  
 * **Crawl Space & Attic Clean-up**  
 * **Quarterly & Bi-Monthly Maintenance Plans**
 

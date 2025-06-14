@@ -7,6 +7,18 @@ description: "Fast, licensed pest control in Arcadia—rodents, ants, roaches, s
 
 Nestled beside the Santa Anita Race Track and the Los Angeles County Arboretum, Arcadia sees its share of pests drawn to lush yards and foothill canyons. **Roof rats run power-line "highways," while Argentine ants march through lawn irrigation systems.** Armed Exterminators delivers same-day rodent, ant & wildlife solutions throughout 91006 and 91007.
 
+<div class="location-services-box">
+<h3>🎯 Quick Links: Arcadia Pest Control Services</h3>
+<ul>
+<li><a href="/rat-control-arcadia/">Rat Control in Arcadia - Roof Rat Specialists <span class="arrow">→</span></a></li>
+<li><a href="/ant-control-arcadia/">Ant Control in Arcadia - Argentine Ant Experts <span class="arrow">→</span></a></li>
+<li><a href="/roach-control-arcadia/">Roach Control in Arcadia - Estate Pest Control <span class="arrow">→</span></a></li>
+<li><a href="/spider-control-arcadia/">Spider Control in Arcadia - Black Widow Removal <span class="arrow">→</span></a></li>
+<li><a href="/opossum-removal-arcadia/">Opossum Removal in Arcadia - Humane Wildlife <span class="arrow">→</span></a></li>
+<li><a href="/skunk-removal-arcadia/">Skunk Removal in Arcadia - Safe Relocation <span class="arrow">→</span></a></li>
+</ul>
+</div>
+
 ## Common Arcadia Pest Problems We Solve
 
 - **[Roof Rats](/rat-control-arcadia/)** using palm trees and power lines as highways
@@ -18,12 +30,19 @@ Nestled beside the Santa Anita Race Track and the Los Angeles County Arboretum, 
 
 ## Our Local Services
 
-* **[Rodent Control & Exclusion](/rat-control-arcadia/)**  
-* **[Ant Control & Prevention](/ant-control-arcadia/)**  
-* **[Roach & Spider Extermination](/roach-control-arcadia/)**  
-* **[Bed Bug & Flea Treatments](/bed-bug-treatment-arcadia/)**  
-* **[Wasp & Humane Bee Removal](/wasp-removal-arcadia/)**  
-* **[Wildlife Trapping & Relocation](/wildlife-removal-arcadia/)**  
+### Specialized Arcadia Pest Control:
+* **[Rat Control in Arcadia](/rat-control-arcadia/)** - Roof rat specialists  
+* **[Ant Control in Arcadia](/ant-control-arcadia/)** - Argentine ant experts  
+* **[Roach Control in Arcadia](/roach-control-arcadia/)** - Estate pest control  
+* **[Spider Control in Arcadia](/spider-control-arcadia/)** - Black widow removal  
+
+### Wildlife Services:
+* **[Opossum Removal in Arcadia](/opossum-removal-arcadia/)** - Humane removal  
+* **[Skunk Removal in Arcadia](/skunk-removal-arcadia/)** - Safe relocation  
+
+### General Services:
+* **Bed Bug & Flea Treatments**  
+* **Wasp & Humane Bee Removal**  
 * **Crawl Space & Attic Clean-up**  
 * **Quarterly & Bi-Monthly Maintenance Plans**
 
