@@ -10,8 +10,6 @@ Dealing with bed bugs? You're not alone. Armed Exterminators provides expert bed
 
 ## Choose Your City for Local Bed Bug Treatment
 
-<div class="service-areas-grid">
-
 ### [Pasadena](/bed-bug-treatment-pasadena/)
 Urban bed bug specialists. Apartment and hotel experience. Discrete service for professionals.
 
@@ -41,8 +39,6 @@ Hillside home specialists. Executive discrete service and flexible scheduling.
 
 ### [Rosemead](/locations/rosemead/)
 Valley community service. Affordable treatment options for families and seniors.
-
-</div>
 
 ## Bed Bug Facts You Need to Know
 

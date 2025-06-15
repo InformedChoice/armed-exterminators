@@ -9,8 +9,6 @@ Dealing with rats or mice? Armed Exterminators provides expert rodent control th
 
 ## Choose Your City for Local Rodent Control
 
-<div class="service-areas-grid">
-
 ### [Pasadena](/rodent-control-pasadena/)
 Urban rodent specialists serving Old Town to the Rose Bowl. Experts in apartment and restaurant rat control.
 
@@ -40,8 +38,6 @@ Hillside home experts. Rodent control for challenging topography and luxury prop
 
 ### [Rosemead](/locations/rosemead/)
 Valley community rodent control. Fast, affordable service for residential and commercial properties.
-
-</div>
 
 ## Common Rodent Problems We Solve
 

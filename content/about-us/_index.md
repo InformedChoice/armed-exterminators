@@ -145,15 +145,11 @@ We're here whenever you need us
 
 Join thousands of satisfied customers who trust Dale and his team for all their pest control needs.
 
-<div style="text-align: center; margin: 3rem 0;">
-    <a href="tel:6262563200" style="display: inline-block; padding: 1.5rem 3rem; background: #39FF14; color: #000; text-decoration: none; font-weight: bold; font-size: 1.5rem; border-radius: 5px; box-shadow: 0 0 20px rgba(57, 255, 20, 0.5);">
-        📞 Call (626) 256-3200 Today
-    </a>
-</div>
+> ### Call [(626) 256-3200](tel:6262563200) Today
+> 
+> **Same-Day Service • Free Estimates • 90-Day Guarantee**
 
-<div style="text-align: center; margin: 2rem 0;">
-    <strong>Family-Owned • Locally Operated • Trusted Since 1997</strong>
-</div>
+**Family-Owned • Locally Operated • Trusted Since 1997**
 
 ---
 

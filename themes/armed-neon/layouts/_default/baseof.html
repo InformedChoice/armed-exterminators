@@ -2,8 +2,9 @@
 <html lang="{{ .Site.LanguageCode }}">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="theme-color" content="#0a0a0a">
     <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     
@@ -30,113 +31,30 @@
     <meta name="author" content="Armed Exterminators">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="https://imagedelivery.net/uoQWLs2DQGCKz-4i8TTorQ/467d8475-8b21-4dbc-25a3-4d4097a43300/public">
-    <link rel="shortcut icon" type="image/png" href="https://imagedelivery.net/uoQWLs2DQGCKz-4i8TTorQ/467d8475-8b21-4dbc-25a3-4d4097a43300/public">
-    <link rel="apple-touch-icon" href="https://imagedelivery.net/uoQWLs2DQGCKz-4i8TTorQ/467d8475-8b21-4dbc-25a3-4d4097a43300/public">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     
     <!-- Resource Hints -->
     <link rel="dns-prefetch" href="https://fonts.googleapis.com">
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link rel="dns-prefetch" href="https://imagedelivery.net">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://imagedelivery.net">
     
-    <!-- Preload critical font -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" as="style">
-    
-    <!-- Load fonts with display swap for better performance -->
+    <!-- Preload critical font for LCP text -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" as="style" fetchpriority="high">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <!-- Load other fonts with lower priority -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
     <noscript>
         <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     </noscript>
     
-    <!-- Critical CSS for above-the-fold content -->
-    <style>
-        /* Critical CSS for immediate rendering */
-        :root {
-            --neon-green: #39FF14;
-            --neon-yellow: #FFFF00;
-            --bg-dark: #0a0a0a;
-            --text-primary: #ffffff;
-            --font-display: 'Bebas Neue', cursive;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg-dark);
-            color: var(--text-primary);
-            line-height: 1.6;
-            overflow-x: hidden;
-        }
-        
-        .site-header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 1000;
-            background: rgba(10, 10, 10, 0.95);
-            border-bottom: 2px solid var(--neon-green);
-        }
-        
-        .hero-section {
-            position: relative;
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-top: 80px;
-        }
-        
-        .hero-content {
-            position: relative;
-            z-index: 1;
-            text-align: center;
-            padding: 2rem;
-            max-width: 1000px;
-        }
-        
-        .hero-title {
-            font-family: var(--font-display);
-            font-size: clamp(4rem, 12vw, 8rem);
-            line-height: 0.9;
-            margin-bottom: 1rem;
-        }
-        
-        .title-line-1 {
-            display: block;
-            color: var(--text-primary);
-        }
-        
-        .title-line-2 {
-            display: block;
-            color: var(--neon-green);
-            text-shadow: 0 0 20px var(--neon-green);
-        }
-        
-        @media (min-width: 769px) {
-            .title-line-2 {
-                text-shadow: 0 0 20px var(--neon-green),
-                             0 0 40px var(--neon-green);
-            }
-        }
-        
-        /* Defer animations until after load */
-        .hero-title {
-            animation: none !important;
-        }
-        
-        /* Simple initial state for animations */
-        .hero-bugs, .neon-grid {
-            opacity: 0;
-        }
-    </style>
+    <!-- Inline critical CSS for faster mobile rendering -->
+    {{ partial "critical-css.html" . }}
     
     <!-- Styles -->
     <link rel="preload" href="{{ "css/style.css" | relURL }}?v={{ now.Unix }}" as="style">
