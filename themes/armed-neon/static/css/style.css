@@ -714,7 +714,7 @@ html {
     display: block;
     font-family: var(--font-display);
     font-size: 1.5rem;
-    color: #ff6600;
+    color: #cc4400; /* Darker orange for better contrast */
     letter-spacing: 3px;
     margin-bottom: 0.5rem;
 }
@@ -725,7 +725,7 @@ html {
     font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: #000000;
+    color: #1a1a1a; /* Darker for better contrast */
 }
 
 .services-grid {

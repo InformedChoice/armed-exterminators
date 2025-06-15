@@ -41,6 +41,12 @@ Hillside home experts. Professional pest control for La Cañada's unique topogra
 ### [Rosemead](/locations/rosemead/)
 Valley community pest control. Fast, affordable service throughout Rosemead's residential and commercial areas.
 
+### [Temple City](/locations/temple-city/)
+Wildlife and rodent specialists. Expert roof rat control for Temple City's mature tree canopy. Permit assistance for wildlife removal.
+
+### [El Monte](/locations/el-monte/)
+River-area pest experts. Specialized control for Norway rats, gophers, and urban wildlife throughout El Monte's commercial and residential zones.
+
 </div>
 
 ## Why Choose Armed Exterminators?
@@ -111,6 +117,8 @@ No matter where you're located in our service area, we offer:
 **South Pasadena**: 91030, 91031  
 **Sierra Madre**: 91024, 91025  
 **La Cañada Flintridge**: 91011, 91012  
-**Rosemead**: 91770, 91771, 91772
+**Rosemead**: 91770, 91771, 91772  
+**Temple City**: 91780  
+**El Monte**: 91731, 91732, 91733, 91734, 91735
 
 *Don't see your ZIP code? Call us - we may still serve your area!*

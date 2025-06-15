@@ -79,6 +79,8 @@ draft: false
 - [Sierra Madre](/locations/sierra-madre/)
 - [La Cañada Flintridge](/locations/la-canada-flintridge/)
 - [Rosemead](/locations/rosemead/)
+- [Temple City](/locations/temple-city/)
+- [El Monte](/locations/el-monte/)
 
 ## Additional Pages
 
