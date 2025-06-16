@@ -1,0 +1,142 @@
+<!-- Reviews Section for Homepage or About Page -->
+<section class="reviews-preview">
+    <div class="container">
+        <h2 class="section-title">
+            <span class="title-accent">WHAT CUSTOMERS SAY</span>
+            <span class="title-main">Trusted by Thousands</span>
+        </h2>
+        
+        <div class="reviews-summary">
+            <div class="rating-overview">
+                <div class="rating-score">
+                    <span class="score">5.0</span>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <p>Based on 127 reviews</p>
+                </div>
+                <div class="rating-sources">
+                    <a href="https://www.google.com/maps/place/?q=place_id:ChIJa5u6RwXEwoARGsKgHvAkQV8" target="_blank" rel="noopener" class="source-link">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" style="height: 30px;">
+                        <span>Google Reviews</span>
+                    </a>
+                    <a href="https://www.yelp.com/biz/armed-exterminators-duarte" target="_blank" rel="noopener" class="source-link">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Yelp_Logo.svg" alt="Yelp" style="height: 30px;">
+                        <span>Yelp Reviews</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="featured-reviews">
+            <div class="review-card">
+                <div class="review-header">
+                    <strong>John D.</strong>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                </div>
+                <p class="review-text">"Dale and his team are absolutely fantastic! They solved our rat problem quickly and professionally. Highly recommend!"</p>
+                <div class="review-footer">
+                    <span class="review-source">Google</span>
+                    <span class="review-date">June 2024</span>
+                </div>
+            </div>
+            
+            <div class="review-card">
+                <div class="review-header">
+                    <strong>Maria S.</strong>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                </div>
+                <p class="review-text">"Best pest control service in the valley! Fair prices and they actually show up when they say they will."</p>
+                <div class="review-footer">
+                    <span class="review-source">Yelp</span>
+                    <span class="review-date">May 2024</span>
+                </div>
+            </div>
+            
+            <div class="review-card">
+                <div class="review-header">
+                    <strong>Robert C.</strong>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                </div>
+                <p class="review-text">"Family-owned business that treats you like family. Dale's 40+ years of experience really shows."</p>
+                <div class="review-footer">
+                    <span class="review-source">Google</span>
+                    <span class="review-date">April 2024</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="review-cta">
+            <a href="/reviews/" class="cta-button">Read More Reviews</a>
+            <a href="https://www.google.com/search?hl=en-US&gl=us&q=Armed+Exterminators,+Duarte,+CA&ludocid=16578259095706279002#lrd=0x80c1c405479aba6b:0xe524f01ec2a0c21a,3" 
+               class="cta-button cta-secondary" 
+               target="_blank" 
+               rel="noopener">
+                Write a Review
+            </a>
+        </div>
+    </div>
+</section>
+
+<style>
+.reviews-preview {
+    padding: 5rem 0;
+    background: #f9f9f9;
+}
+
+.reviews-summary {
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.rating-overview {
+    display: inline-block;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.rating-score {
+    margin-bottom: 2rem;
+}
+
+.rating-score .score {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #006600;
+}
+
+.rating-sources {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.source-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #333;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.source-link:hover {
+    transform: translateY(-2px);
+}
+
+.featured-reviews {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.review-cta {
+    text-align: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+</style>

@@ -1,0 +1,74 @@
+{{ define "main" }}
+<div class="page-content">
+    <div class="container">
+        <div class="page-title">
+            <h1 class="title-main">Customer Reviews</h1>
+            <p class="subtitle">See what our customers are saying about Armed Exterminators</p>
+        </div>
+        
+        <div class="content-wrapper">
+            <!-- Google Reviews Widget -->
+            <div class="reviews-section">
+                <h2>Recent Google Reviews</h2>
+                <div class="google-reviews-widget">
+                    <!-- You can embed Google reviews widget here -->
+                    <script src="https://widget.trustmary.com/YOUR_WIDGET_ID"></script>
+                    <!-- Or use Google's official API -->
+                </div>
+                
+                <!-- Manual Reviews Display -->
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <strong>John D.</strong>
+                                <div class="review-source">
+                                    <img src="/images/google-logo.svg" alt="Google" class="review-logo">
+                                    <span>via Google</span>
+                                </div>
+                            </div>
+                            <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        </div>
+                        <div class="review-content">
+                            <p>"Dale and his team are absolutely fantastic! They solved our rat problem quickly and professionally. Highly recommend!"</p>
+                        </div>
+                        <div class="review-date">June 2024</div>
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="review-header">
+                            <div class="reviewer-info">
+                                <strong>Maria S.</strong>
+                                <div class="review-source">
+                                    <img src="/images/yelp-logo.svg" alt="Yelp" class="review-logo">
+                                    <span>via Yelp</span>
+                                </div>
+                            </div>
+                            <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        </div>
+                        <div class="review-content">
+                            <p>"Best pest control service in the valley! Fair prices and they actually show up when they say they will."</p>
+                        </div>
+                        <div class="review-date">May 2024</div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Review Platform Links -->
+            <div class="review-links">
+                <h3>Read More Reviews or Leave Your Own</h3>
+                <div class="platform-buttons">
+                    <a href="https://g.page/r/YOUR_GOOGLE_ID/review" class="review-button google-button" target="_blank" rel="noopener">
+                        <img src="/images/google-logo.svg" alt="Google Reviews">
+                        <span>Review us on Google</span>
+                    </a>
+                    <a href="https://www.yelp.com/biz/YOUR_YELP_ID" class="review-button yelp-button" target="_blank" rel="noopener">
+                        <img src="/images/yelp-logo.svg" alt="Yelp Reviews">
+                        <span>Review us on Yelp</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{ end }}

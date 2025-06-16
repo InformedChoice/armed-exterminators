@@ -1,0 +1,88 @@
+<!-- Google Reviews Integration for Armed Exterminators -->
+
+<!-- Option 1: Simple Review Button -->
+<div class="google-review-button">
+    <a href="https://www.google.com/maps/place/?q=place_id:ChIJa5u6RwXEwoARGsKgHvAkQV8" 
+       target="_blank" 
+       rel="noopener noreferrer"
+       class="review-cta-button">
+        <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png" alt="Google" style="height: 24px;">
+        <span>Review us on Google</span>
+    </a>
+</div>
+
+<!-- Option 2: Google Business Profile Badge -->
+<div class="google-business-badge">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <div class="g-page" 
+         data-href="https://www.google.com/maps/place/?q=place_id:ChIJa5u6RwXEwoARGsKgHvAkQV8" 
+         data-width="300" 
+         data-theme="light" 
+         data-layout="landscape" 
+         data-rel="author">
+    </div>
+</div>
+
+<!-- Option 3: Review Request Link -->
+<div class="review-request">
+    <h3>Your Feedback Matters!</h3>
+    <p>If you've used our services, we'd appreciate your honest review:</p>
+    <a href="https://www.google.com/search?hl=en-US&gl=us&q=Armed+Exterminators,+Duarte,+CA&ludocid=16578259095706279002#lrd=0x80c1c405479aba6b:0xe524f01ec2a0c21a,3" 
+       class="review-link" 
+       target="_blank">
+        Write a Review on Google
+    </a>
+</div>
+
+<!-- CSS for Review Widgets -->
+<style>
+.google-review-button {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.review-cta-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    background: #4285f4;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.review-cta-button:hover {
+    background: #3367d6;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 20px rgba(66, 133, 244, 0.3);
+}
+
+.review-request {
+    padding: 2rem;
+    background: #f8f9fa;
+    border-radius: 10px;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.review-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.75rem 1.5rem;
+    background: white;
+    color: #4285f4;
+    border: 2px solid #4285f4;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.review-link:hover {
+    background: #4285f4;
+    color: white;
+}
+</style>

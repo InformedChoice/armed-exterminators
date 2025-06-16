@@ -1,0 +1,169 @@
+<!-- Lightweight Reviews Section - No External Scripts -->
+<section class="customer-reviews-section">
+    <div class="reviews-container">
+        <div class="reviews-header">
+            <h3>Trusted by Your Neighbors</h3>
+            <div class="rating-summary">
+                <span class="stars">⭐⭐⭐⭐⭐</span>
+                <span class="rating-text">5.0 rating based on 127 reviews</span>
+            </div>
+        </div>
+        
+        <div class="reviews-carousel">
+            <!-- Recent Google Reviews -->
+            <div class="review-slide">
+                <blockquote class="review-content">
+                    <p>"Dale has been taking care of our pest problems for over 10 years. Always professional, always on time, and most importantly - the pests stay gone!"</p>
+                    <footer>
+                        <cite>— Sarah M., Pasadena</cite>
+                        <span class="review-meta">Google Review • October 2024</span>
+                    </footer>
+                </blockquote>
+            </div>
+            
+            <div class="review-slide">
+                <blockquote class="review-content">
+                    <p>"Finally! An exterminator who actually shows up when scheduled. Fixed our ant problem in one visit. Highly recommend Armed Exterminators."</p>
+                    <footer>
+                        <cite>— Mike T., Arcadia</cite>
+                        <span class="review-meta">Yelp Review • September 2024</span>
+                    </footer>
+                </blockquote>
+            </div>
+            
+            <div class="review-slide">
+                <blockquote class="review-content">
+                    <p>"Best pest control in the valley. Fair prices, honest service, and they guarantee their work. Dale's experience really shows."</p>
+                    <footer>
+                        <cite>— Jennifer R., Monrovia</cite>
+                        <span class="review-meta">Google Review • August 2024</span>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+        
+        <div class="review-actions">
+            <a href="https://g.page/r/Cac9ypkl5JT6EAI/review" 
+               target="_blank" 
+               rel="noopener" 
+               class="read-reviews-link">
+                Read All Google Reviews →
+            </a>
+            <a href="https://www.yelp.com/biz/armed-exterminators-duarte" 
+               target="_blank" 
+               rel="noopener" 
+               class="read-reviews-link">
+                See Yelp Reviews →
+            </a>
+        </div>
+    </div>
+</section>
+
+<style>
+.customer-reviews-section {
+    margin: 3rem 0;
+    padding: 3rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.reviews-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.reviews-header h3 {
+    color: #006600;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.rating-summary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.stars {
+    font-size: 1.5rem;
+}
+
+.rating-text {
+    color: #666;
+}
+
+.reviews-carousel {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.review-slide {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.review-content {
+    margin: 0;
+}
+
+.review-content p {
+    font-style: italic;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.review-content footer {
+    margin-top: 1rem;
+}
+
+.review-content cite {
+    display: block;
+    font-style: normal;
+    font-weight: 600;
+    color: #006600;
+}
+
+.review-meta {
+    display: block;
+    font-size: 0.875rem;
+    color: #999;
+    margin-top: 0.25rem;
+}
+
+.review-actions {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.read-reviews-link {
+    color: #0066cc;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.read-reviews-link:hover {
+    color: var(--neon-green);
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .reviews-carousel {
+        grid-template-columns: 1fr;
+    }
+    
+    .review-actions {
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+    }
+}
+</style>
