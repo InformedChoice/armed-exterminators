@@ -1,19 +1,14 @@
 <style>
-/* Critical CSS for above-the-fold content - Mobile optimized */
+/* Critical CSS for above-the-fold content */
 :root {
     --neon-green: #39FF14;
-    --neon-pink: #FF10F0;
-    --neon-blue: #00FFFF;
-    --neon-yellow: #FFFF00;
     --neon-orange: #FF6600;
     --bg-dark: #0a0a0a;
-    --bg-darker: #050505;
-    --bg-card: #1a1a1a;
     --text-primary: #ffffff;
     --text-secondary: #b0b0b0;
-    --font-display: 'Bebas Neue', cursive;
-    --font-heading: 'Oswald', sans-serif;
-    --font-body: 'Inter', sans-serif;
+    --font-display: 'Bebas Neue', Arial, sans-serif;
+    --font-heading: 'Oswald', Arial, sans-serif;
+    --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
 * {
@@ -24,164 +19,120 @@
 
 body {
     font-family: var(--font-body);
-    background-color: var(--bg-dark);
-    color: var(--text-primary);
+    background-color: #f9f9f9;
+    color: #333333;
     line-height: 1.6;
     overflow-x: hidden;
 }
 
-/* Mobile performance optimizations */
-@media (max-width: 768px) {
-    html.is-mobile * {
-        animation-duration: 0s !important;
-        animation-delay: 0s !important;
-    }
-    
-    html.is-mobile .hero-title {
-        contain: layout style;
-    }
+body.interior-page {
+    background-color: #f9f9f9 !important;
+    color: #333333 !important;
 }
 
-/* Header Critical */
+/* Header critical styles */
 .site-header {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000;
-    background: rgba(10, 10, 10, 0.95);
+    background: rgba(10, 10, 10, 0.98);
     backdrop-filter: blur(10px);
     border-bottom: 2px solid var(--neon-green);
-    box-shadow: 0 0 20px rgba(57, 255, 20, 0.5);
+    height: 80px;
 }
 
-.navbar {
+/* Breadcrumb spacing */
+.breadcrumb-nav {
     padding: 1rem 0;
+    margin-top: 0;
 }
 
-.nav-container {
+/* Main content spacing */
+main {
+    padding-top: 80px; /* Space for fixed header */
+    min-height: calc(100vh - 300px);
+}
+
+/* Container */
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.logo {
-    text-decoration: none;
+/* Service page critical layout */
+.service-page {
+    padding: 2rem 0 5rem;
+    background: #f9f9f9;
+}
+
+.service-page .container {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 3rem;
+}
+
+.service-content {
+    background: #ffffff;
+    padding: 3rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    min-height: 600px;
+}
+
+.service-sidebar {
+    position: sticky;
+    top: 100px;
+    min-height: 500px;
+}
+
+/* Typography critical styles */
+h1 {
     font-family: var(--font-display);
+    font-size: 3rem;
+    color: #1a1a1a;
+    margin-bottom: 2rem;
+    line-height: 1.2;
+}
+
+h2 {
+    font-family: var(--font-heading);
     font-size: 2rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    color: #006600;
+    margin: 2.5rem 0 1.5rem;
 }
 
-.logo-text {
-    color: var(--text-primary);
+p {
+    margin-bottom: 1.5rem;
+    color: #333333;
+    font-size: 1.05rem;
+    line-height: 1.8;
 }
 
-.logo-accent {
-    color: var(--neon-green);
-    text-shadow: 0 0 20px var(--neon-green);
+/* Hide elements until JS loads */
+.sticky-call-button {
+    display: none;
 }
 
-/* Hero Critical */
-.hero-section {
-    position: relative;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 80px;
-    overflow: hidden;
-}
-
-.hero-background {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-}
-
-.hero-content {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    padding: 2rem;
-    max-width: 1000px;
-}
-
-.hero-title {
-    font-family: var(--font-display);
-    font-size: clamp(4rem, 12vw, 8rem);
-    line-height: 0.9;
-    margin-bottom: 1rem;
-}
-
-.title-line-1 {
-    display: block;
-    color: var(--text-primary);
-    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-}
-
-.title-line-2 {
-    display: block;
-    color: var(--neon-green);
-    will-change: transform;
-    contain: layout style paint;
-}
-
-/* Mobile title optimization */
+/* Mobile critical styles */
 @media (max-width: 768px) {
-    .hero-title {
-        font-size: clamp(3rem, 10vw, 5rem);
-        contain: layout style;
+    .service-page .container {
+        grid-template-columns: 1fr;
     }
     
-    .title-line-2 {
-        text-shadow: 0 0 5px var(--neon-green);
-        /* Force GPU acceleration on mobile */
-        transform: translateZ(0);
-        -webkit-transform: translateZ(0);
+    .service-sidebar {
+        position: static;
+        min-height: auto;
     }
     
-    .nav-menu {
-        display: none;
+    .service-content {
+        padding: 2rem;
     }
     
-    .nav-contact {
-        display: none;
-    }
-    
-    .mobile-menu-toggle {
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 0.5rem;
-    }
-    
-    .mobile-menu-toggle span {
-        width: 25px;
-        height: 3px;
-        background: var(--text-primary);
-    }
-}
-
-/* Desktop title */
-@media (min-width: 769px) {
-    .title-line-2 {
-        text-shadow: 0 0 5px var(--neon-green),
-                     0 0 10px var(--neon-green);
-    }
-}
-
-/* Hide non-critical elements initially on mobile */
-@media (max-width: 768px) {
-    .neon-grid, .hero-bugs {
-        display: none;
+    h1 {
+        font-size: 2rem;
     }
 }
 </style>
