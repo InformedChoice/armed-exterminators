@@ -1616,7 +1616,7 @@ body.interior-page .page-content {
 }
 
 .content-wrapper strong {
-    color: #cc4400;
+    color: #8B0000; /* Dark red for much better contrast */
     font-weight: 700;
 }
 
@@ -1645,18 +1645,18 @@ body.interior-page .page-content {
 .content-wrapper blockquote p {
     margin-bottom: 0.5rem;
     font-size: 1.125rem;
-    color: #1a1a1a;
+    color: #000000; /* Pure black for maximum contrast */
     font-weight: 600;
 }
 
 .content-wrapper blockquote h3 {
-    color: #006600;
+    color: #003300; /* Very dark green */
     font-size: 1.75rem;
     margin: 1rem 0;
 }
 
 .content-wrapper blockquote strong {
-    color: #006600;
+    color: #000000; /* Pure black for strong text in blockquotes */
 }
 
 .content-wrapper hr {
@@ -1977,7 +1977,7 @@ body.interior-page .page-content {
 }
 
 .service-content strong {
-    color: #cc4400;
+    color: #8B0000; /* Dark red for much better contrast */
     font-weight: 700;
 }
 
@@ -1994,12 +1994,12 @@ body.interior-page .page-content {
 .service-content blockquote p {
     margin-bottom: 0.5rem;
     font-size: 1.125rem;
-    color: #1a1a1a;
+    color: #000000; /* Pure black for maximum contrast */
     font-weight: 600;
 }
 
 .service-content blockquote h3 {
-    color: #006600;
+    color: #003300; /* Very dark green */
     font-size: 1.75rem;
     margin: 1rem 0;
 }
@@ -2047,7 +2047,7 @@ body.interior-page .page-content {
 }
 
 .cta-banner h2 {
-    color: #1a1a1a;
+    color: #000000; /* Pure black for maximum contrast */
     margin-bottom: 1rem;
     font-size: 2.5rem;
     text-transform: uppercase;
@@ -2055,7 +2055,7 @@ body.interior-page .page-content {
 
 .cta-banner p {
     margin-bottom: 2rem;
-    color: #333333;
+    color: #1a1a1a; /* Very dark gray */
     font-size: 1.125rem;
 }
 
@@ -2068,7 +2068,7 @@ body.interior-page .page-content {
 .cta-tagline {
     margin-top: 1rem;
     font-style: italic;
-    color: #006600;
+    color: #003300; /* Very dark green for better contrast */
     font-weight: 700;
     font-size: 1.125rem;
 }
@@ -2293,7 +2293,7 @@ body.interior-page .page-content {
 }
 
 .location-content strong {
-    color: #ff8800;
+    color: #8B0000; /* Dark red for much better contrast */
     font-weight: 600;
 }
 
