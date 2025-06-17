@@ -30,16 +30,16 @@
         </div>
         
         <div class="hero-cta">
-            <a href="tel:{{ .Site.Params.phone }}" class="cta-button cta-primary">
-                <span class="cta-icon">📞</span>
+            <a href="tel:{{ .Site.Params.phone }}" class="cta-button cta-primary" aria-label="Call Armed Exterminators at {{ .Site.Params.phone }}">
+                <span class="cta-icon" aria-hidden="true">📞</span>
                 <span class="cta-text">
                     <strong>CALL NOW</strong>
                     <small>{{ .Site.Params.phone }}</small>
                 </span>
             </a>
-            <a href="/pasadena-pest-control/" class="cta-button cta-secondary">
+            <a href="/pasadena-pest-control/" class="cta-button cta-secondary" aria-label="View our pest control services">
                 <span class="cta-text">View Services</span>
-                <span class="cta-arrow">→</span>
+                <span class="cta-arrow" aria-hidden="true">→</span>
             </a>
         </div>
         

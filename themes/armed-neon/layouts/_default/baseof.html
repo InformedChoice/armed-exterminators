@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
+<html lang="{{ .Site.LanguageCode | default "en" }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -64,17 +64,20 @@
     {{ partial "schema.html" . }}
 </head>
 <body class="{{ if not .IsHome }}interior-page{{ end }}">
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
     {{ partial "header.html" . }}
     
-    <main>
+    <main id="main-content">
         {{ block "main" . }}{{ end }}
     </main>
     
     {{ partial "footer.html" . }}
     
     <!-- Sticky Call Button -->
-    <a href="tel:{{ .Site.Params.phone }}" class="sticky-call-button" id="stickyCallButton">
-        <span>📞</span>
+    <a href="tel:{{ .Site.Params.phone }}" class="sticky-call-button" id="stickyCallButton" aria-label="Call Armed Exterminators at {{ .Site.Params.phone }}">
+        <span aria-hidden="true">📞</span>
         <span>Call Now</span>
     </a>
     

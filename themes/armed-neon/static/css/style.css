@@ -53,6 +53,23 @@ body {
     overflow-x: hidden;
 }
 
+/* Skip link for accessibility */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 0 0 4px 0;
+    z-index: 10000;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
 /* Header Styles */
 .site-header {
     position: fixed;
@@ -872,24 +889,24 @@ html {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     text-transform: uppercase;
-    color: #333333;
+    color: #1a1a1a; /* Darker for better contrast */
     transition: all 0.3s ease;
 }
 
 .service-card:hover h3 {
-    color: #ff8800;
-    text-shadow: 0 0 8px rgba(255, 136, 0, 0.6);
+    color: #006600; /* Darker green for accessibility */
+    text-shadow: 0 0 8px rgba(0, 102, 0, 0.3);
 }
 
 .service-card p {
-    color: #555555;
+    color: #333333; /* Darker for better contrast */
     margin-bottom: 1.5rem;
     line-height: 1.8;
     font-weight: 500;
 }
 
 .service-link {
-    color: #22aa22;
+    color: #005500; /* Much darker green for accessibility */
     text-decoration: none;
     font-weight: 600;
     text-transform: uppercase;
@@ -898,8 +915,8 @@ html {
 }
 
 .service-link:hover {
-    color: var(--neon-green);
-    text-shadow: 0 0 10px var(--neon-green);
+    color: #003300; /* Even darker on hover */
+    text-shadow: 0 0 10px rgba(0, 51, 0, 0.5);
 }
 
 /* Service Areas Preview Section */
@@ -961,37 +978,37 @@ html {
 
 /* Primary area card special styling */
 .area-card.area-primary {
-    border-color: var(--neon-green);
+    border-color: #006600; /* Darker green for accessibility */
     background: linear-gradient(135deg, #f0faf0 0%, #ffffff 100%);
-    box-shadow: 0 0 20px rgba(57, 255, 20, 0.2);
+    box-shadow: 0 0 20px rgba(0, 102, 0, 0.2);
 }
 
 .area-card.area-primary h3 {
-    color: #006600;
+    color: #004400; /* Very dark green */
 }
 
 .area-card:hover {
-    border-color: var(--neon-green);
-    box-shadow: 0 0 30px rgba(57, 255, 20, 0.3);
+    border-color: #006600;
+    box-shadow: 0 0 30px rgba(0, 102, 0, 0.3);
     transform: translateY(-5px);
 }
 
 .area-card h3 {
     font-family: var(--font-heading);
     font-size: 1.5rem;
-    color: #0099cc;
+    color: #004466; /* Much darker blue for accessibility */
     margin-bottom: 0.5rem;
     text-transform: uppercase;
     transition: all 0.3s ease;
 }
 
 .area-card:hover h3 {
-    color: var(--neon-blue);
-    text-shadow: 0 0 10px var(--neon-blue);
+    color: #003344; /* Even darker on hover */
+    text-shadow: 0 0 10px rgba(0, 51, 68, 0.3);
 }
 
 .area-card p {
-    color: #555555;
+    color: #333333; /* Darker for better contrast */
     font-size: 0.875rem;
     margin: 0;
     font-weight: 500;
@@ -1121,13 +1138,14 @@ html {
 }
 
 .contact-link {
-    color: var(--neon-pink);
+    color: #ff6666; /* Lighter pink for better contrast on dark background */
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .contact-link:hover {
-    text-shadow: 0 0 10px var(--neon-pink);
+    color: #ffaaaa;
+    text-shadow: 0 0 10px rgba(255, 170, 170, 0.5);
 }
 
 .footer-bottom {
@@ -1603,15 +1621,15 @@ body.interior-page .page-content {
 }
 
 .content-wrapper a {
-    color: #0099cc;
+    color: #004466; /* Much darker blue for accessibility */
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
 }
 
 .content-wrapper a:hover {
-    color: var(--neon-green);
-    text-shadow: 0 0 10px var(--neon-green);
+    color: #003300; /* Dark green on hover */
+    text-shadow: 0 0 5px rgba(0, 51, 0, 0.3);
 }
 
 .content-wrapper blockquote {
@@ -2132,15 +2150,15 @@ body.interior-page .page-content {
 }
 
 .email-link {
-    border-color: #0099cc;
-    color: #0099cc;
+    border-color: #004466; /* Much darker blue */
+    color: #004466;
     background: #f0f8ff;
 }
 
 .email-link:hover {
-    background: #0099cc;
+    background: #004466;
     color: #ffffff;
-    box-shadow: 0 0 20px rgba(0, 153, 204, 0.5);
+    box-shadow: 0 0 20px rgba(0, 68, 102, 0.5);
 }
 
 .services-list {
@@ -2304,13 +2322,14 @@ body.interior-page .page-content {
     margin: 2rem 0;
     padding: 1.5rem;
     background: rgba(255, 136, 0, 0.1);
-    border-left: 4px solid #ff8800;
+    border-left: 4px solid #cc4400; /* Darker orange for accessibility */
     font-style: italic;
-    color: #333333;
+    color: #1a1a1a; /* Much darker text */
 }
 
 .location-content blockquote p {
     margin-bottom: 0.5rem;
+    color: #1a1a1a; /* Ensure dark text in blockquotes */
 }
 
 .location-content p {
@@ -2509,7 +2528,7 @@ body.interior-page .page-content {
 }
 
 .location-services-box a {
-    color: #006600;
+    color: #003300; /* Very dark green for accessibility */
     text-decoration: none;
     font-weight: 600;
     display: flex;
@@ -2519,8 +2538,8 @@ body.interior-page .page-content {
 }
 
 .location-services-box a:hover {
-    color: var(--neon-green);
-    text-shadow: 0 0 10px var(--neon-green);
+    color: #001a00; /* Almost black green */
+    text-shadow: 0 0 5px rgba(0, 26, 0, 0.3);
     transform: translateX(5px);
 }
 
