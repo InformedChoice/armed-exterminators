@@ -10,7 +10,7 @@ Worried about spiders in your home? Armed Exterminators provides expert spider c
 
 ## Choose Your City for Local Spider Control
 
-<div class="service-areas-grid">
+{{< service-areas-grid >}}
 
 ### [Pasadena](/spider-control-pasadena/)
 Urban spider specialists. Black widow experts for garages, sheds, and outdoor living spaces.
@@ -42,7 +42,7 @@ Hillside property specialists. Slope and retaining wall spider management.
 ### [Rosemead](/locations/rosemead/)
 Valley spider control. Affordable treatment for homes and businesses.
 
-</div>
+{{< /service-areas-grid >}}
 
 ## Spider Species We Control
 

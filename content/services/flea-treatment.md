@@ -10,7 +10,7 @@ Is your family being bitten by fleas? Armed Exterminators provides comprehensive
 
 ## Choose Your City for Local Flea Treatment
 
-<div class="service-areas-grid">
+{{< service-areas-grid >}}
 
 ### [Pasadena](/locations/pasadena/)
 Urban flea specialists. Multi-pet households and apartment flea control experts.
@@ -42,7 +42,7 @@ Hillside property experts. Comprehensive indoor/outdoor programs.
 ### [Rosemead](/locations/rosemead/)
 Valley flea control. Budget-friendly options for every home.
 
-</div>
+{{< /service-areas-grid >}}
 
 ## Understanding Flea Infestations
 

@@ -353,6 +353,43 @@ Always use existing pages as templates to maintain consistency!
 | Header/Nav | `/themes/armed-neon/layouts/partials/header.html` |
 | Footer | `/themes/armed-neon/layouts/partials/footer.html` |
 | All Styles | `/themes/armed-neon/static/css/style.css` |
+| Shortcodes | `/themes/armed-neon/layouts/shortcodes/` |
+
+## Using Shortcodes (Important for Content Creation)
+
+### Service Areas Grid
+When creating service pages that need a grid layout for city listings, use the `service-areas-grid` shortcode instead of raw HTML:
+
+**DON'T DO THIS (Raw HTML - will cause warnings):**
+```html
+<div class="service-areas-grid">
+  ### City content here
+</div>
+```
+
+**DO THIS (Use the shortcode):**
+```markdown
+{{< service-areas-grid >}}
+
+### [Pasadena](/link/)
+Description of services for this city.
+
+### [Arcadia](/link/)
+Description of services for this city.
+
+{{< /service-areas-grid >}}
+```
+
+**Why use shortcodes?**
+- Hugo blocks raw HTML by default for security
+- Shortcodes are the proper way to add custom HTML structures
+- Easier to maintain - update the shortcode file to change all instances
+- No security warnings in the build process
+
+**Creating new shortcodes:**
+1. Create a new file in `/themes/armed-neon/layouts/shortcodes/`
+2. Name it `your-shortcode-name.html`
+3. Use it in content with `{{< your-shortcode-name >}}content{{< /your-shortcode-name >}}`
 
 ## Contact for Hugo Site Issues
 

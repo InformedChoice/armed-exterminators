@@ -10,7 +10,7 @@ Dealing with an ant invasion? Armed Exterminators provides expert ant control th
 
 ## Choose Your City for Local Ant Control
 
-<div class="service-areas-grid">
+{{< service-areas-grid >}}
 
 ### [Pasadena](/ant-control-pasadena/)
 Urban ant specialists serving Old Town to the Rose Bowl. Experts in Argentine ant super-colonies common in older neighborhoods.
@@ -42,7 +42,7 @@ Hillside home experts. Ant control for challenging topography and irrigation sys
 ### [Rosemead](/locations/rosemead/)
 Valley community ant control. Fast, affordable service for residential and commercial properties.
 
-</div>
+{{< /service-areas-grid >}}
 
 ## Common Ant Problems We Solve
 

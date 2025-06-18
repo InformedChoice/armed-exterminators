@@ -10,7 +10,7 @@ Found roaches in your home or business? Armed Exterminators provides expert cock
 
 ## Choose Your City for Local Roach Control
 
-<div class="service-areas-grid">
+{{< service-areas-grid >}}
 
 ### [Pasadena](/roach-control-pasadena/)
 Urban roach specialists serving apartments, restaurants, and homes. Experts in German cockroach elimination.
@@ -42,7 +42,7 @@ Hillside home roach control. Expert treatment for challenging properties.
 ### [Rosemead](/locations/rosemead/)
 Valley community specialists. Affordable roach control for homes and businesses.
 
-</div>
+{{< /service-areas-grid >}}
 
 ## Cockroach Species We Eliminate
 
