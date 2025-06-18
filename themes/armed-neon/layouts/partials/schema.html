@@ -2,20 +2,24 @@
 {{ $email := .Site.Params.email | default "armedex@sbcglobal.net" }}
 {{ $address := .Site.Params.address | default "Duarte, CA" }}
 
+<!-- Main Organization Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "PestControl",
+  "@id": "{{ .Site.BaseURL }}#organization",
   "name": "Armed Exterminators",
   "image": "{{ .Site.BaseURL }}images/logo.png",
-  "@id": "{{ .Site.BaseURL }}",
+  "logo": "{{ .Site.BaseURL }}images/logo.png",
   "url": "{{ .Site.BaseURL }}",
   "telephone": "{{ $phone }}",
   "email": "{{ $email }}",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "Duarte",
     "addressLocality": "Duarte",
     "addressRegion": "CA",
+    "postalCode": "91010",
     "addressCountry": "US"
   },
   "geo": {
@@ -40,7 +44,6 @@
     "https://www.yelp.com/biz/armed-exterminators-duarte",
     "https://www.google.com/maps/place/?q=place_id:ChIJa5u6RwXEwoARGsKgHvAkQV8"
   ],
-
   "areaServed": [
     {
       "@type": "City",
@@ -139,16 +142,12 @@
       }
     }
   ],
-  "priceRange": "$",
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "5.0",
-    "reviewCount": "127"
-  }
+  "priceRange": "$"
 }
 </script>
 
 {{ if .IsHome }}
+<!-- WebSite Schema for Homepage -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -156,6 +155,9 @@
   "url": "{{ .Site.BaseURL }}",
   "name": "Armed Exterminators",
   "description": "{{ .Site.Params.description }}",
+  "publisher": {
+    "@id": "{{ .Site.BaseURL }}#organization"
+  },
   "potentialAction": {
     "@type": "SearchAction",
     "target": {
@@ -166,37 +168,50 @@
   }
 }
 </script>
+
+<!-- LocalBusiness Schema with Ratings for Homepage -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Armed Exterminators",
+  "image": "{{ .Site.BaseURL }}images/logo.png",
+  "telephone": "{{ $phone }}",
+  "email": "{{ $email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Duarte",
+    "addressLocality": "Duarte",
+    "addressRegion": "CA",
+    "postalCode": "91010",
+    "addressCountry": "US"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "127"
+  }
+}
+</script>
 {{ end }}
 
 {{ if eq .Type "services" }}
+<!-- Service Schema for Service Pages -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Service",
-  "name": "{{ .Title }}",
-  "description": "{{ .Description }}",
+  "serviceType": "{{ .Title }}",
   "provider": {
-    "@type": "PestControl",
-    "name": "Armed Exterminators",
-    "telephone": "{{ $phone }}"
+    "@id": "{{ .Site.BaseURL }}#organization"
   },
   "areaServed": {
     "@type": "State",
     "name": "California"
   },
-  "hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Pest Control Services",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "{{ .Title }}"
-        }
-      }
-    ]
-  }
+  "description": "{{ .Description }}"
 }
 </script>
 {{ end }}
