@@ -2,6 +2,7 @@ baseURL = "https://armedexterminators.net/"
 languageCode = "en-us"
 title = "Armed Exterminators - Professional Pest Control Serving Pasadena"
 theme = "armed-neon"
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [params]
   description = "Professional pest control services serving Pasadena and surrounding areas. Family-owned business based in Duarte, CA. Rodent control, wildlife removal, and comprehensive pest management."
