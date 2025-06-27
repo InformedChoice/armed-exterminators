@@ -1,6 +1,7 @@
 ---
 title: "Humane Wildlife & Rodent Control in El Monte, CA (91731-91735) | Armed Exterminators"
 description: "Expert wildlife removal and pest control in El Monte. Norway rats, roof rats, gopher control. Serving 91731, 91732, 91733. Licensed & insured. Call (626) 256-3200."
+area: "San Gabriel Valley"
 keywords: ["El Monte rat control", "El Monte gopher exterminator", "El Monte raccoon removal", "El Monte wildlife trapper", "El Monte skunk removal"]
 city: "El Monte"
 zip_codes: ["91731", "91732", "91733", "91734", "91735"]

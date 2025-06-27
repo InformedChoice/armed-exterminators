@@ -1,6 +1,7 @@
 ---
 title: "Pest Control La Cañada Flintridge, CA | Wildlife & Pest Experts"
 description: "Professional pest control in La Cañada Flintridge. Specializing in wildlife removal, rodents & spiders. Call (626) 256-3200."
+area: "San Gabriel Valley"
 ---
 
 # Pest Control in **La Cañada Flintridge, California**

@@ -8,11 +8,23 @@
             
             <ul class="nav-menu">
                 {{ range .Site.Menus.main }}
-                <li class="nav-item">
-                    <a href="{{ .URL }}" class="nav-link {{ if $.IsMenuCurrent "main" . }}active{{ end }}">
-                        {{ .Name }}
-                    </a>
-                </li>
+                    {{ if eq .Name "Service Areas" }}
+                    <li class="nav-item dropdown">
+                        <a href="/locations/" class="nav-link">Service Areas</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/locations/#los-angeles">Los Angeles</a></li>
+                            <li><a href="/locations/#san-fernando-valley">San Fernando Valley</a></li>
+                            <li><a href="/locations/#san-gabriel-valley">San Gabriel Valley</a></li>
+                            <li><a href="/locations/">View All</a></li>
+                        </ul>
+                    </li>
+                    {{ else }}
+                    <li class="nav-item">
+                        <a href="{{ .URL }}" class="nav-link {{ if $.IsMenuCurrent "main" . }}active{{ end }}">
+                            {{ .Name }}
+                        </a>
+                    </li>
+                    {{ end }}
                 {{ end }}
             </ul>
             
