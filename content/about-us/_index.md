@@ -1,12 +1,12 @@
 ---
 title: "About Armed Exterminators | Family-Owned Pest Control Since 1997"
-description: "Learn about Armed Exterminators—28 years of trusted pest control experience, fully licensed & insured, serving San Gabriel Valley families with integrity."
+description: "Learn about Armed Exterminators—28 years of trusted pest control experience, fully licensed & insured, serving Los Angeles County families with integrity."
 draft: false
 ---
 
-# A Family Business Protecting San Gabriel Valley Since 1997
+# A Family Business Protecting Los Angeles Communities Since 1997
 
-Armed Exterminators began when **Dale Rodgers**, an Altadena native and veteran pest management professional, saw local families struggle with unreliable "big-box" exterminators. Today, our small team of **state-licensed, background-checked technicians** solves rodent, insect, and urban wildlife problems for homes, restaurants, schools, and medical offices across the San Gabriel Valley.
+Armed Exterminators began when **Dale Rodgers**, an Altadena native and veteran pest management professional, saw local families struggle with unreliable "big-box" exterminators. Like many Angelenos, Dale grew up all over LA with close family and friends throughout Los Angeles County. His work has taken him from the San Fernando Valley to the borders of Long Beach, building deep connections in every corner of this diverse metropolis. Today, our small team of **state-licensed, background-checked technicians** brings that same neighborhood-focused care to homes, restaurants, schools, and medical offices across Greater Los Angeles.
 
 ---
 
@@ -21,30 +21,31 @@ For over four decades, Dale has dedicated his life to perfecting the art and sci
 
 ✓ Mastered every aspect of pest management through continuous education  
 ✓ Built a reputation for exceptional customer service that generates 5-star reviews  
-✓ Developed specialized techniques for San Gabriel Valley's unique pest challenges  
+✓ Developed specialized techniques for Los Angeles' diverse pest challenges  
 ✓ Earned the trust of thousands of repeat customers who won't call anyone else  
 
-> *"I've been in this business since before many of my competitors were born," Dale says. "There's no substitute for experience when you're protecting someone's home."*
+> *"I've been in this business since before many of my competitors were born," Dale says. "Each neighborhood in LA has its own unique pest pressures – from beach communities battling moisture-loving pests to hillside homes dealing with wildlife. After 40 years working across this county, I've seen it all."*
 
 ---
 
 ## What Sets Us Apart
 
-### 🏆 Experience You Can Trust
+### 📆 Experience You Can Trust
 
 ✓ **40+ years** of hands-on pest control expertise  
-✓ **28 years** serving San Gabriel Valley families  
-✓ **Thousands** of satisfied customers  
+✓ **28 years** serving Greater Los Angeles families  
+✓ **Thousands** of satisfied customers countywide  
 ✓ **5-star average** on Google and Yelp  
 
 ### 📍 Local Knowledge
 
-As Altadena natives, we understand:
+With deep roots throughout LA County, we understand:
 
 ✓ Which pests are most active in each neighborhood  
-✓ How local weather patterns affect pest behavior  
-✓ The unique challenges of foothill properties  
-✓ Why Argentine ants dominate Pasadena  
+✓ How coastal fog affects pest behavior in beach communities  
+✓ The unique challenges of foothill properties from Altadena to Woodland Hills  
+✓ Why Argentine ants dominate Pasadena while German roaches thrive in Koreatown  
+✓ How commercial districts from Downtown to the Valley face different pest pressures  
 
 ### 🎯 Our Commitment to Excellence
 
@@ -85,7 +86,7 @@ This isn't just a slogan—it's how Dale has operated since day one. We believe 
 ## Why Families Choose Armed Exterminators
 
 ### The Personal Touch
-When you call Armed, you're not getting a call center—you're getting local professionals who know your neighborhood. Dale often answers the phone himself and personally oversees complex cases.
+When you call Armed, you're not getting a call center—you're getting local professionals who know your neighborhood. Whether you're dealing with rats in a Burbank warehouse, bed bugs in a Hollywood apartment, or gophers in a San Marino estate, Dale's experience across LA County means we've solved your exact problem before. Dale often answers the phone himself and personally oversees complex cases.
 
 ### Real Results
 Our customers say it best:
@@ -153,5 +154,5 @@ Join thousands of satisfied customers who trust Dale and his team for all their 
 
 ---
 
-> **"In 40 years of pest control, I've learned one thing: there's no substitute for doing the job right the first time. That's the Armed Exterminators promise."**  
+> **"In 40 years of pest control, I've learned that every community has its own character – and its own pest challenges. When you've worked everywhere from the beaches to the mountains, from dense urban apartments to sprawling estates, you develop the skills and passion to solve any pest problem. That's why I started Armed Exterminators – to bring that experience and dedication to families throughout LA County. There's no substitute for doing the job right the first time. That's the Armed Exterminators promise."**  
 > — Dale Rodgers, Founder
