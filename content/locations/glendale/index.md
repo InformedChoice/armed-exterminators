@@ -1,7 +1,7 @@
 ---
 title: "Pest Control Glendale, CA | Same-Day Service"
 description: "Expert rodent, spider, roach and wildlife control in Glendale. Humane removal of skunks, raccoons & opossums. Call (626) 256-3200."
-area: "San Fernando Valley"
+areas: "San Fernando Valley"
 ---
 
 # Comprehensive Pest Control in **Glendale, California**

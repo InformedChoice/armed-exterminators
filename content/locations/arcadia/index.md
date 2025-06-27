@@ -1,7 +1,7 @@
 ---
 title: "Pest Control Arcadia, CA | Local Exterminator"
 description: "Fast, licensed pest control in Arcadia—rodents, ants, roaches, spiders & wildlife. Family-owned service. Call (626) 256-3200."
-area: "San Gabriel Valley"
+areas: "San Gabriel Valley"
 ---
 
 # Pest Control Arcadia Homeowners Trust

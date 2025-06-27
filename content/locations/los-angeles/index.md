@@ -1,7 +1,7 @@
 ---
 title: "Pest Control Los Angeles | Same-Day Exterminators"
 description: "Serving Los Angeles with humane rodent, spider, roach and wildlife control. Skunk, raccoon & opossum removal. Call (626) 256-3200."
-area: "Los Angeles"
+areas: "Los Angeles"
 ---
 
 # Pest Control Services in **Los Angeles**
