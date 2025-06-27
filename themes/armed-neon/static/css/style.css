@@ -123,6 +123,33 @@ body {
     gap: 2rem;
 }
 
+.nav-item.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--bg-dark);
+    padding: 0.5rem 1rem;
+    list-style: none;
+    border-bottom: 2px solid var(--neon-green);
+    z-index: 10;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 0.25rem 0;
+    text-transform: none;
+}
+
+.nav-item.dropdown:hover .dropdown-menu,
+.nav-item.dropdown:focus-within .dropdown-menu {
+    display: block;
+}
+
 .nav-link {
     color: var(--text-primary);
     text-decoration: none;

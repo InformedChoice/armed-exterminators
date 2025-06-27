@@ -1,6 +1,7 @@
 ---
 title: "Pest Control San Marino, CA | Premium Exterminator Service"
 description: "Discrete pest control for San Marino estates. Expert rodent, ant & spider removal. Licensed professionals. Call (626) 256-3200."
+area: "San Gabriel Valley"
 ---
 
 # Premier Pest Control in **San Marino, California**

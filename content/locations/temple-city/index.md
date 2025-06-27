@@ -1,6 +1,7 @@
 ---
 title: "Wildlife & Rodent Removal in Temple City, CA 91780 | Humane Trapping & Exclusion"
 description: "Professional wildlife control and pest removal in Temple City. Expert roof rat, skunk, raccoon control. Serving 91780. Licensed & insured. Call (626) 256-3200."
+area: "San Gabriel Valley"
 keywords: ["Temple City skunk removal", "Temple City raccoon control", "Temple City roof rat exterminator", "Temple City wildlife removal", "Temple City bat removal"]
 city: "Temple City"
 zip_codes: ["91780"]

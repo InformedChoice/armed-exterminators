@@ -1,6 +1,7 @@
 ---
 title: "Pest Control Rosemead, CA | Affordable Exterminator Service"
 description: "Quality pest control in Rosemead. Expert ant, roach, rodent & spider removal. Family-owned, fair prices. Call (626) 256-3200."
+area: "San Gabriel Valley"
 ---
 
 # Trusted Pest Control in **Rosemead, California**

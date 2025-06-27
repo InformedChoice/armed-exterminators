@@ -41,6 +41,11 @@ ignoreLogs = ['warning-goldmark-raw-html']
 [permalinks]
   posts = "/:slug/"
 
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  area     = "areas"
+
 [sitemap]
   changefreq = "weekly"
   filename = "sitemap.xml"
