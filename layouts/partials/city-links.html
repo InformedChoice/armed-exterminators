@@ -1,0 +1,6 @@
+{{ $locations := where .Site.RegularPages "Section" "locations" }}
+<div class="city-links">
+  {{ range sort $locations "Title" }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  {{ end }}
+</div>
