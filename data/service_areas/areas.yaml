@@ -67,21 +67,31 @@ los_angeles:
   name: "Los Angeles"
   description: "Professional pest control throughout Los Angeles neighborhoods"
   cities:
+    - name: "Downtown Los Angeles"
+      slug: "downtown-los-angeles"
+      zip_codes: ["90012", "90013", "90014", "90015", "90017", "90021"]
+      focus: "High-rise buildings, lofts, restaurants, historic core"
+      common_pests: ["roaches", "rodents", "bed bugs", "ants"]
+    - name: "Mid-Wilshire"
+      slug: "mid-wilshire"
+      zip_codes: ["90010", "90019", "90020", "90036"]
+      focus: "Miracle Mile, museums, condos, medical offices"
+      common_pests: ["roaches", "rodents", "ants", "silverfish"]
     - name: "Koreatown"
       slug: "koreatown"
       zip_codes: ["90004", "90005", "90006", "90010", "90020"]
-      focus: "High-density apartments, restaurants"
-      common_pests: ["roaches", "bed bugs", "rodents", "ants"]
-    - name: "Downtown LA"
-      slug: "downtown-la"
-      zip_codes: ["90012", "90013", "90014", "90015", "90017", "90021"]
-      focus: "High-rise buildings, lofts, restaurants"
-      common_pests: ["roaches", "rodents", "bed bugs", "ants"]
+      focus: "High-density apartments, 24/7 restaurants, karaoke bars"
+      common_pests: ["roaches", "bed bugs", "rodents", "ants", "fleas"]
     - name: "Hollywood"
       slug: "hollywood"
       zip_codes: ["90028", "90038", "90046", "90068"]
-      focus: "Entertainment district, apartments, hotels"
+      focus: "Entertainment district, Thai Town, Little Armenia"
       common_pests: ["roaches", "bed bugs", "rodents", "ants"]
+    - name: "Hollywood Hills"
+      slug: "hollywood-hills"
+      zip_codes: ["90046", "90068"]
+      focus: "Canyon estates, hillside homes, luxury properties"
+      common_pests: ["rodents", "wildlife", "ants", "spiders"]
     - name: "Silver Lake"
       slug: "silver-lake"
       zip_codes: ["90026", "90039"]
