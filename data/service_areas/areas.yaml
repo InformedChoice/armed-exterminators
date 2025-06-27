@@ -92,16 +92,36 @@ los_angeles:
       zip_codes: ["90046", "90068"]
       focus: "Canyon estates, hillside homes, luxury properties"
       common_pests: ["rodents", "wildlife", "ants", "spiders"]
-    - name: "Silver Lake"
-      slug: "silver-lake"
-      zip_codes: ["90026", "90039"]
-      focus: "Hillside homes, hip neighborhoods"
-      common_pests: ["rodents", "ants", "spiders", "wildlife"]
     - name: "Echo Park"
       slug: "echo-park"
       zip_codes: ["90026"]
-      focus: "Historic homes, dense neighborhoods"
-      common_pests: ["rodents", "roaches", "ants", "bed bugs"]
+      focus: "Historic Victorians, creative venues, Echo Park Lake area"
+      common_pests: ["rodents", "roaches", "ants", "wildlife"]
+    - name: "Silver Lake"
+      slug: "silver-lake"
+      zip_codes: ["90026", "90039"]
+      focus: "Hillside homes, hip cafés, creative workspaces"
+      common_pests: ["rodents", "ants", "spiders", "bed bugs"]
+    - name: "Los Feliz"
+      slug: "los-feliz"
+      zip_codes: ["90027", "90039"]
+      focus: "Historic bungalows, Griffith Park edge, trendy village"
+      common_pests: ["rodents", "ants", "wildlife", "spiders"]
+    - name: "Eagle Rock"
+      slug: "eagle-rock"
+      zip_codes: ["90041"]
+      focus: "Family neighborhoods, Colorado Boulevard, college area"
+      common_pests: ["rodents", "ants", "wildlife", "spiders"]
+    - name: "Highland Park"
+      slug: "highland-park"
+      zip_codes: ["90042"]
+      focus: "Historic Craftsman homes, York Boulevard, art district"
+      common_pests: ["ants", "rodents", "wildlife", "spiders"]
+    - name: "South Los Angeles"
+      slug: "south-los-angeles"
+      zip_codes: ["90008", "90016", "90018", "90037", "90043"]
+      focus: "Baldwin Hills, Leimert Park, USC area, diverse communities"
+      common_pests: ["rodents", "roaches", "ants", "wildlife"]
 
 san_fernando_valley:
   name: "San Fernando Valley"
