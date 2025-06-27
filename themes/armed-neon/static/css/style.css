@@ -1613,6 +1613,54 @@ html {
     padding: 3rem 0 2rem;
 }
 
+/* Footer Contrast Improvements for PageSpeed Insights */
+.footer-section p {
+    color: #cccccc !important;
+}
+
+.service-area p {
+    color: #cccccc !important;
+}
+
+.service-area strong {
+    color: #ffffff !important;
+}
+
+.footer-area-prompt p {
+    color: #cccccc !important;
+}
+
+.city-coming-soon {
+    color: #aaaaaa !important;
+    opacity: 0.8;
+}
+
+.contact-info p {
+    color: #cccccc !important;
+}
+
+.footer-bottom p {
+    color: #cccccc !important;
+}
+
+.area-select {
+    color: #ffffff !important;
+    background-color: #2a2a2a !important;
+}
+
+.area-select option {
+    background-color: #2a2a2a !important;
+    color: #ffffff !important;
+}
+
+.area-tab {
+    color: #cccccc !important;
+}
+
+.area-tab.active {
+    color: #000000 !important;
+}
+
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
