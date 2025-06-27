@@ -20,22 +20,81 @@
                 </ul>
             </div>
             
-            <div class="footer-section">
+            <div class="footer-section footer-service-areas">
                 <h3>Service Areas</h3>
-                <ul class="footer-links footer-areas">
-                    <li><a href="/locations/pasadena/">Pasadena</a></li>
-                    <li><a href="/locations/arcadia/">Arcadia</a></li>
-                    <li><a href="/locations/monrovia/">Monrovia</a></li>
-                    <li><a href="/locations/san-gabriel/">San Gabriel</a></li>
-                    <li><a href="/locations/altadena/">Altadena</a></li>
-                    <li><a href="/locations/south-pasadena/">South Pasadena</a></li>
-                    <li><a href="/locations/san-marino/">San Marino</a></li>
-                    <li><a href="/locations/sierra-madre/">Sierra Madre</a></li>
-                    <li><a href="/locations/la-canada-flintridge/">La Cañada Flintridge</a></li>
-                    <li><a href="/locations/rosemead/">Rosemead</a></li>
-                    <li><a href="/locations/temple-city/">Temple City</a></li>
-                    <li><a href="/locations/el-monte/">El Monte</a></li>
-                </ul>
+                <!-- Desktop: Dropdown -->
+                <div class="footer-area-selector desktop-only">
+                    <select id="footer-area-select" class="area-select" aria-label="Select service area">
+                        <option value="">Select Your Area...</option>
+                        <option value="san_gabriel_valley">San Gabriel Valley ({{ len .Site.Data.service_areas.areas.san_gabriel_valley.cities }} cities)</option>
+                        <option value="los_angeles">Los Angeles ({{ len .Site.Data.service_areas.areas.los_angeles.cities }} areas)</option>
+                        <option value="san_fernando_valley">San Fernando Valley ({{ len .Site.Data.service_areas.areas.san_fernando_valley.cities }} cities)</option>
+                    </select>
+                </div>
+                <!-- Mobile: Tabs -->
+                <div class="footer-area-tabs mobile-only">
+                    <button class="area-tab active" data-area="san_gabriel_valley">
+                        San Gabriel Valley
+                        <span class="city-count">{{ len .Site.Data.service_areas.areas.san_gabriel_valley.cities }}</span>
+                    </button>
+                    <button class="area-tab" data-area="los_angeles">
+                        Los Angeles
+                        <span class="city-count">{{ len .Site.Data.service_areas.areas.los_angeles.cities }}</span>
+                    </button>
+                    <button class="area-tab" data-area="san_fernando_valley">
+                        San Fernando Valley
+                        <span class="city-count">{{ len .Site.Data.service_areas.areas.san_fernando_valley.cities }}</span>
+                    </button>
+                </div>
+                <div class="footer-cities-container">
+                    {{ $areaData := .Site.Data.service_areas.areas }}
+                    
+                    <!-- San Gabriel Valley Cities -->
+                    <ul class="footer-links footer-cities" data-area="san_gabriel_valley" style="display: none;">
+                        {{ range $areaData.san_gabriel_valley.cities }}
+                            {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
+                            {{ if $cityPage }}
+                                <li><a href="{{ $cityPage.RelPermalink }}">{{ .name }}</a></li>
+                            {{ else }}
+                                <li><span class="city-coming-soon">{{ .name }} (Coming Soon)</span></li>
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+                    
+                    <!-- Los Angeles Cities -->
+                    <ul class="footer-links footer-cities" data-area="los_angeles" style="display: none;">
+                        {{ range $areaData.los_angeles.cities }}
+                            {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
+                            {{ if $cityPage }}
+                                <li><a href="{{ $cityPage.RelPermalink }}">{{ .name }}</a></li>
+                            {{ else }}
+                                <li><span class="city-coming-soon">{{ .name }} (Coming Soon)</span></li>
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+                    
+                    <!-- San Fernando Valley Cities -->
+                    <ul class="footer-links footer-cities" data-area="san_fernando_valley" style="display: none;">
+                        {{ range $areaData.san_fernando_valley.cities }}
+                            {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
+                            {{ if $cityPage }}
+                                <li><a href="{{ $cityPage.RelPermalink }}">{{ .name }}</a></li>
+                            {{ else }}
+                                <li><span class="city-coming-soon">{{ .name }} (Coming Soon)</span></li>
+                            {{ end }}
+                        {{ end }}
+                    </ul>
+                    
+                    <!-- Default message -->
+                    <div class="footer-area-prompt" id="footer-area-prompt">
+                        <p>Select an area above to see our service cities</p>
+                    </div>
+                    <!-- Success message -->
+                    <div class="footer-area-success" id="footer-area-success" style="display: none;">
+                        <p>Click any city below to view local pest control services:</p>
+                    </div>
+                </div>
+                <p style="margin-top: 1rem;"><a href="/locations/" style="color: var(--neon-green); font-weight: 600;">View All Service Areas →</a></p>
             </div>
             
             <div class="footer-section">

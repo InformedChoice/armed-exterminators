@@ -1,0 +1,124 @@
+san_gabriel_valley:
+  name: "San Gabriel Valley"
+  description: "Serving the San Gabriel Valley communities with professional pest control"
+  cities:
+    - name: "Pasadena"
+      slug: "pasadena"
+      zip_codes: ["91101", "91103", "91104", "91105", "91106", "91107"]
+      focus: "Historic homes, restaurants, apartment complexes"
+      common_pests: ["roof rats", "Argentine ants", "roaches", "black widows"]
+    - name: "Arcadia"
+      slug: "arcadia"
+      zip_codes: ["91006", "91007"]
+      focus: "Luxury estates, commercial districts"
+      common_pests: ["rodents", "ants", "spiders", "wildlife"]
+    - name: "Monrovia"
+      slug: "monrovia"
+      zip_codes: ["91016", "91017"]
+      focus: "Foothill communities, family homes"
+      common_pests: ["wildlife", "rodents", "ants", "spiders"]
+    - name: "San Gabriel"
+      slug: "san-gabriel"
+      zip_codes: ["91775", "91776", "91778"]
+      focus: "Mission District, diverse neighborhoods"
+      common_pests: ["roaches", "rodents", "ants", "bed bugs"]
+    - name: "Altadena"
+      slug: "altadena"
+      zip_codes: ["91001", "91003"]
+      focus: "Mountain areas, large properties"
+      common_pests: ["wildlife", "rodents", "spiders", "ants"]
+    - name: "South Pasadena"
+      slug: "south-pasadena"
+      zip_codes: ["91030", "91031"]
+      focus: "Historic neighborhoods, tree-lined streets"
+      common_pests: ["roof rats", "ants", "spiders", "wildlife"]
+    - name: "San Marino"
+      slug: "san-marino"
+      zip_codes: ["91108"]
+      focus: "Luxury estates, manicured gardens"
+      common_pests: ["gophers", "ants", "spiders", "rodents"]
+    - name: "Sierra Madre"
+      slug: "sierra-madre"
+      zip_codes: ["91024", "91025"]
+      focus: "Canyon communities, wildlife interface"
+      common_pests: ["wildlife", "rodents", "ants", "spiders"]
+    - name: "La Cañada Flintridge"
+      slug: "la-canada-flintridge"
+      zip_codes: ["91011", "91012"]
+      focus: "Hillside homes, luxury properties"
+      common_pests: ["wildlife", "rodents", "gophers", "ants"]
+    - name: "Rosemead"
+      slug: "rosemead"
+      zip_codes: ["91770", "91771"]
+      focus: "Valley communities, diverse neighborhoods"
+      common_pests: ["roaches", "rodents", "ants", "bed bugs"]
+    - name: "Temple City"
+      slug: "temple-city"
+      zip_codes: ["91780"]
+      focus: "Residential neighborhoods, parks"
+      common_pests: ["rodents", "ants", "roaches", "spiders"]
+    - name: "El Monte"
+      slug: "el-monte"
+      zip_codes: ["91731", "91732", "91733", "91734"]
+      focus: "River area, industrial zones"
+      common_pests: ["rodents", "roaches", "ants", "bed bugs"]
+
+los_angeles:
+  name: "Los Angeles"
+  description: "Professional pest control throughout Los Angeles neighborhoods"
+  cities:
+    - name: "Koreatown"
+      slug: "koreatown"
+      zip_codes: ["90004", "90005", "90006", "90010", "90020"]
+      focus: "High-density apartments, restaurants"
+      common_pests: ["roaches", "bed bugs", "rodents", "ants"]
+    - name: "Downtown LA"
+      slug: "downtown-la"
+      zip_codes: ["90012", "90013", "90014", "90015", "90017", "90021"]
+      focus: "High-rise buildings, lofts, restaurants"
+      common_pests: ["roaches", "rodents", "bed bugs", "ants"]
+    - name: "Hollywood"
+      slug: "hollywood"
+      zip_codes: ["90028", "90038", "90046", "90068"]
+      focus: "Entertainment district, apartments, hotels"
+      common_pests: ["roaches", "bed bugs", "rodents", "ants"]
+    - name: "Silver Lake"
+      slug: "silver-lake"
+      zip_codes: ["90026", "90039"]
+      focus: "Hillside homes, hip neighborhoods"
+      common_pests: ["rodents", "ants", "spiders", "wildlife"]
+    - name: "Echo Park"
+      slug: "echo-park"
+      zip_codes: ["90026"]
+      focus: "Historic homes, dense neighborhoods"
+      common_pests: ["rodents", "roaches", "ants", "bed bugs"]
+
+san_fernando_valley:
+  name: "San Fernando Valley"
+  description: "Comprehensive pest control for the San Fernando Valley"
+  cities:
+    - name: "Burbank"
+      slug: "burbank"
+      zip_codes: ["91501", "91502", "91504", "91505", "91506"]
+      focus: "Media district, residential neighborhoods"
+      common_pests: ["rodents", "ants", "roaches", "spiders"]
+    - name: "Glendale"
+      slug: "glendale"
+      zip_codes: ["91201", "91202", "91203", "91204", "91205", "91206", "91207", "91208"]
+      focus: "Commercial centers, diverse neighborhoods"
+      common_pests: ["rodents", "roaches", "ants", "bed bugs"]
+    - name: "North Hollywood"
+      slug: "north-hollywood"
+      zip_codes: ["91601", "91602", "91605", "91606", "91607"]
+      focus: "Arts district, apartments, commercial"
+      common_pests: ["roaches", "rodents", "bed bugs", "ants"]
+    - name: "Studio City"
+      slug: "studio-city"
+      zip_codes: ["91604"]
+      focus: "Upscale homes, entertainment industry"
+      common_pests: ["rodents", "ants", "spiders", "wildlife"]
+    - name: "Sherman Oaks"
+      slug: "sherman-oaks"
+      zip_codes: ["91401", "91403", "91411", "91423"]
+      focus: "Residential neighborhoods, shopping areas"
+      common_pests: ["rodents", "ants", "roaches", "spiders"]

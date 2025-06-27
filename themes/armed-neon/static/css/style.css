@@ -259,6 +259,30 @@ body {
     display: none;
 }
 
+/* Mobile Submenu for Service Areas */
+.mobile-submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.mobile-submenu li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mobile-submenu .nav-link {
+    padding: 0.75rem 3rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+.mobile-submenu .nav-link:hover {
+    color: var(--neon-green);
+    background: rgba(57, 255, 20, 0.1);
+}
+
 /* Mobile Phone Link */
 .mobile-phone {
     background: rgba(57, 255, 20, 0.1);
@@ -365,6 +389,205 @@ body {
 }
 
 /* Service Areas Hub Page */
+.service-areas-hub {
+    padding: 2rem 0 5rem;
+    background: #f9f9f9;
+}
+
+.service-areas-hub .page-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.service-areas-hub .title-main {
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1a1a1a;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Service Areas Section */
+.areas {
+    margin-top: 3rem;
+}
+
+.area-section {
+    margin-bottom: 2rem;
+    background: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.area-section:hover {
+    border-color: var(--neon-green);
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.2);
+}
+
+.area-accordion {
+    width: 100%;
+}
+
+.area-accordion summary {
+    padding: 2rem;
+    cursor: pointer;
+    background: #f9f9f9;
+    transition: all 0.3s ease;
+    list-style: none;
+    position: relative;
+}
+
+.area-accordion summary::-webkit-details-marker {
+    display: none;
+}
+
+.area-accordion summary::after {
+    content: "▼";
+    position: absolute;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.25rem;
+    color: var(--neon-green);
+    transition: transform 0.3s ease;
+}
+
+.area-accordion[open] summary::after {
+    transform: translateY(-50%) rotate(180deg);
+}
+
+.area-accordion summary:hover {
+    background: #f0faf0;
+}
+
+.area-accordion summary h2 {
+    margin: 0 0 0.5rem 0;
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: #006600;
+    text-transform: uppercase;
+}
+
+.area-description {
+    display: block;
+    color: #666;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.city-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.city-card {
+    display: block;
+    padding: 1.5rem;
+    background: #f9f9f9;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.city-card:hover {
+    background: var(--neon-green);
+    border-color: var(--neon-green);
+    box-shadow: 0 0 15px rgba(57, 255, 20, 0.4);
+    transform: translateY(-3px);
+}
+
+.city-card h3 {
+    margin: 0 0 0.5rem 0;
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    color: #1a1a1a;
+    text-transform: uppercase;
+}
+
+.city-card:hover h3 {
+    color: #000;
+}
+
+.city-focus {
+    margin: 0;
+    font-size: 0.875rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.city-card:hover .city-focus {
+    color: #000;
+}
+
+.city-coming-soon {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background: #f0f0f0;
+}
+
+.city-coming-soon:hover {
+    background: #f0f0f0;
+    border-color: #e0e0e0;
+    transform: none;
+    box-shadow: none;
+}
+
+/* San Gabriel Valley gets special treatment as primary area */
+#san-gabriel-valley .area-accordion summary h2 {
+    color: var(--neon-green);
+    text-shadow: 0 0 10px rgba(57, 255, 20, 0.3);
+}
+
+#san-gabriel-valley {
+    border-color: var(--neon-green);
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.2);
+}
+
+/* Mobile optimizations for service areas page */
+@media (max-width: 768px) {
+    .service-areas-hub .page-title .title-main {
+        font-size: 2rem;
+    }
+    
+    .area-section {
+        margin-bottom: 1rem;
+    }
+    
+    .area-accordion summary {
+        padding: 1.5rem;
+    }
+    
+    .area-accordion summary h2 {
+        font-size: 1.5rem;
+    }
+    
+    .area-accordion summary::after {
+        right: 1.5rem;
+    }
+    
+    .city-grid {
+        grid-template-columns: 1fr;
+        gap: 0.75rem;
+        padding: 1.5rem;
+    }
+    
+    .city-card {
+        padding: 1rem;
+    }
+    
+    .city-card h3 {
+        font-size: 1.125rem;
+    }
+}
+
+/* Service Areas Grid (for other pages) */
 .service-areas-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1237,6 +1460,207 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0.5rem;
+}
+
+/* Footer Area Selector */
+.footer-area-selector {
+    margin-bottom: 1rem;
+}
+
+.area-select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.area-select:hover,
+.area-select:focus {
+    border-color: var(--neon-green);
+    box-shadow: 0 0 10px rgba(57, 255, 20, 0.3);
+    outline: none;
+}
+
+.area-select option {
+    background: #1a1a1a; /* Lighter than pure black for better readability */
+    color: #ffffff;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Better contrast for dropdown on Chrome/Safari */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+    .area-select {
+        background-color: #1a1a1a;
+        color: #ffffff;
+    }
+    
+    .area-select option {
+        background-color: #2a2a2a;
+        color: #ffffff;
+    }
+    
+    .area-select option:hover {
+        background-color: var(--neon-green);
+        color: var(--bg-dark);
+    }
+}
+
+.footer-cities-container {
+    min-height: 200px;
+    position: relative;
+}
+
+.footer-cities {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.footer-cities li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-cities a {
+    display: block;
+    padding: 0.25rem 0;
+    transition: all 0.2s ease;
+}
+
+.footer-cities a:hover {
+    color: var(--neon-green);
+    text-shadow: 0 0 10px var(--neon-green);
+    transform: translateX(5px);
+}
+
+.city-coming-soon {
+    color: var(--text-secondary);
+    opacity: 0.6;
+    font-style: italic;
+}
+
+.footer-area-prompt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    text-align: center;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.footer-area-success {
+    text-align: center;
+    color: var(--neon-green);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    background: rgba(57, 255, 20, 0.1);
+    border-radius: 5px;
+}
+
+/* Footer Area Tabs (Mobile) */
+.footer-area-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.area-tab {
+    background: var(--bg-card);
+    color: var(--text-secondary);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.875rem;
+    font-family: var(--font-body);
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.area-tab:hover {
+    border-color: var(--neon-green);
+    color: var(--text-primary);
+}
+
+.area-tab.active {
+    background: var(--neon-green);
+    color: var(--bg-dark);
+    border-color: var(--neon-green);
+    box-shadow: 0 0 10px rgba(57, 255, 20, 0.5);
+}
+
+.city-count {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.125rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+    font-weight: 700;
+}
+
+.area-tab.active .city-count {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Show/hide desktop and mobile versions */
+.desktop-only {
+    display: block;
+}
+
+.mobile-only {
+    display: none;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .desktop-only {
+        display: none;
+    }
+    
+    .mobile-only {
+        display: flex;
+    }
+    
+    .footer-cities {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-cities-container {
+        min-height: 150px;
+    }
+    
+    /* Make first tab visually prominent */
+    .area-tab:first-child {
+        background: rgba(57, 255, 20, 0.1);
+    }
 }
 
 .contact-info p {

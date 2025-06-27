@@ -120,55 +120,73 @@ armed-exterminators/
    - `/locations/san-marino/`
    - `/locations/sierra-madre/`
 
-3. **To add a new city:**
+3. **To add a new city (e.g., Wilshire District):**
    ```bash
-   # Create directory
-   mkdir content/locations/temple-city
+   # Use Hugo's archetype to create properly formatted page
+   hugo new locations/wilshire-district/index.md
    
-   # Create index.md file
-   touch content/locations/temple-city/index.md
+   # Or create manually:
+   mkdir content/locations/wilshire-district
+   touch content/locations/wilshire-district/index.md
    ```
 
-4. **Use this template:**
+4. **IMPORTANT: Update the data file to make it appear in navigation:**
+   - Edit `/data/service_areas/areas.yaml`
+   - Add your city under the appropriate area (los_angeles, san_gabriel_valley, or san_fernando_valley)
+   - Example for Wilshire District:
+   ```yaml
+   los_angeles:
+     name: "Los Angeles"
+     description: "Professional pest control throughout Los Angeles neighborhoods"
+     cities:
+       # ... existing cities ...
+       - name: "Wilshire District"
+         slug: "wilshire-district"  # Must match folder name
+         zip_codes: ["90010", "90019", "90020", "90036"]
+         focus: "Mid-rise apartments, commercial buildings"
+         common_pests: ["roaches", "bed bugs", "rodents", "ants"]
+   ```
+
+5. **The city page template (use archetype or copy this):**
    ```markdown
    ---
-   title: "Pest Control [City Name], CA | [Descriptor] Exterminator"
-   description: "[Service description]. Call (626) 256-3200."
+   title: "Pest Control Wilshire District, LA | Urban Pest Experts"
+   description: "Professional pest control in Wilshire District. Apartment & commercial specialists. Same-day service. Call (626) 256-3200."
+   areas: "Los Angeles"  # Must match area name in data file
    ---
 
-   # Pest Control in **[City Name], California**
+   # Pest Control in **Wilshire District, Los Angeles**
 
-   [Opening paragraph with local landmark and common pests]
+   From Miracle Mile's shops to mid-rise apartments along Wilshire Boulevard, this central LA neighborhood faces urban pest challenges. **German roaches spread between units, bed bugs travel in high-traffic buildings, and rodents exploit older infrastructure.** Armed Exterminators brings specialized urban pest solutions to Wilshire District properties.
 
-   ## Common [City] Pest Problems We Solve
+   <div class="location-services-box">
+   <h3>🎯 Quick Links: Wilshire District Pest Control Services</h3>
+   <ul>
+   <li><a href="/roach-control-wilshire-district/">Roach Control - Apartment Specialists <span class="arrow">→</span></a></li>
+   <li><a href="/bed-bug-treatment-wilshire-district/">Bed Bug Treatment - Discrete Service <span class="arrow">→</span></a></li>
+   <li><a href="/rodent-control-wilshire-district/">Rodent Control - Commercial Experts <span class="arrow">→</span></a></li>
+   </ul>
+   </div>
 
-   - **[Pest Type]** specific issue
-   - **[Pest Type]** specific issue
-   - **[Pest Type]** specific issue
-   - **[Wildlife]** if applicable
+   ## Common Wilshire District Pest Problems We Solve
+
+   - **German Roaches** in apartment buildings
+   - **Bed Bugs** in high-traffic residences
+   - **Rats & Mice** in older buildings
+   - **Ants** invading commercial spaces
 
    *(We do not treat termites, mosquitoes, or coyotes.)*
 
-   ## Our Local Services
-   [Standard service list]
-
-   > **Same-Day Appointments Available — Call (626) 256-3200**
-
-   ## Why [City] Residents Choose Armed Exterminators
-   [List of benefits]
-
-   ### Recent [City] Success Story
-   > *"[Testimonial]"*  
-   > — **[Name], [Street]**
-
-   [Call to action]
-
-   Serving all [City] ZIP codes — [list ZIPs].
-
-   ---
-
-   *Links to nearby cities*
+   [Rest of standard template...]
    ```
+
+6. **After creating the page:**
+   - The city will automatically appear in the footer dropdown/tabs
+   - It will show on the /locations/ page under its area
+   - The home page will show it if it's in San Gabriel Valley
+   - If no page exists yet, it shows as "Coming Soon"
+
+**Note:** The system is designed to show cities as "Coming Soon" if they're in the data file but don't have a page yet. This lets you plan expansion areas without broken links.
 
 ### Adding a Blog Post
 

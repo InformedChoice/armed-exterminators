@@ -100,70 +100,26 @@
 <section class="service-areas-preview">
     <div class="container">
         <h2 class="section-title">
-            <span class="title-accent">SERVING THE SAN GABRIEL VALLEY</span>
+            <span class="title-accent">SERVING THE GREATER LOS ANGELES AREA</span>
             <span class="title-main">Our Service Areas</span>
         </h2>
         
+        {{ $areaData := .Site.Data.service_areas.areas }}
+        
         <div class="areas-grid">
-            <a href="/locations/pasadena/" class="area-card">
-                <h3>Pasadena</h3>
-                <p>Old Town to the Rose Bowl</p>
-            </a>
-            
-            <a href="/locations/arcadia/" class="area-card">
-                <h3>Arcadia</h3>
-                <p>Santa Anita area</p>
-            </a>
-            
-            <a href="/locations/monrovia/" class="area-card">
-                <h3>Monrovia</h3>
-                <p>Foothill communities</p>
-            </a>
-            
-            <a href="/locations/san-gabriel/" class="area-card">
-                <h3>San Gabriel</h3>
-                <p>Mission District</p>
-            </a>
-            
-            <a href="/locations/altadena/" class="area-card">
-                <h3>Altadena</h3>
-                <p>Mountain areas</p>
-            </a>
-            
-            <a href="/locations/south-pasadena/" class="area-card">
-                <h3>South Pasadena</h3>
-                <p>Historic neighborhoods</p>
-            </a>
-            
-            <a href="/locations/san-marino/" class="area-card">
-                <h3>San Marino</h3>
-                <p>Luxury estates</p>
-            </a>
-            
-            <a href="/locations/sierra-madre/" class="area-card">
-                <h3>Sierra Madre</h3>
-                <p>Canyon communities</p>
-            </a>
-            
-            <a href="/locations/la-canada-flintridge/" class="area-card">
-                <h3>La Cañada Flintridge</h3>
-                <p>Hillside homes</p>
-            </a>
-            
-            <a href="/locations/rosemead/" class="area-card">
-                <h3>Rosemead</h3>
-                <p>Valley communities</p>
-            </a>
-            
-            <a href="/locations/temple-city/" class="area-card">
-                <h3>Temple City</h3>
-                <p>Wildlife specialists</p>
-            </a>
-            
-            <a href="/locations/el-monte/" class="area-card">
-                <h3>El Monte</h3>
-                <p>River area experts</p>
-            </a>
+            {{ range $key, $area := $areaData }}
+                {{ if eq $key "san_gabriel_valley" }}
+                    {{ range .cities }}
+                        {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
+                        {{ if $cityPage }}
+                            <a href="{{ $cityPage.RelPermalink }}" class="area-card {{ if eq .slug "pasadena" }}area-primary{{ end }}">
+                                <h3>{{ .name }}</h3>
+                                <p>{{ .focus }}</p>
+                            </a>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
+            {{ end }}
         </div>
         
         <div style="text-align: center; margin-top: 3rem;">

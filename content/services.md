@@ -38,16 +38,38 @@ Choose your specific pest problem below for targeted solutions throughout the Sa
 
 </div>
 
-## Quick City Links for Common Services
+## Service Areas
 
-### Rodent Control by City
-- [Pasadena](/rodent-control-pasadena/) • [Arcadia](/rat-control-arcadia/) • [Monrovia](/rat-control-monrovia/) • [San Gabriel](/rat-control-san-gabriel/) • [Altadena](/rat-control-altadena/)
+### San Gabriel Valley
+Our primary service area includes all communities in the San Gabriel Valley:
+- **[Pasadena](/locations/pasadena/)** - Historic homes, restaurants, apartments
+- **[Arcadia](/locations/arcadia/)** - Luxury estates, commercial districts  
+- **[Monrovia](/locations/monrovia/)** - Foothill communities, wildlife interface
+- **[San Gabriel](/locations/san-gabriel/)** - Mission District, diverse neighborhoods
+- **[Altadena](/locations/altadena/)** - Mountain areas, large properties
+- **[South Pasadena](/locations/south-pasadena/)** - Tree-lined streets, historic homes
+- **[San Marino](/locations/san-marino/)** - Luxury estates, manicured gardens
+- **[Sierra Madre](/locations/sierra-madre/)** - Canyon communities, wildlife
+- **[La Cañada Flintridge](/locations/la-canada-flintridge/)** - Hillside homes
+- **[Rosemead](/locations/rosemead/)** - Valley communities
+- **[Temple City](/locations/temple-city/)** - Residential neighborhoods
+- **[El Monte](/locations/el-monte/)** - River area, industrial zones
 
-### Ant Control by City
-- [Pasadena](/ant-control-pasadena/) • [Arcadia](/ant-control-arcadia/) • [Monrovia](/ant-control-monrovia/) • [San Gabriel](/ant-control-san-gabriel/) • [San Marino](/ant-control-san-marino/)
+### Los Angeles (Coming Soon)
+Expanding service to key LA neighborhoods:
+- **Koreatown** - High-density apartments, restaurants
+- **Downtown LA** - High-rise buildings, lofts
+- **Hollywood** - Entertainment district, hotels
+- **Silver Lake** - Hillside homes
+- **Echo Park** - Historic neighborhoods
 
-### Wildlife Removal by City
-- [Raccoon - Pasadena](/raccoon-removal-pasadena/) • [Opossum - Arcadia](/opossum-removal-arcadia/) • [Skunk - Monrovia](/skunk-removal-monrovia/)
+### San Fernando Valley (Coming Soon)
+Future expansion areas:
+- **Burbank** - Media district
+- **Glendale** - Commercial centers
+- **North Hollywood** - Arts district
+- **Studio City** - Upscale homes
+- **Sherman Oaks** - Shopping areas
 
 ## Why Professional Pest Control?
 
@@ -72,20 +94,6 @@ Choose your specific pest problem below for targeted solutions throughout the Sa
 3. **Safe Treatment** - EPA-approved methods
 4. **Follow-Up** - Ensure complete elimination
 5. **Prevention** - Long-term protection strategies
-
-## Coverage Areas
-
-We provide all pest control services throughout:
-- **Pasadena** - Old Town to Rose Bowl
-- **Arcadia** - Santa Anita neighborhoods  
-- **Monrovia** - Foothill communities
-- **San Gabriel** - Mission District
-- **Altadena** - Mountain interface
-- **South Pasadena** - Historic areas
-- **San Marino** - Luxury estates
-- **Sierra Madre** - Canyon homes
-- **La Cañada Flintridge** - Hillside properties
-- **Rosemead** - Valley communities
 
 ---
 

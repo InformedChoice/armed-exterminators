@@ -76,6 +76,75 @@
         window.addEventListener('scroll', handleScroll, { passive: true });
     }
     
+    // Footer Area Selector
+    document.addEventListener('DOMContentLoaded', function() {
+        const areaSelect = document.getElementById('footer-area-select');
+        const areaTabs = document.querySelectorAll('.area-tab');
+        const prompt = document.getElementById('footer-area-prompt');
+        const successMsg = document.getElementById('footer-area-success');
+        const allCityLists = document.querySelectorAll('.footer-cities');
+        
+        function showArea(areaName) {
+            // Hide messages
+            if (prompt) prompt.style.display = 'none';
+            if (successMsg) successMsg.style.display = 'none';
+            
+            // Hide all city lists
+            allCityLists.forEach(list => {
+                list.style.display = 'none';
+            });
+            
+            // Show selected area's cities
+            if (areaName) {
+                const selectedList = document.querySelector(`[data-area="${areaName}"]`);
+                if (selectedList) {
+                    selectedList.style.display = 'grid';
+                    // Show success message
+                    if (successMsg) {
+                        successMsg.style.display = 'block';
+                        successMsg.style.animation = 'fadeIn 0.3s ease';
+                    }
+                }
+            } else {
+                // Show prompt if no area selected
+                if (prompt) {
+                    prompt.style.display = 'flex';
+                }
+            }
+        }
+        
+        // Desktop dropdown handler
+        if (areaSelect) {
+            areaSelect.addEventListener('change', function() {
+                showArea(this.value);
+            });
+        }
+        
+        // Mobile tabs handler
+        areaTabs.forEach(tab => {
+            tab.addEventListener('click', function() {
+                // Update active state
+                areaTabs.forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Show corresponding area
+                const area = this.getAttribute('data-area');
+                showArea(area);
+                
+                // Update dropdown to match (for consistency)
+                if (areaSelect) {
+                    areaSelect.value = area;
+                }
+            });
+        });
+        
+        // Set default to San Gabriel Valley on page load
+        showArea('san_gabriel_valley');
+        if (areaSelect) {
+            areaSelect.value = 'san_gabriel_valley';
+        }
+    });
+    
     // Mobile Menu - Event delegation for better performance
     document.addEventListener('DOMContentLoaded', function() {
         const mobileToggle = document.querySelector('.mobile-menu-toggle');
@@ -87,11 +156,31 @@
         // Create mobile menu only once
         const mobileMenu = document.createElement('div');
         mobileMenu.className = 'mobile-menu';
+        
+        // Process menu items to handle dropdowns
+        const menuItems = Array.from(navMenu.querySelectorAll('li')).map(item => {
+            const dropdown = item.querySelector('.dropdown-menu');
+            if (dropdown) {
+                // For Service Areas, create a special mobile version
+                const link = item.querySelector('.nav-link');
+                return `
+                    <li class="nav-item">
+                        <a href="${link.href}" class="nav-link">${link.textContent}</a>
+                        <ul class="mobile-submenu">
+                            ${Array.from(dropdown.querySelectorAll('a')).map(subLink => 
+                                `<li><a href="${subLink.href}" class="nav-link">${subLink.textContent}</a></li>`
+                            ).join('')}
+                        </ul>
+                    </li>
+                `;
+            } else {
+                return `<li class="nav-item">${item.innerHTML}</li>`;
+            }
+        }).join('');
+        
         mobileMenu.innerHTML = `
             <ul class="mobile-nav-menu">
-                ${Array.from(navMenu.querySelectorAll('li')).map(item => 
-                    `<li class="nav-item">${item.innerHTML}</li>`
-                ).join('')}
+                ${menuItems}
                 <li class="nav-item mobile-phone">
                     <a href="tel:6262563200" class="nav-link phone-link-mobile">
                         <span>📞</span> (626) 256-3200

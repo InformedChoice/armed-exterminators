@@ -11,27 +11,85 @@
       {{ .Content }}
 
       <section class="areas">
-        {{ $areas := .Site.Taxonomies.areas }}
-        {{ range $areaName, $pages := $areas }}
-          <div id="{{ urlize $areaName }}" class="area-section">
-            <details class="area-accordion mobile-only">
-              <summary class="area-title">{{ $areaName }}</summary>
-              <ul class="city-list">
-                {{ range sort $pages.Pages "Title" }}
-                  <li><a class="city-card" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ $areaData := .Site.Data.service_areas.areas }}
+        
+        <!-- San Gabriel Valley -->
+        <div id="san-gabriel-valley" class="area-section">
+          <details class="area-accordion" open>
+            <summary class="area-title">
+              <h2>{{ $areaData.san_gabriel_valley.name }}</h2>
+              <span class="area-description">{{ $areaData.san_gabriel_valley.description }}</span>
+            </summary>
+            <div class="city-grid">
+              {{ range $areaData.san_gabriel_valley.cities }}
+                {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
+                {{ if $cityPage }}
+                  <a href="{{ $cityPage.RelPermalink }}" class="city-card">
+                    <h3>{{ .name }}</h3>
+                    <p class="city-focus">{{ .focus }}</p>
+                  </a>
+                {{ else }}
+                  <div class="city-card city-coming-soon">
+                    <h3>{{ .name }}</h3>
+                    <p class="city-focus">Coming Soon</p>
+                  </div>
                 {{ end }}
-              </ul>
-            </details>
-            <div class="area-grid desktop-only">
-              <h2 class="area-title">{{ $areaName }}</h2>
-              <ul class="city-list">
-                {{ range sort $pages.Pages "Title" }}
-                  <li><a class="city-card" href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-                {{ end }}
-              </ul>
+              {{ end }}
             </div>
-          </div>
-        {{ end }}
+          </details>
+        </div>
+
+        <!-- Los Angeles -->
+        <div id="los-angeles" class="area-section">
+          <details class="area-accordion">
+            <summary class="area-title">
+              <h2>{{ $areaData.los_angeles.name }}</h2>
+              <span class="area-description">{{ $areaData.los_angeles.description }}</span>
+            </summary>
+            <div class="city-grid">
+              {{ range $areaData.los_angeles.cities }}
+                {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
+                {{ if $cityPage }}
+                  <a href="{{ $cityPage.RelPermalink }}" class="city-card">
+                    <h3>{{ .name }}</h3>
+                    <p class="city-focus">{{ .focus }}</p>
+                  </a>
+                {{ else }}
+                  <div class="city-card city-coming-soon">
+                    <h3>{{ .name }}</h3>
+                    <p class="city-focus">Coming Soon</p>
+                  </div>
+                {{ end }}
+              {{ end }}
+            </div>
+          </details>
+        </div>
+
+        <!-- San Fernando Valley -->
+        <div id="san-fernando-valley" class="area-section">
+          <details class="area-accordion">
+            <summary class="area-title">
+              <h2>{{ $areaData.san_fernando_valley.name }}</h2>
+              <span class="area-description">{{ $areaData.san_fernando_valley.description }}</span>
+            </summary>
+            <div class="city-grid">
+              {{ range $areaData.san_fernando_valley.cities }}
+                {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
+                {{ if $cityPage }}
+                  <a href="{{ $cityPage.RelPermalink }}" class="city-card">
+                    <h3>{{ .name }}</h3>
+                    <p class="city-focus">{{ .focus }}</p>
+                  </a>
+                {{ else }}
+                  <div class="city-card city-coming-soon">
+                    <h3>{{ .name }}</h3>
+                    <p class="city-focus">Coming Soon</p>
+                  </div>
+                {{ end }}
+              {{ end }}
+            </div>
+          </details>
+        </div>
       </section>
     </div>
   </div>
