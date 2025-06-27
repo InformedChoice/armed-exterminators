@@ -3,13 +3,12 @@
 {{ $bc := slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" .Site.BaseURL) }}
 
 <nav aria-label="Breadcrumb" class="breadcrumb-nav">
-  <ol class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">
+  <ol class="breadcrumb">
     <!-- Home -->
-    <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-      <a href="/" itemprop="item">
-        <span itemprop="name">Home</span>
+    <li class="breadcrumb-item">
+      <a href="/">
+        <span>Home</span>
       </a>
-      <meta itemprop="position" content="1" />
     </li>
 
     {{ if not .IsHome }}
@@ -18,22 +17,20 @@
       <!-- Handle different URL patterns -->
       {{ if hasPrefix .RelPermalink "/services/" }}
         <!-- Service pages under /services/ -->
-        <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/services/" itemprop="item">
-            <span itemprop="name">Services</span>
-          </a>
-          <meta itemprop="position" content="{{ $position }}" />
+    <li class="breadcrumb-item">
+      <a href="/services/">
+        <span>Services</span>
+      </a>
         </li>
         {{ $bc = $bc | append (dict "@type" "ListItem" "position" $position "name" "Services" "item" (print .Site.BaseURL "services/")) }}
         {{ $position = add $position 1 }}
         
       {{ else if hasPrefix .RelPermalink "/locations/" }}
         <!-- Location pages -->
-        <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <a href="/locations/" itemprop="item">
-            <span itemprop="name">Service Areas</span>
+        <li class="breadcrumb-item">
+          <a href="/locations/">
+            <span>Service Areas</span>
           </a>
-          <meta itemprop="position" content="{{ $position }}" />
         </li>
         {{ $bc = $bc | append (dict "@type" "ListItem" "position" $position "name" "Service Areas" "item" (print .Site.BaseURL "locations/")) }}
         {{ $position = add $position 1 }}
@@ -81,11 +78,10 @@
         
         <!-- Service parent -->
         {{ if $serviceName }}
-          <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a href="/services/{{ $serviceType }}/" itemprop="item">
-              <span itemprop="name">{{ $serviceName }}</span>
+          <li class="breadcrumb-item">
+            <a href="/services/{{ $serviceType }}/">
+              <span>{{ $serviceName }}</span>
             </a>
-            <meta itemprop="position" content="{{ $position }}" />
           </li>
           {{ $bc = $bc | append (dict "@type" "ListItem" "position" $position "name" $serviceName "item" (print .Site.BaseURL "services/" $serviceType "/")) }}
           {{ $position = add $position 1 }}
@@ -94,11 +90,10 @@
         <!-- Location (if we can determine it) -->
         {{ if $location }}
           {{ $locationTitle := title (replace $location "-" " ") }}
-          <li class="breadcrumb-item" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-            <a href="/locations/{{ $location }}/" itemprop="item">
-              <span itemprop="name">{{ $locationTitle }}</span>
+          <li class="breadcrumb-item">
+            <a href="/locations/{{ $location }}/">
+              <span>{{ $locationTitle }}</span>
             </a>
-            <meta itemprop="position" content="{{ $position }}" />
           </li>
           {{ $bc = $bc | append (dict "@type" "ListItem" "position" $position "name" $locationTitle "item" (print .Site.BaseURL "locations/" $location "/")) }}
           {{ $position = add $position 1 }}
@@ -114,9 +109,8 @@
       {{ end }}
       
       <!-- Current page (no link) -->
-      <li class="breadcrumb-item active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <span itemprop="name">{{ .Title }}</span>
-        <meta itemprop="position" content="{{ $position }}" />
+      <li class="breadcrumb-item active">
+        <span>{{ .Title }}</span>
       </li>
       {{ $bc = $bc | append (dict "@type" "ListItem" "position" $position "name" .Title "item" .Permalink) }}
     {{ end }}
