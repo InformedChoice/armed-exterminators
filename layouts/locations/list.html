@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="areas">
-  {{ $areas := sort .Site.Taxonomies.areas }}
+  {{ $areas := .Site.Taxonomies.areas }}
   {{ range $areaName, $pages := $areas }}
     <div id="{{ urlize $areaName }}" class="mb-8">
       <details class="md:hidden">

@@ -1,7 +1,7 @@
 ---
 title: "Pest Control Sierra Madre, CA | Mountain Village Pest Experts"
 description: "Reliable pest control in Sierra Madre. Wildlife removal, rodent control & ant treatment for foothill homes. Call (626) 256-3200."
-area: "San Gabriel Valley"
+areas: "San Gabriel Valley"
 ---
 
 # Dependable Pest Control in **Sierra Madre, California**

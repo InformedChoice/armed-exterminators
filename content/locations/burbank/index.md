@@ -1,7 +1,7 @@
 ---
 title: "Pest Control Burbank, CA | Same-Day Exterminator"
 description: "Humane pest control in Burbank for rodents, roaches, spiders, skunks, raccoons & opossums. Call (626) 256-3200."
-area: "San Fernando Valley"
+areas: "San Fernando Valley"
 ---
 
 # Reliable Pest Control in **Burbank, California**

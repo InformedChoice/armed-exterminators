@@ -1,7 +1,7 @@
 ---
 title: "Pest Control Altadena, CA | Mountain-Area Pest Experts"
 description: "Professional pest control in Altadena. Wildlife removal, rodent control & spider treatment. Serving foothill homes. Call (626) 256-3200."
-area: "San Gabriel Valley"
+areas: "San Gabriel Valley"
 ---
 
 # Expert Pest Control in **Altadena, California**

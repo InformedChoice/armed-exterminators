@@ -1,7 +1,7 @@
 ---
 title: "Pest Control Monrovia, CA | Professional Exterminator"
 description: "Reliable pest control in Monrovia. Expert removal of rodents, ants, spiders & wildlife. Same-day service. Call (626) 256-3200."
-area: "San Gabriel Valley"
+areas: "San Gabriel Valley"
 ---
 
 # Pest Control Services in **Monrovia, California**
