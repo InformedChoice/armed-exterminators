@@ -10,7 +10,7 @@ Discovered a wasp nest or bee swarm? Don't risk dangerous stings. Armed Extermin
 
 ## Choose Your City for Local Service
 
-<div class="service-areas-grid">
+{{< service-areas-grid >}}
 
 ### [Pasadena](/locations/pasadena/)
 Urban nest removal specialists. High-rise and commercial property experts.
@@ -42,7 +42,7 @@ Hillside experts. Difficult access and cliff nest specialists.
 ### [Rosemead](/locations/rosemead/)
 Valley service. Quick response for schools and businesses.
 
-</div>
+{{< /service-areas-grid >}}
 
 ## Stinging Insects We Remove
 
