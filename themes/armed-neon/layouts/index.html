@@ -106,20 +106,131 @@
         
         {{ $areaData := .Site.Data.service_areas.areas }}
         
-        <div class="areas-grid">
-            {{ range $key, $area := $areaData }}
-                {{ if eq $key "san_gabriel_valley" }}
-                    {{ range .cities }}
-                        {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
-                        {{ if $cityPage }}
-                            <a href="{{ $cityPage.RelPermalink }}" class="area-card {{ if eq .slug "pasadena" }}area-primary{{ end }}">
-                                <h3>{{ .name }}</h3>
-                                <p>{{ .focus }}</p>
-                            </a>
-                        {{ end }}
-                    {{ end }}
+        <!-- Area Tabs/Buttons -->
+        <div class="area-selector-home">
+            <button class="area-btn active" data-area="san_gabriel_valley">
+                San Gabriel Valley
+            </button>
+            <button class="area-btn" data-area="los_angeles">
+                Los Angeles
+            </button>
+            <button class="area-btn" data-area="san_fernando_valley">
+                San Fernando Valley
+            </button>
+        </div>
+        
+        <!-- San Gabriel Valley Cities -->
+        <div class="areas-grid area-cities" data-area="san_gabriel_valley" style="display: grid;">
+            {{ range $areaData.san_gabriel_valley.cities }}
+                {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
+                {{ if $cityPage }}
+                    <a href="{{ $cityPage.RelPermalink }}" class="area-card {{ if eq .slug "pasadena" }}area-primary{{ end }}">
+                        <h3>{{ .name }}</h3>
+                        <p>{{ .focus }}</p>
+                    </a>
+                {{ else }}
+                    <div class="area-card area-coming-soon">
+                        <h3>{{ .name }}</h3>
+                        <p>Coming Soon</p>
+                    </div>
                 {{ end }}
             {{ end }}
+        </div>
+        
+        <!-- Los Angeles Cities -->
+        <div class="areas-grid area-cities" data-area="los_angeles" style="display: none;">
+            {{ range $areaData.los_angeles.cities }}
+                {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
+                {{ if $cityPage }}
+                    <a href="{{ $cityPage.RelPermalink }}" class="area-card">
+                        <h3>{{ .name }}</h3>
+                        <p>{{ .focus }}</p>
+                    </a>
+                {{ else }}
+                    <div class="area-card area-coming-soon">
+                        <h3>{{ .name }}</h3>
+                        <p>{{ .focus }}</p>
+                    </div>
+                {{ end }}
+            {{ end }}
+        </div>
+        
+        <!-- San Fernando Valley Cities -->
+        <div class="areas-grid area-cities" data-area="san_fernando_valley" style="display: none;">
+            {{ range $areaData.san_fernando_valley.cities }}
+                {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
+                {{ if $cityPage }}
+                    <a href="{{ $cityPage.RelPermalink }}" class="area-card">
+                        <h3>{{ .name }}</h3>
+                        <p>{{ .focus }}</p>
+                    </a>
+                {{ else }}
+                    <div class="area-card area-coming-soon">
+                        <h3>{{ .name }}</h3>
+                        <p>{{ .focus }}</p>
+                    </div>
+                {{ end }}
+            {{ end }}
+        </div>
+        
+        <!-- Mobile Collapsible Sections (Hidden on Desktop) -->
+        <div class="mobile-area-sections">
+            <!-- San Gabriel Valley -->
+            <details class="mobile-area-detail" open>
+                <summary class="mobile-area-summary">
+                    <h3>San Gabriel Valley</h3>
+                </summary>
+                <div class="mobile-cities-grid">
+                    {{ range $areaData.san_gabriel_valley.cities }}
+                        {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
+                        {{ if $cityPage }}
+                            <a href="{{ $cityPage.RelPermalink }}" class="mobile-city-link">
+                                {{ .name }}
+                            </a>
+                        {{ else }}
+                            <span class="mobile-city-soon">{{ .name }} (Soon)</span>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </details>
+            
+            <!-- Los Angeles -->
+            <details class="mobile-area-detail">
+                <summary class="mobile-area-summary">
+                    <h3>Los Angeles</h3>
+                </summary>
+                <div class="mobile-cities-grid">
+                    {{ range $areaData.los_angeles.cities }}
+                        {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
+                        {{ if $cityPage }}
+                            <a href="{{ $cityPage.RelPermalink }}" class="mobile-city-link">
+                                {{ .name }}
+                            </a>
+                        {{ else }}
+                            <span class="mobile-city-soon">{{ .name }} (Soon)</span>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </details>
+            
+            <!-- San Fernando Valley -->
+            <details class="mobile-area-detail">
+                <summary class="mobile-area-summary">
+                    <h3>San Fernando Valley</h3>
+                </summary>
+                <div class="mobile-cities-grid">
+                    {{ range $areaData.san_fernando_valley.cities }}
+                        {{ $cityPage := $.Site.GetPage (printf "locations/%s" .slug) }}
+                        {{ if $cityPage }}
+                            <a href="{{ $cityPage.RelPermalink }}" class="mobile-city-link">
+                                {{ .name }}
+                            </a>
+                        {{ else }}
+                            <span class="mobile-city-soon">{{ .name }} (Soon)</span>
+                        {{ end }}
+                    {{ end }}
+                </div>
+            </details>
         </div>
         
         <div style="text-align: center; margin-top: 3rem;">

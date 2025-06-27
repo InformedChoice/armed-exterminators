@@ -145,6 +145,44 @@
         }
     });
     
+    // Homepage Area Selector - Enhanced with debugging
+    document.addEventListener('DOMContentLoaded', function() {
+        const areaBtns = document.querySelectorAll('.area-btn');
+        const areaCities = document.querySelectorAll('.area-cities');
+        
+        console.log('Homepage area selector initialized:', {
+            buttons: areaBtns.length,
+            cityGrids: areaCities.length
+        });
+        
+        if (areaBtns.length > 0) {
+            areaBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const targetArea = this.getAttribute('data-area');
+                    console.log('Area button clicked:', targetArea);
+                    
+                    // Update active button
+                    areaBtns.forEach(b => {
+                        b.classList.remove('active');
+                    });
+                    this.classList.add('active');
+                    
+                    // Show corresponding cities
+                    areaCities.forEach(grid => {
+                        const gridArea = grid.getAttribute('data-area');
+                        if (gridArea === targetArea) {
+                            grid.style.display = 'grid';
+                            console.log('Showing grid for:', gridArea);
+                        } else {
+                            grid.style.display = 'none';
+                            console.log('Hiding grid for:', gridArea);
+                        }
+                    });
+                });
+            });
+        }
+    });
+    
     // Mobile Menu - Event delegation for better performance
     document.addEventListener('DOMContentLoaded', function() {
         const mobileToggle = document.querySelector('.mobile-menu-toggle');

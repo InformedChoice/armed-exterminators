@@ -1335,6 +1335,204 @@ html {
     font-weight: 500;
 }
 
+/* Homepage Area Selector */
+.area-selector-home {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 3rem 0;
+    flex-wrap: wrap;
+}
+
+.area-btn {
+    background: #ffffff;
+    color: #1a1a1a;
+    border: 3px solid #e0e0e0;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-size: 1.125rem;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.area-btn:hover {
+    border-color: var(--neon-green);
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.3);
+    transform: translateY(-2px);
+}
+
+.area-btn.active {
+    background: var(--neon-green);
+    color: #000;
+    border-color: var(--neon-green);
+    box-shadow: 0 0 30px rgba(57, 255, 20, 0.5);
+}
+
+.area-btn .area-count {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.area-btn.active .area-count {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Area Cities Grid */
+.area-cities {
+    animation: fadeIn 0.3s ease;
+}
+
+.area-coming-soon {
+    opacity: 0.6;
+    cursor: not-allowed;
+    background: #f5f5f5;
+}
+
+.area-coming-soon:hover {
+    transform: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .area-selector-home {
+        gap: 1rem;
+        margin: 2rem 0;
+    }
+    
+    .area-btn {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+        flex: 1 1 100%;
+        justify-content: center;
+    }
+    
+    .area-btn .area-count {
+        font-size: 0.75rem;
+        padding: 0.125rem 0.5rem;
+    }
+    
+    /* Alternative: Show all areas on mobile in collapsible sections */
+    .service-areas-preview.mobile-compact .area-selector-home {
+        display: none;
+    }
+    
+    .service-areas-preview.mobile-compact .area-cities {
+        display: none !important;
+    }
+    
+    .mobile-area-sections {
+        display: block;
+    }
+}
+
+/* Hide mobile sections on desktop */
+@media (min-width: 769px) {
+    .mobile-area-sections {
+        display: none;
+    }
+}
+
+/* Mobile Area Sections */
+.mobile-area-detail {
+    background: #ffffff;
+    border: 2px solid #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.mobile-area-detail[open] {
+    border-color: var(--neon-green);
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.2);
+}
+
+.mobile-area-summary {
+    padding: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    background: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.mobile-area-summary::-webkit-details-marker {
+    display: none;
+}
+
+.mobile-area-detail[open] .mobile-area-summary {
+    background: rgba(57, 255, 20, 0.05);
+}
+
+.mobile-area-summary h3 {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    color: #1a1a1a;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.area-badge {
+    background: var(--neon-green);
+    color: #000;
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.mobile-cities-grid {
+    padding: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem;
+}
+
+.mobile-city-link {
+    display: block;
+    padding: 0.75rem;
+    background: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    color: #1a1a1a;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+
+.mobile-city-link:hover {
+    background: var(--neon-green);
+    border-color: var(--neon-green);
+    color: #000;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 10px rgba(57, 255, 20, 0.3);
+}
+
+.mobile-city-soon {
+    display: block;
+    padding: 0.75rem;
+    background: #f0f0f0;
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+    color: #999;
+    text-align: center;
+    font-style: italic;
+}
+
 /* Remove primary card heading special styling */
 
 /* Sticky Call Button */
