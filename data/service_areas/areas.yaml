@@ -117,6 +117,26 @@ los_angeles:
       zip_codes: ["90042"]
       focus: "Historic Craftsman homes, York Boulevard, art district"
       common_pests: ["ants", "rodents", "wildlife", "spiders"]
+    - name: "Hancock Park"
+      slug: "hancock-park"
+      zip_codes: ["90004", "90020"]
+      focus: "Historic mansions, pre-war architecture, mature landscaping"
+      common_pests: ["roof rats", "Argentine ants", "German roaches", "spiders"]
+    - name: "Larchmont Village"
+      slug: "larchmont-village"
+      zip_codes: ["90004"]
+      focus: "Dining corridor, boutiques, craftsman homes, cafés"
+      common_pests: ["rodents", "roaches", "ants", "bed bugs"]
+    - name: "Windsor Square"
+      slug: "windsor-square"
+      zip_codes: ["90004"]
+      focus: "Historic homes, wide setbacks, mature magnolias"
+      common_pests: ["rodents", "ants", "spiders", "wildlife"]
+    - name: "Fremont Place"
+      slug: "fremont-place"
+      zip_codes: ["90005"]
+      focus: "Gated community, luxury estates, exclusive mansions"
+      common_pests: ["rodents", "ants", "carpenter bees", "wildlife"]
     - name: "South Los Angeles"
       slug: "south-los-angeles"
       zip_codes: ["90008", "90016", "90018", "90037", "90043"]
