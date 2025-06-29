@@ -2,6 +2,13 @@
 title: "Pest Control South Pasadena, CA | Local Pest Experts"
 description: "Trusted pest control in South Pasadena. Fast removal of ants, roaches, rodents & spiders. Family-owned service. Call (626) 256-3200."
 areas: "San Gabriel Valley"
+# Location-specific data for LocalBusiness schema
+address:
+  city: "South Pasadena"
+  region: "CA"
+  postal: "91030"
+  lat: 34.1161
+  lng: -118.1503
 ---
 
 # Reliable Pest Control in **South Pasadena, California**

@@ -2,6 +2,13 @@
 title: "Pest Control San Gabriel, CA | Trusted Exterminator"
 description: "Expert pest control in San Gabriel. Eliminate ants, roaches, rodents & spiders. Family-owned, licensed service. Call (626) 256-3200."
 areas: "San Gabriel Valley"
+# Location-specific data for LocalBusiness schema
+address:
+  city: "San Gabriel"
+  region: "CA"
+  postal: "91775"
+  lat: 34.0961
+  lng: -118.1058
 ---
 
 # Professional Pest Control in **San Gabriel, California**

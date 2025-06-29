@@ -2,6 +2,13 @@
 title: "Koreatown Exterminator | 24-Hour Cockroach & Rodent Control K-Town"
 description: "Emergency pest control for Koreatown's apartments, karaoke bars, and late-night eateries. Roaches, rats, ants, and fleas eliminated fast."
 areas: "Los Angeles"
+# Location-specific data for LocalBusiness schema
+address:
+  city: "Los Angeles"
+  region: "CA"
+  postal: "90005"
+  lat: 34.0576
+  lng: -118.3014
 keywords:
   - Koreatown pest control
   - K-Town cockroach exterminator

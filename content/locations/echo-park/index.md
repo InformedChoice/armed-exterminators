@@ -2,6 +2,13 @@
 title: "Echo Park Pest Control | Rat & Cockroach Exterminator Near Echo Park Lake"
 description: "Local experts in rodent removal, cockroach clean-outs, and humane wildlife trapping for Echo Park homes, cafés, and music venues."
 areas: "Los Angeles"
+# Location-specific data for LocalBusiness schema
+address:
+  city: "Los Angeles"
+  region: "CA"
+  postal: "90026"
+  lat: 34.0776
+  lng: -118.2601
 keywords:
   - Echo Park pest control
   - rat exterminator Echo Park

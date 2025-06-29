@@ -2,6 +2,13 @@
 title: "Los Feliz Pest Control | Rodent, Ant & Wildlife Removal"
 description: "Comprehensive pest and wildlife control for Los Feliz Village, Franklin Hills, and Laughlin Park. Rats, ants, skunks, and raccoons eliminated humanely."
 areas: "Los Angeles"
+# Location-specific data for LocalBusiness schema
+address:
+  city: "Los Angeles"
+  region: "CA"
+  postal: "90027"
+  lat: 34.1011
+  lng: -118.2909
 keywords:
   - Los Feliz pest control
   - rodent removal Los Feliz Village

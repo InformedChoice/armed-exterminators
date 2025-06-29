@@ -2,6 +2,13 @@
 title: "Silver Lake Pest Control | Ant & Rat Exterminator"
 description: "Trusted pest control for Silver Lake's homes, coffee shops, and creative workspaces. Ant removal, rodent proofing, roach treatments."
 areas: "Los Angeles"
+# Location-specific data for LocalBusiness schema
+address:
+  city: "Los Angeles"
+  region: "CA"
+  postal: "90026"
+  lat: 34.0900
+  lng: -118.2737
 keywords:
   - Silver Lake pest control
   - ant control Sunset Junction
