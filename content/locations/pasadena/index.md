@@ -2,6 +2,14 @@
 title: "Pest Control Pasadena, CA | Armed Exterminators"
 description: "Need an exterminator in Pasadena? Family-owned Armed Exterminators removes rats, ants, roaches, spiders & wildlife. Call (626) 256-3200."
 areas: "San Gabriel Valley"
+# Location-specific data for LocalBusiness schema
+address:
+  city: "Pasadena"
+  region: "CA"
+  postal: "91101"
+  lat: 34.1478
+  lng: -118.1445
+image: "hero.jpg"
 ---
 
 # Pest Control in **Pasadena, California**

@@ -1,0 +1,103 @@
+{{- /* LocalBusiness JSON-LD for location pages */ -}}
+{{- $phone := .Site.Params.phone | default "(626) 256-3200" -}}
+{{- $email := .Site.Params.email | default "armedex@sbcglobal.net" -}}
+{{- $addr := .Params.address -}}
+{{- $img := .Resources.GetMatch (.Params.image | default "hero.jpg") -}}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "{{ .Permalink }}#localbusiness",
+  "name": "Armed Exterminators - {{ .Title }}",
+  "url": "{{ .Permalink }}",
+  {{ if $img }}"image": "{{ $img.Permalink }}",{{ end }}
+  "telephone": "{{ $phone }}",
+  "email": "{{ $email }}",
+  "priceRange": "$",
+  "serviceType": "Pest Control",
+  "areaServed": {
+    "@type": "City",
+    "name": "{{ if $addr.city }}{{ $addr.city }}{{ else }}{{ .Title | replaceRE `Pest Control ` `` | replaceRE `, CA.*` `` }}{{ end }}",
+    "containedInPlace": {
+      "@type": "State", 
+      "name": "California"
+    }
+  },
+  {{ if $addr }}
+  "address": {
+    "@type": "PostalAddress",
+    {{ if $addr.street }}"streetAddress": "{{ $addr.street }}",{{ end }}
+    "addressLocality": "{{ $addr.city }}",
+    "addressRegion": "{{ $addr.region | default "CA" }}",
+    {{ if $addr.postal }}"postalCode": "{{ $addr.postal }}",{{ end }}
+    "addressCountry": "US"
+  },
+  {{ if and $addr.lat $addr.lng }}
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": {{ $addr.lat }},
+    "longitude": {{ $addr.lng }}
+  },
+  {{ end }}
+  {{ end }}
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday", 
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "07:00",
+    "closes": "18:00"
+  },
+  "sameAs": [
+    "https://www.yelp.com/biz/armed-exterminators-duarte",
+    "https://www.google.com/maps/place/?q=place_id:ChIJa5u6RwXEwoARGsKgHvAkQV8"
+  ],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "bestRating": "5",
+    "worstRating": "1", 
+    "ratingCount": "127"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Pest Control Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Rodent Control"
+        }
+      },
+      {
+        "@type": "Offer", 
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Ant Control"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service", 
+          "name": "Wildlife Removal"
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Spider Control"
+        }
+      }
+    ]
+  }
+}
+</script>

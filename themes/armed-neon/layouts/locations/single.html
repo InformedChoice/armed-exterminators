@@ -1,4 +1,9 @@
 {{ define "main" }}
+<!-- LocalBusiness Schema for Location Pages -->
+{{ if in .File.Path "/locations/" }}
+  {{ partial "ld-localbusiness.html" . }}
+{{ end }}
+
 <article class="location-page">
     <div class="container">
         {{ partial "breadcrumbs.html" . }}

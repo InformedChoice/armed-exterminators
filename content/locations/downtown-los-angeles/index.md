@@ -2,6 +2,14 @@
 title: "Downtown Los Angeles Pest Control | Rodent & Insect Exterminator DTLA"
 description: "Trusted residential and commercial pest control in DTLA lofts, high-rises, restaurants, and offices. Fast rodent removal, cockroach extermination, bed bug treatments."
 areas: "Los Angeles"
+# Location-specific data for LocalBusiness schema
+address:
+  city: "Los Angeles"
+  region: "CA"
+  postal: "90013"
+  lat: 34.0522
+  lng: -118.2437
+image: "hero.jpg"
 keywords:
   - Downtown LA pest control
   - DTLA rodent removal

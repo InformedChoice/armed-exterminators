@@ -1,0 +1,21 @@
+{{/* Usage: {{ partial "responsive-img.html" (dict "Page" . "Name" "hero.jpg" "Alt" "Armed Exterminators pest control service") }} */}}
+{{- $page := .Page -}}
+{{- $res := $page.Resources.GetMatch .Name -}}
+{{- if $res -}}
+  {{- $small := $res.Fill "480x270" -}}
+  {{- $med := $res.Fill "768x432" -}}
+  {{- $large := $res.Fill "1200x675" -}}
+  <img
+    src="{{ $med.RelPermalink }}"
+    srcset="{{ $small.RelPermalink }} 480w, {{ $med.RelPermalink }} 768w, {{ $large.RelPermalink }} 1200w"
+    sizes="(max-width: 768px) 100vw, 768px"
+    alt="{{ .Alt }}"
+    loading="lazy"
+    width="768"
+    height="432">
+{{- else -}}
+  {{/* Fallback if image not found */}}
+  <div class="image-placeholder" style="width: 768px; height: 432px; background: #f0f0f0; display: flex; align-items: center; justify-content: center; color: #666;">
+    <span>Image: {{ .Name }}</span>
+  </div>
+{{- end -}}
