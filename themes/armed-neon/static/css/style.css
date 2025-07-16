@@ -1220,8 +1220,8 @@ html {
     align-items: center;
     gap: 0.5rem;
     padding: 0.85rem 1.75rem;
-    background: rgba(0, 0, 0, 0.6);
-    border: 2px solid rgba(255, 255, 255, 0.4);
+    background: rgba(0, 0, 0, 0.8);
+    border: 2px solid rgba(255, 255, 255, 0.6);
     border-radius: 30px;
     text-decoration: none;
     color: #ffffff;
@@ -1244,17 +1244,27 @@ html {
     letter-spacing: 1px;
 }
 
-/* Yelp Review Button */
-.yelp-review:hover {
-    background: rgba(196, 18, 0, 0.8);
-    border-color: #ff1a1a;
-    box-shadow: 0 0 25px rgba(255, 26, 26, 0.5);
-    transform: translateY(-2px);
+/* Yelp Review Button - Default State */
+.yelp-review {
+    background: rgba(0, 0, 0, 0.8);
+    border-color: rgba(255, 26, 26, 0.8);
+}
+
+.yelp-review .review-text {
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .yelp-review strong {
-    color: #ff1a1a;
-    text-shadow: 0 0 15px rgba(255, 26, 26, 0.7);
+    color: #ff4444;
+    text-shadow: 0 0 10px rgba(255, 68, 68, 0.5);
+}
+
+/* Yelp Review Button - Hover State */
+.yelp-review:hover {
+    background: rgba(196, 18, 0, 0.9);
+    border-color: #ff1a1a;
+    box-shadow: 0 0 30px rgba(255, 26, 26, 0.6);
+    transform: translateY(-2px);
 }
 
 .yelp-review:hover .review-text,
@@ -1262,17 +1272,27 @@ html {
     color: #ffffff;
 }
 
-/* Google Review Button */
-.google-review:hover {
-    background: rgba(66, 133, 244, 0.8);
-    border-color: #4285f4;
-    box-shadow: 0 0 25px rgba(66, 133, 244, 0.5);
-    transform: translateY(-2px);
+/* Google Review Button - Default State */
+.google-review {
+    background: rgba(0, 0, 0, 0.8);
+    border-color: rgba(66, 133, 244, 0.8);
+}
+
+.google-review .review-text {
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .google-review strong {
-    color: #4285f4;
-    text-shadow: 0 0 15px rgba(66, 133, 244, 0.7);
+    color: #5c9aff;
+    text-shadow: 0 0 10px rgba(92, 154, 255, 0.5);
+}
+
+/* Google Review Button - Hover State */
+.google-review:hover {
+    background: rgba(66, 133, 244, 0.9);
+    border-color: #4285f4;
+    box-shadow: 0 0 30px rgba(66, 133, 244, 0.6);
+    transform: translateY(-2px);
 }
 
 .google-review:hover .review-text,
