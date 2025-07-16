@@ -30,6 +30,33 @@ body.interior-page {
     color: #333333 !important;
 }
 
+/* Safari-specific hero title blur fixes */
+@supports (-webkit-appearance: none) {
+    .hero-title {
+        -webkit-font-smoothing: antialiased !important;
+        -webkit-transform: translateZ(0) !important;
+        -webkit-perspective: 1000 !important;
+        -webkit-backface-visibility: hidden !important;
+        transform: translateZ(0) !important;
+    }
+    
+    .title-line-1,
+    .title-line-2 {
+        -webkit-font-smoothing: antialiased !important;
+        -webkit-text-stroke: 0.45px transparent !important;
+        -webkit-transform: translate3d(0,0,0) !important;
+        transform: translate3d(0,0,0) !important;
+    }
+    
+    .title-line-1 {
+        -webkit-text-stroke: 0.3px rgba(255,255,255,0.1) !important;
+    }
+    
+    .title-line-2 {
+        -webkit-text-stroke: 0.3px rgba(57,255,20,0.1) !important;
+    }
+}
+
 /* Header critical styles */
 .site-header {
     position: fixed;

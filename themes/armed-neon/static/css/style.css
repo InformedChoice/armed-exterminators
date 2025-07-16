@@ -424,6 +424,13 @@ body {
     font-family: 'Bebas Neue', 'Arial Black', 'Impact', sans-serif !important;
     font-weight: 900 !important;
     letter-spacing: 0.05em;
+    
+    /* Safari specific fixes */
+    -webkit-text-stroke: 0.2px transparent;
+    text-stroke: 0.2px transparent;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    will-change: auto !important;
 }
 
 /* Fix individual title lines */
@@ -441,12 +448,20 @@ body {
     
     /* Prevent animation blur */
     will-change: auto !important;
+    
+    /* Additional Safari fixes */
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
 }
 
 /* Sharper text shadow for ARMED (white text) */
 .hero-title .title-line-1 {
     color: #ffffff !important;
     text-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(255, 255, 255, 0.4) !important;
+    /* Safari shadow fix */
+    -webkit-text-shadow: 
         0 0 10px rgba(255, 255, 255, 0.8),
         0 0 20px rgba(255, 255, 255, 0.4) !important;
 }
@@ -458,6 +473,11 @@ body {
         0 0 5px #39FF14,
         0 0 10px #39FF14,
         0 0 20px rgba(57, 255, 20, 0.8) !important;
+    /* Safari shadow fix */
+    -webkit-text-shadow: 
+        0 0 5px #39FF14,
+        0 0 10px #39FF14,
+        0 0 20px rgba(57, 255, 20, 0.8) !important;
 }
 
 /* Remove backdrop filters on hero section */
@@ -466,6 +486,36 @@ body {
 .hero-content {
     backdrop-filter: none !important;
     filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+/* Safari-specific hero title fixes */
+@supports (-webkit-appearance: none) and (stroke-color: transparent) {
+    .hero-title {
+        /* Force repaint in Safari */
+        -webkit-transform: translateZ(0) scale(1.0);
+        transform: translateZ(0) scale(1.0);
+    }
+    
+    .title-line-1,
+    .title-line-2 {
+        /* Disable subpixel rendering that causes blur */
+        -webkit-font-smoothing: antialiased !important;
+        /* Add minimal stroke to sharpen edges */
+        -webkit-text-stroke: 0.3px rgba(0,0,0,0.1);
+        text-stroke: 0.3px rgba(0,0,0,0.1);
+    }
+    
+    /* Reduce shadow complexity in Safari */
+    .title-line-1 {
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.6) !important;
+        -webkit-text-shadow: 0 0 15px rgba(255, 255, 255, 0.6) !important;
+    }
+    
+    .title-line-2 {
+        text-shadow: 0 0 15px rgba(57, 255, 20, 0.8) !important;
+        -webkit-text-shadow: 0 0 15px rgba(57, 255, 20, 0.8) !important;
+    }
 }
 
 /* Disable problematic animations during load */
@@ -960,6 +1010,12 @@ html {
     transform: translate3d(0,0,0);
     letter-spacing: 0.02em; /* Add slight letter spacing */
     text-align: center; /* Ensure center alignment */
+    
+    /* Safari-specific fixes */
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-font-kerning: normal;
+    font-kerning: normal;
 }
 
 .title-line-1 {
