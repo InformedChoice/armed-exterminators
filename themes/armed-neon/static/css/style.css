@@ -1008,6 +1008,26 @@ html {
     .hero-title {
         will-change: auto;
         contain: layout style;
+        /* iOS-specific text rendering fixes */
+        -webkit-text-size-adjust: 100%;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        /* Disable 3D transforms */
+        transform: none !important;
+        -webkit-transform: none !important;
+    }
+    
+    .title-line-1,
+    .title-line-2 {
+        /* iOS blur fixes */
+        -webkit-text-stroke: 0;
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        perspective: 1000;
+        -webkit-perspective: 1000;
     }
     
     .title-line-2 {
@@ -1187,6 +1207,30 @@ html {
 .scroll-arrow {
     font-size: 1.5rem;
     color: var(--neon-green);
+}
+
+/* Specific iOS Safari fixes */
+@supports (-webkit-touch-callout: none) {
+    .hero-title {
+        /* iOS-specific rendering */
+        -webkit-font-smoothing: subpixel-antialiased !important;
+        transform: translateZ(0) !important;
+        -webkit-transform: translateZ(0) !important;
+    }
+    
+    .title-line-1,
+    .title-line-2 {
+        /* Force hardware acceleration */
+        transform: translate3d(0, 0, 0) !important;
+        -webkit-transform: translate3d(0, 0, 0) !important;
+        /* Reduce shadows for sharper text on iOS */
+        text-shadow: 0 0 5px currentColor !important;
+    }
+    
+    /* Even simpler shadow for green text on iOS */
+    .title-line-2 {
+        text-shadow: 0 0 3px var(--neon-green) !important;
+    }
 }
 
 /* Hide scroll indicator on mobile devices */
