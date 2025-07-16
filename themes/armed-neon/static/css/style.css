@@ -1214,6 +1214,88 @@ html {
     text-shadow: 0 0 10px var(--neon-green);
 }
 
+/* Review Feature Links */
+.review-feature {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1.75rem;
+    background: rgba(0, 0, 0, 0.6);
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.05rem;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.review-text {
+    display: inline-block;
+    color: #ffffff;
+}
+
+.review-text strong {
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Yelp Review Button */
+.yelp-review:hover {
+    background: rgba(196, 18, 0, 0.8);
+    border-color: #ff1a1a;
+    box-shadow: 0 0 25px rgba(255, 26, 26, 0.5);
+    transform: translateY(-2px);
+}
+
+.yelp-review strong {
+    color: #ff1a1a;
+    text-shadow: 0 0 15px rgba(255, 26, 26, 0.7);
+}
+
+.yelp-review:hover .review-text,
+.yelp-review:hover .review-text strong {
+    color: #ffffff;
+}
+
+/* Google Review Button */
+.google-review:hover {
+    background: rgba(66, 133, 244, 0.8);
+    border-color: #4285f4;
+    box-shadow: 0 0 25px rgba(66, 133, 244, 0.5);
+    transform: translateY(-2px);
+}
+
+.google-review strong {
+    color: #4285f4;
+    text-shadow: 0 0 15px rgba(66, 133, 244, 0.7);
+}
+
+.google-review:hover .review-text,
+.google-review:hover .review-text strong {
+    color: #ffffff;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+    .hero-features {
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .review-feature {
+        padding: 0.75rem 1.5rem;
+        font-size: 0.95rem;
+        width: 250px;
+        justify-content: center;
+    }
+}
+
 .hero-scroll-indicator {
     position: absolute;
     bottom: 2rem;
@@ -3786,14 +3868,9 @@ img[src*="imagedelivery.net"] {
     padding: 0 2rem;
 }
 
-.about-content img {
-    display: block;
-    max-width: 350px;
-    height: auto;
-    border-radius: 10px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-    margin: 2rem auto;
-    border: 3px solid var(--neon-green);
+/* Ensure consistent section spacing */
+.about-content > hr {
+    margin: 4rem 0;
 }
 
 .about-content h2 {
@@ -3801,9 +3878,11 @@ img[src*="imagedelivery.net"] {
     font-size: 2.5rem;
     color: #006600;
     margin: 3rem 0 2rem;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     letter-spacing: 2px;
+    padding-bottom: 1rem;
+    border-bottom: 3px solid var(--neon-green);
 }
 
 .about-content h3 {
@@ -3811,7 +3890,20 @@ img[src*="imagedelivery.net"] {
     font-size: 1.75rem;
     color: #ff6600;
     margin: 2rem 0 1rem;
-    text-align: center;
+    text-align: left;
+}
+
+/* Style the emoji headers */
+.about-content h3:has(📆),
+.about-content h3:has(📍),
+.about-content h3:has(🎯),
+.about-content h3:has(✓) {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    color: #1a1a1a;
+    margin: 2rem 0 1rem;
 }
 
 .about-content h3 em {
@@ -3835,59 +3927,26 @@ img[src*="imagedelivery.net"] {
     margin: 3rem 0;
 }
 
-.about-content blockquote {
-    background: linear-gradient(135deg, #f0faf0 0%, #e8f8e8 100%);
-    border-left: 5px solid var(--neon-green);
-    padding: 2rem;
-    margin: 2rem auto;
-    max-width: 800px;
+/* Improve image styling */
+.about-content img {
+    display: block;
+    max-width: 350px;
+    height: auto;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-    font-style: italic;
-    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    margin: 2rem auto;
+    border: 3px solid var(--neon-green);
 }
 
-/* Special CTA blockquote styling */
-.about-content blockquote:has(h3) {
-    background: var(--neon-green);
-    border: none;
-    padding: 2.5rem;
-    box-shadow: 0 0 30px rgba(57, 255, 20, 0.5);
-    font-style: normal;
-    transition: all 0.3s ease;
-}
-
-.about-content blockquote:has(h3):hover {
-    transform: translateY(-3px);
-    box-shadow: 0 0 40px rgba(57, 255, 20, 0.7);
-}
-
-.about-content blockquote h3 {
-    color: #000;
-    font-size: 2rem;
-    margin: 0 0 1rem 0;
-}
-
-.about-content blockquote h3 a {
-    color: #000;
-    text-decoration: none;
-}
-
-.about-content blockquote p {
-    margin-bottom: 0.5rem;
-    color: #006600;
-    font-weight: 600;
-    font-size: 1.125rem;
-}
-
+/* Style lists with proper spacing and alignment */
 .about-content ul {
     list-style: none;
     padding: 0;
-    margin: 2rem 0;
+    margin: 1.5rem 0;
 }
 
 .about-content ul li {
-    padding: 1rem 0 1rem 2.5rem;
+    padding: 0.75rem 0 0.75rem 2.5rem;
     margin-bottom: 0.5rem;
     position: relative;
     font-size: 1.05rem;
@@ -3904,7 +3963,7 @@ img[src*="imagedelivery.net"] {
     text-shadow: 0 0 10px var(--neon-green);
 }
 
-/* Table Styling */
+/* Better table styling */
 .about-content table {
     width: 100%;
     max-width: 800px;
@@ -3939,6 +3998,85 @@ img[src*="imagedelivery.net"] {
     background: #f9f9f9;
 }
 
+/* Style customer testimonial blockquotes */
+.about-content blockquote {
+    background: #f9f9f9;
+    border-left: 4px solid var(--neon-green);
+    padding: 1.5rem 2rem;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    font-style: italic;
+    position: relative;
+}
+
+.about-content blockquote p {
+    margin: 0 0 0.5rem 0;
+    color: #333333;
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+.about-content blockquote p:last-child {
+    margin-bottom: 0;
+    font-style: normal;
+    text-align: right;
+    color: #666;
+    font-size: 0.95rem;
+}
+
+/* Special CTA blockquote styling */
+.about-content blockquote:has(h3) {
+    background: linear-gradient(135deg, #f0faf0 0%, #e8f8e8 100%);
+    border: 3px solid var(--neon-green);
+    border-left: 3px solid var(--neon-green);
+    padding: 2.5rem;
+    box-shadow: 0 0 30px rgba(57, 255, 20, 0.3);
+    font-style: normal;
+    text-align: center;
+    transition: all 0.3s ease;
+    margin: 3rem auto;
+}
+
+.about-content blockquote:has(h3):hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 40px rgba(57, 255, 20, 0.5);
+}
+
+.about-content blockquote h3 {
+    color: #006600;
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+.about-content blockquote h3 a {
+    color: #006600;
+    text-decoration: none;
+}
+
+/* Ensure proper section alignment */
+.about-content > h2,
+.about-content > h3 {
+    clear: both;
+}
+
+/* Consistent paragraph spacing */
+.about-content > p {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+    color: #333333;
+}
+
+/* Style the bottom quote */
+.about-content > blockquote:last-child {
+    background: linear-gradient(135deg, #f9f9f9 0%, #f0f0f0 100%);
+    border-left: 5px solid #ff6600;
+    margin: 4rem 0 2rem;
+    padding: 2rem;
+    font-size: 1.1rem;
+}
+
 /* Center the tagline after CTA */
 .about-content h2 + p,
 .about-content h3 + p strong {
@@ -3951,12 +4089,17 @@ img[src*="imagedelivery.net"] {
 
 /* Mobile Responsiveness */
 @media (max-width: 768px) {
+    .about-content {
+        padding: 0 1rem;
+    }
+    
     .about-content img {
         max-width: 100%;
     }
     
     .about-content h2 {
         font-size: 2rem;
+        margin: 2rem 0 1.5rem;
     }
     
     .about-content h3 {
@@ -3975,6 +4118,36 @@ img[src*="imagedelivery.net"] {
     .about-content table th,
     .about-content table td {
         padding: 0.75rem;
+    }
+    
+    /* Stack emoji headers on mobile */
+    .about-content h3:has(📆),
+    .about-content h3:has(📍),
+    .about-content h3:has(🎯),
+    .about-content h3:has(✓) {
+        font-size: 1.25rem;
+    }
+    
+    .about-content ul li {
+        padding-left: 2rem;
+        font-size: 1rem;
+    }
+    
+    .about-content ul li::before {
+        font-size: 1.25rem;
+    }
+    
+    .about-content blockquote {
+        padding: 1rem 1.5rem;
+        margin: 1rem 0;
+    }
+    
+    .about-content blockquote:has(h3) {
+        padding: 2rem 1.5rem;
+    }
+    
+    .about-content blockquote h3 {
+        font-size: 1.5rem;
     }
 }
 

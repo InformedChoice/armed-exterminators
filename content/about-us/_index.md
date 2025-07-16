@@ -83,13 +83,7 @@ This isn't just a slogan—it's how Dale has operated since day one. We believe 
 
 ---
 
-## Why Families Choose Armed Exterminators
-
-### The Personal Touch
-When you call Armed, you're not getting a call center—you're getting local professionals who know your neighborhood. Whether you're dealing with rats in a Burbank warehouse, bed bugs in a Hollywood apartment, or gophers in a San Marino estate, Dale's experience across LA County means we've solved your exact problem before. Dale often answers the phone himself and personally oversees complex cases.
-
-### Real Results
-Our customers say it best:
+## Real Results From Real Customers
 
 > *"Dale's been taking care of our home for 15 years. Wouldn't trust anyone else."*  
 > — **The Martinez Family, Pasadena**
@@ -100,7 +94,10 @@ Our customers say it best:
 > *"Professional, knowledgeable, and genuinely cares about doing the job right."*  
 > — **Robert Chen, San Gabriel**
 
-### Fair, Transparent Pricing
+---
+
+## Fair, Transparent Pricing
+
 - No hidden fees or surprise charges
 - Written estimates before any work begins
 - Multiple service plans to fit your budget
@@ -146,7 +143,7 @@ We're here whenever you need us
 
 Join thousands of satisfied customers who trust Dale and his team for all their pest control needs.
 
-> ### Call [(626) 256-3200](tel:6262563200) Today
+> ### 📞 Call [(626) 256-3200](tel:6262563200) Today
 > 
 > **Same-Day Service • Free Estimates • 90-Day Guarantee**
 
