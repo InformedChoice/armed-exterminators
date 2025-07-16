@@ -1189,6 +1189,28 @@ html {
     color: var(--neon-green);
 }
 
+/* Hide scroll indicator on mobile devices */
+@media (max-width: 768px) {
+    .hero-scroll-indicator {
+        display: none;
+    }
+}
+
+/* For tablets and small laptops, make it smaller and adjust position */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .hero-scroll-indicator {
+        bottom: 1rem;
+    }
+    
+    .scroll-text {
+        font-size: 0.75rem;
+    }
+    
+    .scroll-arrow {
+        font-size: 1.25rem;
+    }
+}
+
 @keyframes bounce {
     0%, 100% { transform: translateX(-50%) translateY(0); }
     50% { transform: translateX(-50%) translateY(10px); }
