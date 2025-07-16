@@ -1357,6 +1357,225 @@ html {
     text-shadow: 0 0 10px rgba(0, 51, 0, 0.5);
 }
 
+/* Service Standards Section */
+.service-standards {
+    padding: 5rem 0;
+    background: #ffffff;
+    position: relative;
+}
+
+.service-standards::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, 
+        transparent,
+        rgba(255, 102, 0, 0.3) 20%,
+        rgba(57, 255, 20, 0.3) 50%,
+        rgba(0, 255, 255, 0.3) 80%,
+        transparent
+    );
+}
+
+.standards-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.standards-intro {
+    max-width: 800px;
+    margin: 2rem auto 0;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: #333333;
+}
+
+.standards-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.standards-images {
+    position: sticky;
+    top: 100px;
+}
+
+.image-stack {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.image-stack img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+    border: 2px solid var(--neon-green);
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    transition: all 0.3s ease;
+}
+
+.image-stack img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 30px rgba(57, 255, 20, 0.4);
+    border-color: var(--neon-green);
+}
+
+.standards-list {
+    background: #f9f9f9;
+    padding: 3rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.standards-subtitle {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: #006600;
+    text-align: center;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 3px solid var(--neon-green);
+    padding-bottom: 1rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.standards-table {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.standard-item {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    gap: 1.5rem;
+    align-items: start;
+    padding: 1.5rem;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.standard-item:hover {
+    border-color: var(--neon-green);
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.2);
+    transform: translateX(5px);
+}
+
+.standard-number {
+    width: 50px;
+    height: 50px;
+    background: var(--neon-green);
+    color: #000000;
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(57, 255, 20, 0.4);
+    flex-shrink: 0;
+}
+
+.standard-content h4 {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.standard-content p {
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Mobile Responsive for Service Standards */
+@media (max-width: 1024px) {
+    .standards-content {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
+    
+    .standards-images {
+        position: static;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    .image-stack {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .service-standards {
+        padding: 3rem 0;
+    }
+    
+    .standards-header {
+        margin-bottom: 2rem;
+    }
+    
+    .standards-intro {
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+    
+    .standards-list {
+        padding: 2rem 1.5rem;
+    }
+    
+    .standards-subtitle {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .standards-table {
+        gap: 1rem;
+    }
+    
+    .standard-item {
+        grid-template-columns: 45px 1fr;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    .standard-number {
+        width: 40px;
+        height: 40px;
+        font-size: 1.25rem;
+    }
+    
+    .standard-content h4 {
+        font-size: 1.1rem;
+    }
+    
+    .standard-content p {
+        font-size: 0.9rem;
+    }
+    
+    .image-stack img {
+        max-height: 250px;
+        border-width: 1px;
+    }
+}
+
 /* Service Areas Preview Section */
 .service-areas-preview {
     padding: 5rem 0;
