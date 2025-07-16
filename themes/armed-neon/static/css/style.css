@@ -29,19 +29,19 @@
 /* Font loading optimization with proper fallbacks */
 @font-face {
     font-family: 'Bebas Neue';
-    font-display: optional;
+    font-display: swap; /* Changed from optional to swap */
     src: local('Bebas Neue');
 }
 
 @font-face {
     font-family: 'Oswald';
-    font-display: optional;
+    font-display: swap; /* Changed from optional to swap */
     src: local('Oswald');
 }
 
 @font-face {
     font-family: 'Inter';
-    font-display: optional;
+    font-display: swap; /* Changed from optional to swap */
     src: local('Inter');
 }
 
@@ -99,7 +99,7 @@ body {
 .logo {
     text-decoration: none;
     font-family: var(--font-display);
-    font-size: 2rem;
+    font-size: 1.5rem; /* Reduced from 2rem */
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -397,6 +397,83 @@ body {
 .service-areas-hub .page-title {
     text-align: center;
     margin-bottom: 3rem;
+}
+
+/* ========================================
+   BLUR FIX FOR HERO TITLE
+   Fixes blurry ARMED EXTERMINATORS text
+   ======================================== */
+
+/* Reset any problematic properties on hero title */
+.hero-title {
+    /* Remove any transforms or filters causing blur */
+    transform: none !important;
+    filter: none !important;
+    
+    /* Optimize text rendering for sharpness */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    
+    /* Force GPU acceleration for crisp rendering */
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    
+    /* Ensure proper font */
+    font-family: 'Bebas Neue', 'Arial Black', 'Impact', sans-serif !important;
+    font-weight: 900 !important;
+    letter-spacing: 0.05em;
+}
+
+/* Fix individual title lines */
+.hero-title .title-line-1,
+.hero-title .title-line-2 {
+    /* Remove inherited transforms */
+    transform: none !important;
+    
+    /* Sharp text rendering */
+    -webkit-font-smoothing: antialiased;
+    text-rendering: geometricPrecision;
+    
+    /* Ensure font weight */
+    font-weight: 900 !important;
+    
+    /* Prevent animation blur */
+    will-change: auto !important;
+}
+
+/* Sharper text shadow for ARMED (white text) */
+.hero-title .title-line-1 {
+    color: #ffffff !important;
+    text-shadow: 
+        0 0 10px rgba(255, 255, 255, 0.8),
+        0 0 20px rgba(255, 255, 255, 0.4) !important;
+}
+
+/* Sharper green glow for EXTERMINATORS */
+.hero-title .title-line-2 {
+    color: #39FF14 !important;
+    text-shadow: 
+        0 0 5px #39FF14,
+        0 0 10px #39FF14,
+        0 0 20px rgba(57, 255, 20, 0.8) !important;
+}
+
+/* Remove backdrop filters on hero section */
+.hero-section,
+.hero-background,
+.hero-content {
+    backdrop-filter: none !important;
+    filter: none !important;
+}
+
+/* Disable problematic animations during load */
+@media screen {
+    .hero-title:not(.loaded) * {
+        animation: none !important;
+        transition: none !important;
+    }
 }
 
 .service-areas-hub .title-main {
@@ -744,7 +821,8 @@ body.interior-page .site-footer .footer-links a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    margin-top: 0; /* Changed from 80px to 0 */
+    padding-top: 80px; /* Add padding instead of margin */
     overflow: hidden;
 }
 
@@ -754,7 +832,10 @@ html {
 
 .hero-background {
     position: absolute;
-    inset: 0;
+    top: 0; /* Start from top */
+    left: 0;
+    right: 0;
+    bottom: 0;
     z-index: 0;
 }
 
@@ -849,23 +930,35 @@ html {
 
 .hero-title {
     font-family: var(--font-display);
-    font-size: clamp(4rem, 12vw, 8rem);
+    font-size: clamp(3.5rem, 10vw, 7rem); /* Reduced from 4rem/12vw/8rem */
     line-height: 0.9;
     margin-bottom: 1rem;
+    /* Chrome-specific blur fix */
+    -webkit-font-smoothing: subpixel-antialiased;
+    transform: translate3d(0,0,0);
+    letter-spacing: 0.02em; /* Add slight letter spacing */
+    text-align: center; /* Ensure center alignment */
 }
 
 .title-line-1 {
     display: block;
     color: var(--text-primary);
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    font-weight: 400; /* Use normal weight */
+    margin-bottom: -0.05em; /* Less negative margin = more space */
+    font-size: 1em; /* Base size */
 }
 
 .title-line-2 {
     display: block;
     color: var(--neon-green);
-    /* Optimize rendering on all devices */
-    will-change: transform;
-    contain: layout style paint;
+    text-shadow: 0 0 20px var(--neon-green),
+                 0 0 40px var(--neon-green),
+                 0 0 60px var(--neon-green);
+    font-weight: 400; /* Use normal weight */
+    letter-spacing: 0.05em; /* More spacing for EXTERMINATORS */
+    font-size: 0.85em; /* Smaller than ARMED */
+    margin: 0 auto; /* Center horizontally */
 }
 
 /* Desktop: Full neon effect */
@@ -886,14 +979,15 @@ html {
 
 @keyframes neon-flicker {
     0%, 100% { opacity: 1; }
-    50% { opacity: 0.8; }
+    50% { opacity: 0.95; } /* Less dramatic opacity change */
 }
 
 /* Only animate after page load and on desktop */
 @media (min-width: 769px) {
-    body.loaded .title-line-2 {
+    /* Disabled flicker animation - can cause blur */
+    /* body.loaded .title-line-2 {
         animation: neon-flicker 3s infinite alternate;
-    }
+    } */
 
     body.loaded .neon-grid {
         animation: grid-move 20s linear infinite;
@@ -1076,6 +1170,7 @@ html {
     text-decoration: none;
     cursor: pointer;
     transition: all 0.3s ease;
+    z-index: 10; /* Ensure it's above other elements */
 }
 
 .hero-scroll-indicator:hover {
