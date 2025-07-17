@@ -461,8 +461,14 @@ body {
     color: var(--color-white);
     font-size: 1em;
     margin-bottom: -0.05em;
-    /* Subtle white glow for neon effect */
-    text-shadow: 0 0 8px rgba(255,255,255,0.8);
+    /* Subtle layered white neon glow effect */
+    text-shadow: 
+        /* Inner bright white glow */
+        0 0 5px rgba(255,255,255,0.8),
+        0 0 10px rgba(255,255,255,0.6),
+        /* Outer softer white glow */
+        0 0 20px rgba(255,255,255,0.3),
+        0 0 30px rgba(255,255,255,0.2);
 }
 
 /* EXTERMINATORS - Neon Red with glow */
@@ -471,8 +477,14 @@ body {
     font-size: 0.85em;
     letter-spacing: 0.05em;
     margin: 0 auto;
-    /* Red glow for neon effect */
-    text-shadow: 0 0 8px rgba(255,59,48,0.8);
+    /* Subtle layered red neon glow effect */
+    text-shadow: 
+        /* Inner bright red glow */
+        0 0 5px rgba(255,59,48,0.9),
+        0 0 10px rgba(255,59,48,0.7),
+        /* Outer softer red glow */
+        0 0 20px rgba(255,59,48,0.4),
+        0 0 30px rgba(255,59,48,0.3);
 }
 
 /* Remove ALL backdrop filters and transforms from hero section */
@@ -529,11 +541,17 @@ body {
     
     /* Subtle glow for iOS */
     .title-line-1 {
-        text-shadow: 0 0 6px rgba(255,255,255,0.6);
+        text-shadow: 
+            /* Even more reduced for mobile */
+            0 0 5px rgba(255,255,255,0.7),
+            0 0 15px rgba(255,255,255,0.3);
     }
     
     .title-line-2 {
-        text-shadow: 0 0 6px rgba(255,59,48,0.6);
+        text-shadow: 
+            /* Even more reduced for mobile */
+            0 0 5px rgba(255,59,48,0.8),
+            0 0 15px rgba(255,59,48,0.4);
     }
 }
 
