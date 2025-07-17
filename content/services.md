@@ -57,19 +57,29 @@ Our primary service area includes all communities in the San Gabriel Valley:
 
 ### Los Angeles
 Now serving key LA neighborhoods:
-- **Koreatown** - High-density apartments, restaurants
-- **Downtown LA** - High-rise buildings, lofts
-- **Hollywood** - Entertainment district, hotels
-- **Silver Lake** - Hillside homes
-- **Echo Park** - Historic neighborhoods
+- **[Koreatown](/locations/koreatown/)** - High-density apartments, restaurants
+- **[Downtown LA](/locations/downtown-los-angeles/)** - High-rise buildings, lofts
+- **[Hollywood](/locations/hollywood/)** - Entertainment district, hotels
+- **[Silver Lake](/locations/silver-lake/)** - Hillside homes
+- **[Echo Park](/locations/echo-park/)** - Historic neighborhoods
+- **[Los Feliz](/locations/los-feliz/)** - Hillside communities
+- **[Mid-Wilshire](/locations/mid-wilshire/)** - Urban corridors
+- **[Greater Wilshire/Hancock Park](/locations/greater-wilshire-hancock-park/)** - Historic estates
+- **[Larchmont Village](/locations/larchmont-village/)** - Boutique district
+- **[Windsor Square](/locations/windsor-square/)** - Historic homes
+- **[Fremont Place](/locations/fremont-place/)** - Gated community
+- **[Hollywood Hills](/locations/hollywood-hills/)** - Luxury hillside homes
+- **[Highland Park](/locations/highland-park/)** - Arts district
+- **[Eagle Rock](/locations/eagle-rock/)** - Family neighborhoods
+- **[South Los Angeles](/locations/south-los-angeles/)** - Diverse communities
 
 ### San Fernando Valley
 Now serving:
-- **Burbank** - Media district
-- **Glendale** - Commercial centers
-- **North Hollywood** - Arts district
-- **Studio City** - Upscale homes
-- **Sherman Oaks** - Shopping areas
+- **[Burbank](/locations/burbank/)** - Media district
+- **[Glendale](/locations/glendale/)** - Commercial centers
+- **North Hollywood** - Arts district (coming soon)
+- **Studio City** - Upscale homes (coming soon)
+- **Sherman Oaks** - Shopping areas (coming soon)
 
 ## Why Professional Pest Control?
 

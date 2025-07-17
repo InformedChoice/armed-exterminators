@@ -15,7 +15,7 @@
     --color-blue:      #00E0FF;  /* Electric Blue */
     
     /* Legacy color mappings for compatibility */
-    --neon-green: #39FF14;
+    --neon-green: var(--color-blue);  /* Changed to blue */
     --neon-pink: #FF10F0;
     --neon-blue: var(--color-blue);
     --neon-yellow: #FFFF00;
