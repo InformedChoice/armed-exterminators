@@ -6,18 +6,26 @@
 }
 
 :root {
-    /* Neon Colors */
+    /* Core Palette - Navy & Red Theme */
+    --color-bg:        #0C1E36;  /* Deep Navy */
+    --color-white:     #FFFFFF;  /* Neon White */
+    --color-red:       #FF3B30;  /* Neon Red */
+    --color-peach:     #E8B09A;  /* Peach Accent */
+    --color-black:     #000000;  /* Outline Black */
+    --color-blue:      #00E0FF;  /* Electric Blue */
+    
+    /* Legacy color mappings for compatibility */
     --neon-green: #39FF14;
     --neon-pink: #FF10F0;
-    --neon-blue: #00FFFF;
+    --neon-blue: var(--color-blue);
     --neon-yellow: #FFFF00;
-    --neon-orange: #FF6600;
+    --neon-orange: var(--color-red);
     
-    /* Dark Theme */
-    --bg-dark: #0a0a0a;
-    --bg-darker: #050505;
-    --bg-card: #1a1a1a;
-    --text-primary: #ffffff;
+    /* Dark Theme - Updated */
+    --bg-dark: var(--color-bg);
+    --bg-darker: #071228;
+    --bg-card: #142642;
+    --text-primary: var(--color-white);
     --text-secondary: #b0b0b0;
     
     /* Fonts with proper fallbacks to prevent layout shifts */
@@ -47,7 +55,7 @@
 
 body {
     font-family: var(--font-body);
-    background-color: var(--bg-dark);
+    background-color: var(--color-bg); /* Deep Navy background */
     color: var(--text-primary);
     line-height: 1.6;
     overflow-x: hidden;
@@ -77,10 +85,10 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: rgba(10, 10, 10, 0.98); /* Increased opacity instead of blur */
+    background: rgba(12, 30, 54, 0.98); /* Deep Navy with opacity */
     /* REMOVED backdrop-filter that can cause blur issues */
-    border-bottom: 2px solid var(--neon-green);
-    box-shadow: 0 0 20px rgba(57, 255, 20, 0.5);
+    border-bottom: 2px solid var(--color-red); /* Red accent line */
+    box-shadow: 0 0 20px rgba(255, 59, 48, 0.3); /* Red glow */
 }
 
 .navbar {
@@ -107,14 +115,12 @@ body {
 
 .logo-text {
     color: var(--text-primary);
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    /* text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); */ /* REMOVED FOR TESTING */
 }
 
 .logo-accent {
-    color: var(--neon-green);
-    text-shadow: 0 0 20px var(--neon-green),
-                 0 0 40px var(--neon-green),
-                 0 0 60px var(--neon-green);
+    color: var(--color-red); /* Changed to neon red */
+    text-shadow: 0 0 6px rgba(255,59,48,0.6); /* Subtle red glow */
 }
 
 .nav-menu {
@@ -162,8 +168,8 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-    color: var(--neon-green);
-    text-shadow: 0 0 10px var(--neon-green);
+    color: var(--color-red);
+    text-shadow: 0 0 6px rgba(255, 59, 48, 0.6);
 }
 
 .nav-link::after {
@@ -173,32 +179,32 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--neon-green);
+    background: var(--color-red);
     transition: width 0.3s ease;
 }
 
 .nav-link:hover::after,
 .nav-link.active::after {
     width: 100%;
-    box-shadow: 0 0 10px var(--neon-green);
+    box-shadow: 0 0 6px rgba(255, 59, 48, 0.6);
 }
 
 .phone-number {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: var(--neon-yellow);
+    color: var(--color-blue); /* Electric blue for phone */
     text-decoration: none;
     font-weight: 700;
     font-size: 1.2rem;
-    text-shadow: 0 0 10px var(--neon-yellow);
+    text-shadow: 0 0 6px rgba(0, 224, 255, 0.6);
     transition: all 0.3s ease;
 }
 
 .phone-number:hover {
     transform: scale(1.05);
-    text-shadow: 0 0 20px var(--neon-yellow),
-                 0 0 40px var(--neon-yellow);
+    text-shadow: 0 0 10px rgba(0, 224, 255, 0.8),
+                 0 0 20px rgba(0, 224, 255, 0.6);
 }
 
 .mobile-menu-toggle {
@@ -450,41 +456,23 @@ body {
     will-change: auto !important;
 }
 
-/* ARMED - White text with layered white glow (best practice) */
+/* ARMED - Neon White with subtle glow */
 .hero-title .title-line-1 {
-    color: #fff;
+    color: var(--color-white);
     font-size: 1em;
     margin-bottom: -0.05em;
-    /* Layered text-shadow for neon effect without blur */
-    text-shadow:
-        /* Small white glow at text edges */
-        0 0 7px #fff,
-        0 0 10px #fff,
-        0 0 21px #fff,
-        /* Larger white outer glow */
-        0 0 42px rgba(255, 255, 255, 0.8),
-        0 0 82px rgba(255, 255, 255, 0.6),
-        0 0 92px rgba(255, 255, 255, 0.4);
+    /* Subtle white glow for neon effect */
+    text-shadow: 0 0 8px rgba(255,255,255,0.8);
 }
 
-/* EXTERMINATORS - Green neon text (best practice) */
+/* EXTERMINATORS - Neon Red with glow */
 .hero-title .title-line-2 {
-    color: #39FF14;
+    color: var(--color-red);
     font-size: 0.85em;
     letter-spacing: 0.05em;
     margin: 0 auto;
-    /* Layered text-shadow for authentic neon glow */
-    text-shadow:
-        /* Bright green core glow */
-        0 0 7px #39FF14,
-        0 0 10px #39FF14,
-        0 0 21px #39FF14,
-        /* Larger green outer glow */
-        0 0 42px #39FF14,
-        0 0 82px #39FF14,
-        0 0 92px rgba(57, 255, 20, 0.8),
-        0 0 102px rgba(57, 255, 20, 0.6),
-        0 0 151px rgba(57, 255, 20, 0.4);
+    /* Red glow for neon effect */
+    text-shadow: 0 0 8px rgba(255,59,48,0.8);
 }
 
 /* Remove ALL backdrop filters and transforms from hero section */
@@ -512,20 +500,13 @@ body {
         -webkit-font-smoothing: subpixel-antialiased;
     }
     
-    /* Simplified shadows for iOS performance */
+    /* Subtle glow for mobile */
     .title-line-1 {
-        text-shadow:
-            0 0 10px #fff,
-            0 0 20px #fff,
-            0 0 40px rgba(255, 255, 255, 0.6);
+        text-shadow: 0 0 6px rgba(255,255,255,0.6);
     }
     
     .title-line-2 {
-        text-shadow:
-            0 0 10px #39FF14,
-            0 0 20px #39FF14,
-            0 0 40px #39FF14,
-            0 0 60px rgba(57, 255, 20, 0.6);
+        text-shadow: 0 0 6px rgba(255,59,48,0.6);
     }
 }
 
@@ -546,18 +527,13 @@ body {
         transition: opacity 0.2s ease !important; /* Only allow simple opacity transitions */
     }
     
-    /* Even simpler shadows on mobile */
+    /* Subtle glow for iOS */
     .title-line-1 {
-        text-shadow:
-            0 0 10px #fff,
-            0 0 20px rgba(255, 255, 255, 0.8);
+        text-shadow: 0 0 6px rgba(255,255,255,0.6);
     }
     
     .title-line-2 {
-        text-shadow:
-            0 0 10px #39FF14,
-            0 0 20px #39FF14,
-            0 0 30px rgba(57, 255, 20, 0.8);
+        text-shadow: 0 0 6px rgba(255,59,48,0.6);
     }
 }
 
@@ -908,9 +884,11 @@ body.interior-page .site-footer .footer-links a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 0; /* Changed from 80px to 0 */
-    padding-top: 80px; /* Add padding instead of margin */
+    margin-top: 0;
+    padding-top: 80px;
     overflow: hidden;
+    /* Deep navy gradient background */
+    background: linear-gradient(180deg, #0C1E36 0%, #071228 100%);
     /* Isolate rendering context to prevent interference */
     isolation: isolate;
     /* Force layer creation for better performance */
@@ -935,11 +913,11 @@ html {
     position: absolute;
     inset: 0;
     background-image: 
-        linear-gradient(rgba(57, 255, 20, 0.05) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(57, 255, 20, 0.05) 1px, transparent 1px);
+        linear-gradient(rgba(0, 224, 255, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 224, 255, 0.02) 1px, transparent 1px);
     background-size: 50px 50px;
-    /* Reduced opacity to minimize visual interference */
-    opacity: 0.5;
+    /* Very subtle blue grid */
+    opacity: 0.3;
     /* Ensure it doesn't affect text rendering */
     pointer-events: none;
     z-index: 0;
@@ -1010,20 +988,20 @@ html {
 .badge-text {
     display: inline-block;
     padding: 0.5rem 2rem;
-    background: var(--neon-orange);
-    color: var(--bg-dark);
+    background: var(--color-peach); /* Peach accent from logo */
+    color: var(--color-bg); /* Dark text on peach */
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 0.875rem;
-    box-shadow: 0 0 20px var(--neon-orange),
+    box-shadow: 0 0 10px rgba(232,176,154,0.5),
                 inset 0 0 20px rgba(255, 255, 255, 0.2);
     animation: badge-pulse 2s infinite;
 }
 
 @keyframes badge-pulse {
-    0%, 100% { box-shadow: 0 0 20px var(--neon-orange), inset 0 0 20px rgba(255, 255, 255, 0.2); }
-    50% { box-shadow: 0 0 40px var(--neon-orange), inset 0 0 20px rgba(255, 255, 255, 0.4); }
+    0%, 100% { box-shadow: 0 0 10px rgba(232,176,154,0.5), inset 0 0 20px rgba(255, 255, 255, 0.2); }
+    50% { box-shadow: 0 0 20px rgba(232,176,154,0.8), inset 0 0 20px rgba(255, 255, 255, 0.4); }
 }
 
 /* Hero title is now styled in the NEON TEXT GLOW section above */
@@ -1134,7 +1112,7 @@ html {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 0.5rem;
-    text-shadow: 0 0 10px var(--neon-yellow);
+    /* text-shadow: 0 0 10px var(--neon-yellow); */ /* REMOVED FOR TESTING */
 }
 
 .subtitle-tagline {
@@ -1193,30 +1171,34 @@ html {
 }
 
 .cta-primary {
-    background: var(--neon-green);
-    color: var(--bg-dark);
-    border-color: var(--neon-green);
-    box-shadow: 0 0 20px var(--neon-green),
-                inset 0 0 20px rgba(0, 0, 0, 0.2);
+    background: var(--color-red); /* Neon red */
+    color: var(--color-white);
+    border-color: var(--color-red);
+    padding: .75rem 1.5rem;
+    border: none;
+    border-radius: .25rem;
+    box-shadow: 0 0 6px rgba(255,59,48,0.6);
+    transition: box-shadow .2s ease;
 }
 
 .cta-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 0 40px var(--neon-green),
-                inset 0 0 40px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 12px rgba(255,59,48,0.8);
 }
 
 .cta-secondary {
     background: transparent;
-    color: var(--text-primary);
-    border-color: var(--neon-pink);
-    box-shadow: 0 0 10px var(--neon-pink);
+    color: var(--color-white);
+    border: 2px solid var(--color-white);
+    border-radius: .25rem;
+    box-shadow: 0 0 4px rgba(255,255,255,0.4);
+    transition: background .2s ease, box-shadow .2s ease;
 }
 
 .cta-secondary:hover {
-    background: var(--neon-pink);
-    color: var(--bg-dark);
-    box-shadow: 0 0 30px var(--neon-pink);
+    background: rgba(255,255,255,0.1);
+    box-shadow: 0 0 8px rgba(255,255,255,0.6);
+    transform: translateY(-2px);
 }
 
 .cta-text {
