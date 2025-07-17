@@ -1,12 +1,12 @@
 ---
-title: "Pest Control Services | Complete Pest Solutions"
-description: "Professional pest control services throughout San Gabriel Valley. Choose your pest problem for specialized solutions. Family-owned since 1996."
+title: "Pest Control Services | San Gabriel Valley, Los Angeles & San Fernando Valley"
+description: "Since 1996, Armed Exterminators has delivered fast, effective pest control across the San Gabriel Valley, Los Angeles & the San Fernando Valley. Call for a free quote."
 draft: false
 ---
 
-# Professional Pest Control Services
+# Professional Pest Control for the San Gabriel Valley & Greater Los Angeles
 
-Choose your specific pest problem below for targeted solutions throughout the San Gabriel Valley. Armed Exterminators has been solving pest problems since 1996 with specialized treatments for every situation.
+Choose your specific pest problem below for targeted solutions throughout the San Gabriel Valley, Los Angeles, and the San Fernando Valley. Armed Exterminators has been solving pest problems since 1996 with specialized treatments for every situation.
 
 ## Select Your Pest Problem
 
@@ -55,16 +55,16 @@ Our primary service area includes all communities in the San Gabriel Valley:
 - **[Temple City](/locations/temple-city/)** - Residential neighborhoods
 - **[El Monte](/locations/el-monte/)** - River area, industrial zones
 
-### Los Angeles (Coming Soon)
-Expanding service to key LA neighborhoods:
+### Los Angeles
+Now serving key LA neighborhoods:
 - **Koreatown** - High-density apartments, restaurants
 - **Downtown LA** - High-rise buildings, lofts
 - **Hollywood** - Entertainment district, hotels
 - **Silver Lake** - Hillside homes
 - **Echo Park** - Historic neighborhoods
 
-### San Fernando Valley (Coming Soon)
-Future expansion areas:
+### San Fernando Valley
+Now serving:
 - **Burbank** - Media district
 - **Glendale** - Commercial centers
 - **North Hollywood** - Arts district
