@@ -1,12 +1,12 @@
 ---
 title: "Pest Control Services | San Gabriel Valley, Los Angeles & San Fernando Valley"
-description: "Since 1996, Armed Exterminators has delivered fast, effective pest control across the San Gabriel Valley, Los Angeles & the San Fernando Valley. Call for a free quote."
+description: "Since 1997, Armed Exterminators has delivered fast, effective pest control across the San Gabriel Valley, Los Angeles & the San Fernando Valley. Call for a free quote."
 draft: false
 ---
 
 # Professional Pest Control for the San Gabriel Valley & Greater Los Angeles
 
-Choose your specific pest problem below for targeted solutions throughout the San Gabriel Valley, Los Angeles, and the San Fernando Valley. Armed Exterminators has been solving pest problems since 1996 with specialized treatments for every situation.
+Choose your specific pest problem below for targeted solutions throughout the San Gabriel Valley, Los Angeles, and the San Fernando Valley. Armed Exterminators has been solving pest problems since 1997 with specialized treatments for every situation.
 
 ## Select Your Pest Problem
 

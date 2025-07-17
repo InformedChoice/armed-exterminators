@@ -913,11 +913,11 @@ html {
     position: absolute;
     inset: 0;
     background-image: 
-        linear-gradient(rgba(0, 224, 255, 0.02) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(0, 224, 255, 0.02) 1px, transparent 1px);
+        linear-gradient(rgba(0, 224, 255, 0.15) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 224, 255, 0.15) 1px, transparent 1px);
     background-size: 50px 50px;
-    /* Very subtle blue grid */
-    opacity: 0.3;
+    /* More visible blue grid */
+    opacity: 0.8;
     /* Ensure it doesn't affect text rendering */
     pointer-events: none;
     z-index: 0;
