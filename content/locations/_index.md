@@ -3,8 +3,6 @@ title: "Service Areas | Professional Pest Control Across Greater Los Angeles"
 description: "Armed Exterminators delivers expert residential and commercial pest control to the San Gabriel Valley, Los Angeles, the San Fernando Valley, and all surrounding communities."
 ---
 
-# Service Areas – Pest Control Throughout Greater Los Angeles
-
 Armed Exterminators is a family‑owned company rooted in **Southern California**.  
 For more than a decade we've protected homes and businesses across:
 
