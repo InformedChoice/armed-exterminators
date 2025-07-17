@@ -561,8 +561,8 @@ body {
 }
 
 .area-section:hover {
-    border-color: var(--neon-green);
-    box-shadow: 0 0 20px rgba(57, 255, 20, 0.2);
+    border-color: var(--color-blue);
+    box-shadow: 0 0 20px rgba(0, 224, 255, 0.3); /* Blue glow */
 }
 
 .area-accordion {
@@ -589,7 +589,7 @@ body {
     top: 50%;
     transform: translateY(-50%);
     font-size: 1.25rem;
-    color: var(--neon-green);
+    color: var(--color-blue); /* Changed to blue */
     transition: transform 0.3s ease;
 }
 
@@ -605,7 +605,7 @@ body {
     margin: 0 0 0.5rem 0;
     font-family: var(--font-heading);
     font-size: 2rem;
-    color: #006600;
+    color: #0066CC; /* Darker blue for contrast */
     text-transform: uppercase;
 }
 
@@ -635,9 +635,9 @@ body {
 }
 
 .city-card:hover {
-    background: var(--neon-green);
-    border-color: var(--neon-green);
-    box-shadow: 0 0 15px rgba(57, 255, 20, 0.4);
+    background: var(--color-blue);
+    border-color: var(--color-blue);
+    box-shadow: 0 0 15px rgba(0, 224, 255, 0.4); /* Blue glow */
     transform: translateY(-3px);
 }
 
@@ -650,7 +650,7 @@ body {
 }
 
 .city-card:hover h3 {
-    color: #000;
+    color: #fff; /* White text on blue background */
 }
 
 .city-focus {
@@ -661,7 +661,7 @@ body {
 }
 
 .city-card:hover .city-focus {
-    color: #000;
+    color: #fff; /* White text on blue background */
 }
 
 .city-coming-soon {
@@ -679,13 +679,13 @@ body {
 
 /* San Gabriel Valley gets special treatment as primary area */
 #san-gabriel-valley .area-accordion summary h2 {
-    color: var(--neon-green);
-    text-shadow: 0 0 10px rgba(57, 255, 20, 0.3);
+    color: var(--color-blue);
+    text-shadow: 0 0 10px rgba(0, 224, 255, 0.3); /* Blue glow */
 }
 
 #san-gabriel-valley {
-    border-color: var(--neon-green);
-    box-shadow: 0 0 20px rgba(57, 255, 20, 0.2);
+    border-color: var(--color-blue);
+    box-shadow: 0 0 20px rgba(0, 224, 255, 0.2); /* Blue glow */
 }
 
 /* Mobile optimizations for service areas page */
