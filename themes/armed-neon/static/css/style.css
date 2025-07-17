@@ -77,8 +77,8 @@ body {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: rgba(10, 10, 10, 0.95);
-    backdrop-filter: blur(10px);
+    background: rgba(10, 10, 10, 0.98); /* Increased opacity instead of blur */
+    /* REMOVED backdrop-filter that can cause blur issues */
     border-bottom: 2px solid var(--neon-green);
     box-shadow: 0 0 20px rgba(57, 255, 20, 0.5);
 }
@@ -400,129 +400,164 @@ body {
 }
 
 /* ========================================
-   BLUR FIX FOR HERO TITLE
-   Fixes blurry ARMED EXTERMINATORS text
+   NEON TEXT GLOW - BEST PRACTICES IMPLEMENTATION
+   Fixes blurry text on Chrome/Safari using layered text-shadow
    ======================================== */
 
 /* Reset any problematic properties on hero title */
 .hero-title {
-    /* Remove any transforms or filters causing blur */
+    /* Base font setup */
+    font-family: var(--font-display);
+    font-size: clamp(3.5rem, 10vw, 7rem);
+    line-height: 0.9;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+    /* CRITICAL: Remove ALL transforms and filters that cause blur */
     transform: none !important;
     filter: none !important;
+    -webkit-transform: none !important;
+    -webkit-filter: none !important;
     
-    /* Optimize text rendering for sharpness */
+    /* Optimize text rendering */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     
-    /* Force GPU acceleration for crisp rendering */
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    
-    /* Ensure proper font */
-    font-family: 'Bebas Neue', 'Arial Black', 'Impact', sans-serif !important;
-    font-weight: 900 !important;
-    letter-spacing: 0.05em;
-    
-    /* Safari specific fixes */
-    -webkit-text-stroke: 0.2px transparent;
-    text-stroke: 0.2px transparent;
-    -webkit-perspective: 1000;
-    perspective: 1000;
+    /* No animations or transitions that can cause blur */
+    animation: none !important;
+    transition: none !important;
     will-change: auto !important;
+    
+    /* Ensure proper stacking */
+    position: relative;
+    z-index: 1;
 }
 
-/* Fix individual title lines */
+/* Individual title lines - keep them simple */
 .hero-title .title-line-1,
 .hero-title .title-line-2 {
-    /* Remove inherited transforms */
+    display: block;
+    /* NO transforms at all */
     transform: none !important;
+    -webkit-transform: none !important;
     
-    /* Sharp text rendering */
-    -webkit-font-smoothing: antialiased;
-    text-rendering: geometricPrecision;
+    /* Consistent font weight */
+    font-weight: 400;
     
-    /* Ensure font weight */
-    font-weight: 900 !important;
-    
-    /* Prevent animation blur */
+    /* No animations */
+    animation: none !important;
     will-change: auto !important;
-    
-    /* Additional Safari fixes */
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
 }
 
-/* Sharper text shadow for ARMED (white text) */
+/* ARMED - White text with layered white glow (best practice) */
 .hero-title .title-line-1 {
-    color: #ffffff !important;
-    text-shadow: 
-        0 0 10px rgba(255, 255, 255, 0.8),
-        0 0 20px rgba(255, 255, 255, 0.4) !important;
-    /* Safari shadow fix */
-    -webkit-text-shadow: 
-        0 0 10px rgba(255, 255, 255, 0.8),
-        0 0 20px rgba(255, 255, 255, 0.4) !important;
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: -0.05em;
+    /* Layered text-shadow for neon effect without blur */
+    text-shadow:
+        /* Small white glow at text edges */
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        /* Larger white outer glow */
+        0 0 42px rgba(255, 255, 255, 0.8),
+        0 0 82px rgba(255, 255, 255, 0.6),
+        0 0 92px rgba(255, 255, 255, 0.4);
 }
 
-/* Sharper green glow for EXTERMINATORS */
+/* EXTERMINATORS - Green neon text (best practice) */
 .hero-title .title-line-2 {
-    color: #39FF14 !important;
-    text-shadow: 
-        0 0 5px #39FF14,
+    color: #39FF14;
+    font-size: 0.85em;
+    letter-spacing: 0.05em;
+    margin: 0 auto;
+    /* Layered text-shadow for authentic neon glow */
+    text-shadow:
+        /* Bright green core glow */
+        0 0 7px #39FF14,
         0 0 10px #39FF14,
-        0 0 20px rgba(57, 255, 20, 0.8) !important;
-    /* Safari shadow fix */
-    -webkit-text-shadow: 
-        0 0 5px #39FF14,
-        0 0 10px #39FF14,
-        0 0 20px rgba(57, 255, 20, 0.8) !important;
+        0 0 21px #39FF14,
+        /* Larger green outer glow */
+        0 0 42px #39FF14,
+        0 0 82px #39FF14,
+        0 0 92px rgba(57, 255, 20, 0.8),
+        0 0 102px rgba(57, 255, 20, 0.6),
+        0 0 151px rgba(57, 255, 20, 0.4);
 }
 
-/* Remove backdrop filters on hero section */
+/* Remove ALL backdrop filters and transforms from hero section */
 .hero-section,
 .hero-background,
-.hero-content {
-    backdrop-filter: none !important;
+.hero-content,
+.neon-grid,
+.hero-bugs {
+    /* NO filters or backdrop filters */
     filter: none !important;
+    backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
+    
+    /* NO transforms that might affect text rendering */
+    transform: none !important;
+    -webkit-transform: none !important;
 }
 
-/* Safari-specific hero title fixes */
-@supports (-webkit-appearance: none) and (stroke-color: transparent) {
+/* iOS Safari specific optimizations */
+@supports (-webkit-touch-callout: none) {
     .hero-title {
-        /* Force repaint in Safari */
-        -webkit-transform: translateZ(0) scale(1.0);
-        transform: translateZ(0) scale(1.0);
+        /* Force hardware acceleration WITHOUT blur */
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-font-smoothing: subpixel-antialiased;
     }
     
-    .title-line-1,
-    .title-line-2 {
-        /* Disable subpixel rendering that causes blur */
-        -webkit-font-smoothing: antialiased !important;
-        /* Add minimal stroke to sharpen edges */
-        -webkit-text-stroke: 0.3px rgba(0,0,0,0.1);
-        text-stroke: 0.3px rgba(0,0,0,0.1);
-    }
-    
-    /* Reduce shadow complexity in Safari */
+    /* Simplified shadows for iOS performance */
     .title-line-1 {
-        text-shadow: 0 0 15px rgba(255, 255, 255, 0.6) !important;
-        -webkit-text-shadow: 0 0 15px rgba(255, 255, 255, 0.6) !important;
+        text-shadow:
+            0 0 10px #fff,
+            0 0 20px #fff,
+            0 0 40px rgba(255, 255, 255, 0.6);
     }
     
     .title-line-2 {
-        text-shadow: 0 0 15px rgba(57, 255, 20, 0.8) !important;
-        -webkit-text-shadow: 0 0 15px rgba(57, 255, 20, 0.8) !important;
+        text-shadow:
+            0 0 10px #39FF14,
+            0 0 20px #39FF14,
+            0 0 40px #39FF14,
+            0 0 60px rgba(57, 255, 20, 0.6);
     }
 }
 
-/* Disable problematic animations during load */
-@media screen {
-    .hero-title:not(.loaded) * {
+/* Chrome-specific optimizations */
+@media screen and (-webkit-min-device-pixel-ratio: 0) and (min-resolution: 0.001dpcm) {
+    .hero-title {
+        /* Chrome-specific rendering optimization */
+        image-rendering: -webkit-optimize-contrast;
+    }
+}
+
+/* Disable ALL animations on mobile for performance */
+@media (max-width: 768px) {
+    .hero-section *,
+    .hero-content *,
+    .hero-background * {
         animation: none !important;
-        transition: none !important;
+        transition: opacity 0.2s ease !important; /* Only allow simple opacity transitions */
+    }
+    
+    /* Even simpler shadows on mobile */
+    .title-line-1 {
+        text-shadow:
+            0 0 10px #fff,
+            0 0 20px rgba(255, 255, 255, 0.8);
+    }
+    
+    .title-line-2 {
+        text-shadow:
+            0 0 10px #39FF14,
+            0 0 20px #39FF14,
+            0 0 30px rgba(57, 255, 20, 0.8);
     }
 }
 
@@ -825,27 +860,7 @@ body {
     transform: rotate(-45deg) translate(7px, -6px);
 }
 
-/* iOS Safari specific fixes for blur */
-@supports (-webkit-touch-callout: none) {
-    .hero-title {
-        -webkit-transform: translateZ(0);
-        -webkit-filter: blur(0);
-        filter: blur(0);
-    }
-    
-    .title-line-1,
-    .title-line-2 {
-        -webkit-transform: translateZ(0);
-        transform: translateZ(0);
-        -webkit-font-smoothing: subpixel-antialiased;
-        -webkit-text-stroke: 0.45px rgba(0, 0, 0, 0.1); /* Subtle stroke to sharpen text */
-    }
-    
-    /* Reduce text shadow complexity on iOS */
-    .title-line-2 {
-        text-shadow: 0 0 10px var(--neon-green);
-    }
-}
+/* iOS Safari fixes are now in the NEON TEXT GLOW section above */
 
 /* Prevent scroll when menu is open */
 body.menu-open {
@@ -896,6 +911,11 @@ body.interior-page .site-footer .footer-links a:hover {
     margin-top: 0; /* Changed from 80px to 0 */
     padding-top: 80px; /* Add padding instead of margin */
     overflow: hidden;
+    /* Isolate rendering context to prevent interference */
+    isolation: isolate;
+    /* Force layer creation for better performance */
+    will-change: transform;
+    transform: translateZ(0);
 }
 
 html {
@@ -915,14 +935,20 @@ html {
     position: absolute;
     inset: 0;
     background-image: 
-        linear-gradient(rgba(57, 255, 20, 0.1) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(57, 255, 20, 0.1) 1px, transparent 1px);
+        linear-gradient(rgba(57, 255, 20, 0.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(57, 255, 20, 0.05) 1px, transparent 1px);
     background-size: 50px 50px;
+    /* Reduced opacity to minimize visual interference */
+    opacity: 0.5;
+    /* Ensure it doesn't affect text rendering */
+    pointer-events: none;
+    z-index: 0;
 }
 
+/* Grid animation disabled - can cause rendering issues */
 @keyframes grid-move {
     0% { transform: translate(0, 0); }
-    100% { transform: translate(50px, 50px); }
+    100% { transform: translate(0, 0); } /* No movement */
 }
 
 .hero-bugs {
@@ -1000,80 +1026,34 @@ html {
     50% { box-shadow: 0 0 40px var(--neon-orange), inset 0 0 20px rgba(255, 255, 255, 0.4); }
 }
 
-.hero-title {
-    font-family: var(--font-display);
-    font-size: clamp(3.5rem, 10vw, 7rem); /* Reduced from 4rem/12vw/8rem */
-    line-height: 0.9;
-    margin-bottom: 1rem;
-    /* Chrome-specific blur fix */
-    -webkit-font-smoothing: subpixel-antialiased;
-    transform: translate3d(0,0,0);
-    letter-spacing: 0.02em; /* Add slight letter spacing */
-    text-align: center; /* Ensure center alignment */
-    
-    /* Safari-specific fixes */
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    -webkit-font-kerning: normal;
-    font-kerning: normal;
-}
+/* Hero title is now styled in the NEON TEXT GLOW section above */
 
-.title-line-1 {
-    display: block;
-    color: var(--text-primary);
-    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-    font-weight: 400; /* Use normal weight */
-    margin-bottom: -0.05em; /* Less negative margin = more space */
-    font-size: 1em; /* Base size */
-}
+/* Title line styles are now in the NEON TEXT GLOW section above */
 
-.title-line-2 {
-    display: block;
-    color: var(--neon-green);
-    text-shadow: 0 0 20px var(--neon-green),
-                 0 0 40px var(--neon-green),
-                 0 0 60px var(--neon-green);
-    font-weight: 400; /* Use normal weight */
-    letter-spacing: 0.05em; /* More spacing for EXTERMINATORS */
-    font-size: 0.85em; /* Smaller than ARMED */
-    margin: 0 auto; /* Center horizontally */
-}
+/* Desktop and mobile styles are now in the NEON TEXT GLOW section above */
 
-/* Desktop: Full neon effect */
-@media (min-width: 769px) {
-    .title-line-2 {
-        text-shadow: 0 0 5px var(--neon-green),
-                     0 0 10px var(--neon-green);
-    }
-}
-
-/* Mobile: Simplified for performance */
-@media (max-width: 768px) {
-    .title-line-2 {
-        text-shadow: 0 0 5px var(--neon-green);
-        /* Single shadow for better mobile performance */
-        
-        /* iOS-specific optimizations */
-        -webkit-transform: translate3d(0,0,0);
-        -webkit-font-smoothing: antialiased;
-        -webkit-text-size-adjust: 100%;
-        text-rendering: optimizeLegibility;
-    }
-    
-    /* Disable blur-causing effects on mobile */
-    .hero-title {
-        will-change: auto;
-        backface-visibility: hidden;
-        -webkit-backface-visibility: hidden;
-        perspective: 1000;
-        -webkit-perspective: 1000;
-    }
-}
-
+/* Optional: Subtle neon flicker effect (disabled by default to prevent blur) */
 @keyframes neon-flicker {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.95; } /* Less dramatic opacity change */
+    /* Various percentages where the neon is at full brightness */
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        opacity: 1;
+        filter: brightness(1);
+    }
+    /* Percentages where the neon dims slightly (not completely off) */
+    20%, 24%, 55% {
+        opacity: 0.97;
+        filter: brightness(0.95);
+    }
 }
+
+/* To enable flicker on desktop only (uncomment if desired): */
+/*
+@media (min-width: 1024px) {
+    .title-line-2 {
+        animation: neon-flicker 1.5s infinite alternate;
+    }
+}
+*/
 
 /* Only animate after page load and on desktop */
 @media (min-width: 769px) {
@@ -1082,9 +1062,10 @@ html {
         animation: neon-flicker 3s infinite alternate;
     } */
 
-    body.loaded .neon-grid {
+    /* Grid animation disabled to prevent rendering issues */
+    /* body.loaded .neon-grid {
         animation: grid-move 20s linear infinite;
-    }
+    } */
 
     body.loaded .bug {
         animation: float 10s infinite ease-in-out;
@@ -1276,7 +1257,7 @@ html {
     align-items: center;
     gap: 0.5rem;
     padding: 0.85rem 1.75rem;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9); /* Increased opacity instead of blur */
     border: 2px solid rgba(255, 255, 255, 0.6);
     border-radius: 30px;
     text-decoration: none;
@@ -1285,8 +1266,7 @@ html {
     font-size: 1.05rem;
     letter-spacing: 0.5px;
     transition: all 0.3s ease;
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    /* REMOVED backdrop-filter that causes blur on nearby elements */
 }
 
 .review-text {
@@ -1404,29 +1384,7 @@ html {
     color: var(--neon-green);
 }
 
-/* Specific iOS Safari fixes */
-@supports (-webkit-touch-callout: none) {
-    .hero-title {
-        /* iOS-specific rendering */
-        -webkit-font-smoothing: subpixel-antialiased !important;
-        transform: translateZ(0) !important;
-        -webkit-transform: translateZ(0) !important;
-    }
-    
-    .title-line-1,
-    .title-line-2 {
-        /* Force hardware acceleration */
-        transform: translate3d(0, 0, 0) !important;
-        -webkit-transform: translate3d(0, 0, 0) !important;
-        /* Reduce shadows for sharper text on iOS */
-        text-shadow: 0 0 5px currentColor !important;
-    }
-    
-    /* Even simpler shadow for green text on iOS */
-    .title-line-2 {
-        text-shadow: 0 0 3px var(--neon-green) !important;
-    }
-}
+/* iOS Safari fixes are now consolidated in the NEON TEXT GLOW section above */
 
 /* Hide scroll indicator on mobile devices */
 @media (max-width: 768px) {

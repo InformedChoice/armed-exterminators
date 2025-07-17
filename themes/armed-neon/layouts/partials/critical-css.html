@@ -30,30 +30,49 @@ body.interior-page {
     color: #333333 !important;
 }
 
-/* Safari-specific hero title blur fixes */
-@supports (-webkit-appearance: none) {
+/* Safari-specific hero title blur fixes based on research */
+@supports(-webkit-touch-callout: none) {
+    /* Target Safari/iOS specifically */
+    .hero-section,
+    .hero-content,
     .hero-title {
-        -webkit-font-smoothing: antialiased !important;
-        -webkit-transform: translateZ(0) !important;
-        -webkit-perspective: 1000 !important;
-        -webkit-backface-visibility: hidden !important;
-        transform: translateZ(0) !important;
+        /* Disable ALL transforms to prevent GPU rasterization */
+        -webkit-transform: none !important;
+        transform: none !important;
+        -webkit-perspective: none !important;
+        perspective: none !important;
+    }
+    
+    .hero-title {
+        /* Use subpixel rendering for sharper text */
+        -webkit-font-smoothing: subpixel-antialiased !important;
+        -moz-osx-font-smoothing: auto !important;
+        
+        /* Ensure integral metrics */
+        line-height: 1.0 !important;
     }
     
     .title-line-1,
     .title-line-2 {
-        -webkit-font-smoothing: antialiased !important;
-        -webkit-text-stroke: 0.45px transparent !important;
-        -webkit-transform: translate3d(0,0,0) !important;
-        transform: translate3d(0,0,0) !important;
+        /* Remove ALL text strokes */
+        -webkit-text-stroke: 0 !important;
+        text-stroke: 0 !important;
+        
+        /* Disable transforms */
+        -webkit-transform: none !important;
+        transform: none !important;
     }
     
     .title-line-1 {
-        -webkit-text-stroke: 0.3px rgba(255,255,255,0.1) !important;
+        /* Replace heavy text-shadow with drop-shadow filter */
+        text-shadow: none !important;
+        filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.8));
     }
     
     .title-line-2 {
-        -webkit-text-stroke: 0.3px rgba(57,255,20,0.1) !important;
+        /* Replace heavy text-shadow with drop-shadow filter */
+        text-shadow: none !important;
+        filter: drop-shadow(0 0 20px #39FF14);
     }
 }
 
