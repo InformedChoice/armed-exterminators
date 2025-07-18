@@ -39,6 +39,9 @@ Choose your specific pest problem below for targeted solutions throughout the Sa
 ### 🦋 [Moth Control](/services/moth-control/)
 **Pantry & Clothes Moths** - Eliminate Indian meal moths and clothes moths. Protect your food and fabrics with targeted treatments.
 
+### 🦟 [Mosquito Control](/services/mosquito-control/)
+**West Nile Prevention** - Barrier treatments for yards and patios. Protect your family from mosquito-borne diseases. Eco-friendly options available.
+
 </div>
 
 ## Service Areas
