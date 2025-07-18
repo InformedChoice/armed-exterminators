@@ -25,6 +25,7 @@ Hip cafés at **Sunset Junction**, hillside homes in **Moreno Highlands**, and d
 <h3>🎯 Quick Links: Silver Lake Pest Control Services</h3>
 <ul>
 <li><a href="/ant-control-silver-lake/">Ant Control Sunset Junction - Café & Kitchen Specialists <span class="arrow">→</span></a></li>
+<li><a href="/moth-control-silver-lake/">Moth Control - Vintage Wardrobe & Organic Pantry Protection <span class="arrow">→</span></a></li>
 <li><a href="/rodent-control-silver-lake/">Rodent Control - Hillside Home Experts <span class="arrow">→</span></a></li>
 <li><a href="/bed-bug-treatment-silver-lake/">Bed Bug Treatment - High-Turnover Rental Pros <span class="arrow">→</span></a></li>
 <li><a href="/roach-control-silver-lake/">Cockroach Control - Creative Space Protection <span class="arrow">→</span></a></li>
@@ -34,6 +35,7 @@ Hip cafés at **Sunset Junction**, hillside homes in **Moreno Highlands**, and d
 ## Common Silver Lake Pest Problems We Solve
 
 - **Sugar Ants** invading hip cafés and vegan kitchens
+- **Pantry & Clothes Moths** damaging organic foods and vintage wardrobes
 - **Roof Rats** in hillside homes with canyon access
 - **Bed Bugs** in high-turnover rental properties
 - **German Cockroaches** in dense duplex housing
