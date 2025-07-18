@@ -36,6 +36,9 @@ Choose your specific pest problem below for targeted solutions throughout the Sa
 ### 🐝 [Wasp & Bee Removal](/services/wasp-bee-removal/)
 **Safe Nest Removal** - Yellow jackets, wasps, and bee relocation services. Emergency response available.
 
+### 🦋 [Moth Control](/services/moth-control/)
+**Pantry & Clothes Moths** - Eliminate Indian meal moths and clothes moths. Protect your food and fabrics with targeted treatments.
+
 </div>
 
 ## Service Areas
