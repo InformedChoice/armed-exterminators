@@ -1,153 +1,207 @@
 ---
 title: "Flea Treatment Services | Professional Flea Exterminators"
-description: "Expert flea treatment throughout San Gabriel Valley. Choose your city for complete flea elimination. Pet-safe methods. Same-day service. Call (626) 256-3200."
+description: "Expert flea treatment throughout San Gabriel Valley and Greater Los Angeles. Complete flea elimination. Pet-safe methods. Same-day service. Call (626) 256-3200."
+service_type: "flea"
 draft: false
 ---
 
 # Professional Flea Treatment Services
 
-Is your family being bitten by fleas? Armed Exterminators provides comprehensive flea elimination throughout the San Gabriel Valley. Our proven treatment process breaks the flea life cycle for lasting relief.
-
-## Choose Your City for Local Flea Treatment
-
-{{< service-areas-grid >}}
-
-### [Pasadena](/locations/pasadena/)
-Urban flea specialists. Multi-pet households and apartment flea control experts.
-
-### [Arcadia](/locations/arcadia/)
-Estate flea treatment. Large property and stable/barn flea elimination.
-
-### [Monrovia](/locations/monrovia/)
-Foothill flea experts. Wildlife-related flea problems and yard treatments.
-
-### [San Gabriel](/locations/san-gabriel/)
-Residential flea control. Affordable treatment plans for families.
-
-### [Altadena](/locations/altadena/)
-Mountain community specialists. Wildlife flea sources and prevention.
-
-### [San Marino](/locations/san-marino/)
-Luxury property flea treatment. Discrete service for estate homes.
-
-### [South Pasadena](/locations/south-pasadena/)
-Historic home flea experts. Careful treatment for vintage properties.
-
-### [Sierra Madre](/locations/sierra-madre/)
-Canyon area specialists. Natural flea control options available.
-
-### [La Cañada Flintridge](/locations/la-canada-flintridge/)
-Hillside property experts. Comprehensive indoor/outdoor programs.
-
-### [Rosemead](/locations/rosemead/)
-Valley flea control. Budget-friendly options for every home.
-
-{{< /service-areas-grid >}}
+Is your family being bitten by fleas? Armed Exterminators provides comprehensive flea elimination throughout the San Gabriel Valley and Greater Los Angeles areas. Our proven treatment process breaks the flea life cycle for lasting relief, protecting both your family and pets.
 
 ## Understanding Flea Infestations
 
+### The Flea Life Cycle - Why Complete Treatment Matters
+Effective flea control must address all four life stages:
+
+1. **Eggs (50% of infestation)**
+   - Females lay 40-50 eggs daily
+   - Fall off pets into carpets, bedding, furniture
+   - Hatch in 2-14 days depending on conditions
+   - Nearly invisible to naked eye
+
+2. **Larvae (35% of infestation)**
+   - Worm-like, avoid light
+   - Feed on flea feces and organic debris
+   - Hide deep in carpet fibers and cracks
+   - Develop for 5-20 days before pupating
+
+3. **Pupae (10% of infestation)**
+   - Protected by sticky cocoon
+   - Can remain dormant for months
+   - Resistant to pesticides
+   - Emerge when they sense hosts
+
+4. **Adults (5% of infestation)**
+   - The visible biters
+   - Must feed within days
+   - Can jump 150x their body length
+   - Live 2-3 months on hosts
+
 ### Where Fleas Come From
-- **Pets**: Dogs and cats are primary hosts
-- **Wildlife**: Opossums, raccoons, and feral cats
-- **Previous tenants**: Dormant pupae can emerge months later
+- **Pets**: Dogs and cats are primary hosts (even indoor cats)
+- **Wildlife**: Opossums, raccoons, stray cats in yard
+- **Previous Residents**: Dormant pupae can emerge months later
 - **Visitors**: Friends' pets can introduce fleas
-- **Yard**: Shaded, moist areas breed fleas
+- **Yard**: Shaded, moist areas become breeding grounds
 
-### The Flea Life Cycle
-Effective treatment must address all four stages:
-1. **Eggs** (50% of population) - Fall off pets into environment
-2. **Larvae** (35%) - Hide in carpets and cracks
-3. **Pupae** (10%) - Protected cocoons, can stay dormant
-4. **Adults** (5%) - The biters you see
+### Signs of Flea Infestation
+- Pets scratching excessively
+- Small red bites, often around ankles
+- Black specks (flea dirt) in pet bedding
+- Seeing fleas jump on white socks
+- Tiny white eggs in carpet fibers
+- Pets developing "hot spots" or hair loss
 
-### Why DIY Fails
-- Foggers don't reach hidden larvae
-- Sprays miss pupae in cocoons
-- Pet-only treatment ignores environment
-- Single treatment doesn't break cycle
-- Re-infestation occurs within weeks
+## Why DIY Flea Treatment Fails
 
-## Our Complete Flea Treatment
+**Common Mistakes**:
+- **Flea Bombs/Foggers**: Don't penetrate where larvae hide
+- **Sprays Only**: Miss pupae protected in cocoons
+- **Treating Pets Only**: Ignores 95% of fleas in environment
+- **One-Time Treatment**: Doesn't account for life cycle
+- **Wrong Products**: Many fleas resistant to retail pesticides
 
-### Indoor Treatment
-- Pre-treatment inspection and assessment
-- Thorough vacuuming preparation
-- Insect Growth Regulator application
-- Targeted treatment of all floors
-- Furniture and pet area focus
-- Crack and crevice treatment
+**Result**: Re-infestation within 2-3 weeks
 
-### Outdoor Treatment
-- Identify flea breeding areas
-- Treat shaded yard zones
-- Under deck/structure application
-- Pet pathway treatment
-- Wildlife deterrent recommendations
-- Moisture reduction advice
+## Our Professional Flea Elimination Process
 
-### Follow-Up Service
-- Return visit in 14-21 days
-- Break emerging flea cycle
-- Re-treat as needed
-- Monitor for activity
-- Prevention planning
+### 1. **Comprehensive Inspection**
+- Identify flea hot spots and breeding areas
+- Assess infestation severity
+- Check for wildlife access points
+- Evaluate moisture issues
+- Create customized treatment plan
 
-## Preparation & Safety
+### 2. **Indoor Flea Treatment**
+**Living Areas**:
+- Apply Insect Growth Regulator (IGR) to break life cycle
+- Treat all carpeted areas with specialized equipment
+- Focus on pet resting areas and travel paths
+- Treat upholstered furniture and cushions
+- Crack and crevice treatment for larvae
 
-### Before Treatment
-- Vacuum all carpets and furniture
-- Wash pet bedding in hot water
-- Remove items from floors
-- Cover fish tanks and pet bowls
-- Coordinate pet flea treatment
-- Plan 3-4 hours away from home
+**Bedrooms**:
+- Careful treatment around and under beds
+- Closet floors where pets may hide
+- Area rugs and carpeted areas
+- Baseboards and floor cracks
+
+**Hard Surfaces**:
+- Mop-on treatment for tile and wood floors
+- Under appliances and furniture
+- Around pet feeding areas
+
+### 3. **Outdoor Flea Treatment**
+**Yard Treatment**:
+- Identify and treat shaded, moist areas
+- Under decks, porches, and structures
+- Along fence lines where wildlife travel
+- Garden areas with ground cover
+- Pet resting areas outdoors
+
+**Perimeter Defense**:
+- Create barrier around home
+- Treat entry points
+- Address crawl spaces if needed
+
+### 4. **Critical Follow-Up Service**
+**Why Follow-Up is Essential**:
+- Pupae emerging after initial treatment
+- Ensure complete life cycle interruption
+- Address any missed areas
+- Prevent re-infestation
+
+**Timing**: 14-21 days after initial treatment
+
+### 5. **Prevention Program**
+- Wildlife exclusion recommendations
+- Moisture control advice
+- Ongoing pet prevention coordination
+- Regular service options
+
+## Preparation for Flea Treatment
+
+### Before We Arrive
+**Essential Steps**:
+1. Vacuum all carpets, rugs, and furniture thoroughly
+2. Dispose of vacuum bag in outside trash
+3. Wash all pet bedding in hot water
+4. Pick up items from floors
+5. Cover or remove pet food/water bowls
+6. Cover fish tanks and turn off pumps
+7. Coordinate pet flea treatment with vet
+
+### Day of Treatment
+- Plan to be away for 3-4 hours
+- Take pets with you or arrange care
+- Leave indoor areas accessible
+- Ensure yard is clear for outdoor treatment
 
 ### After Treatment
-- Vacuum daily for two weeks
+**First 24 Hours**:
+- Wait for specified re-entry time
+- Keep pets off treated areas until dry
+- Ventilate home upon return
+
+**First 2 Weeks**:
+- Vacuum daily (stimulates pupae emergence)
 - Dispose of vacuum bags immediately
+- May see some fleas (normal - they'll die)
 - Keep pets on flea prevention
-- Report any new activity
-- Schedule follow-up visit
 
-### Safety Information
-- EPA-approved products only
-- Pet and child-safe when dry
-- No lingering odors
-- Clear re-entry instructions
-- Non-staining formulations
+## Pet Coordination
 
-## Flea Treatment Pricing
+**Critical**: Pets MUST be treated on the same day as your home
 
-Treatment costs depend on:
-- Property size and type
-- Indoor/outdoor needs
-- Infestation severity
-- Follow-up requirements
+**Veterinary Options**:
+- Oral flea medications (fastest)
+- Topical treatments
+- Flea shampoos (temporary)
+- Preventive medications
 
-Most treatments range from $175-$395 including follow-up visit.
+**We Coordinate With Your Vet** for optimal timing and treatment success
+
+## Safety Information
+
+**Our Products**:
+- EPA-registered for flea control
+- Pet-safe when dry
+- Child-safe when applied properly
+- No lasting odors
+- Non-staining formulas
+
+**Special Considerations**:
+- Aquarium and reptile protection
+- Bird cage covering
+- Infant and elderly precautions
+- Allergy and sensitivity options
 
 ---
 
 ## Frequently Asked Questions
 
-### How long until fleas are gone?
-Adult fleas die within hours, but complete elimination takes 2-4 weeks as remaining eggs and pupae develop. This is why follow-up treatment is crucial.
+### How long until all fleas are gone?
+Adult fleas die within hours of treatment. Complete elimination takes 2-4 weeks as remaining eggs and pupae develop and contact the treatment. This is why follow-up service is included.
+
+### Why am I still seeing fleas after treatment?
+This is normal and expected. Pupae protected in cocoons emerge over 2-3 weeks. They'll die upon contact with treated surfaces. Daily vacuuming speeds this process.
 
 ### Do I need to treat my yard?
-If pets go outside or you have wildlife visitors, yard treatment is recommended. Outdoor treatment prevents re-infestation and speeds elimination.
+If pets go outside or you have wildlife visitors, yard treatment is essential. Up to 80% of the flea population can be outdoors. We include yard treatment in our comprehensive service.
 
-### What about my pets?
-Pets must be treated by a veterinarian on the same day as home treatment. We coordinate with your vet for best results. Ongoing prevention is essential.
+### Is the treatment safe for my baby/pets?
+Yes, when applied according to label directions. We use products specifically designed for homes with children and pets. Clear re-entry times ensure safety.
 
-### Is treatment safe for my family?
-Yes. We use products specifically designed for flea control with excellent safety profiles. We provide clear instructions for treatment day and re-entry times.
-
----
-
-> **Choose your city above for local flea treatment service.**
-> ### Call [(626) 256-3200](tel:6262563200) to stop the itching today.
-> Pet-Safe Methods • Complete Elimination • Same-Day Service
+### What if I don't have pets?
+Previous residents' pets, wildlife, or visiting animals can leave fleas behind. Dormant pupae can emerge months later when they sense new hosts. Treatment is the same regardless of current pet ownership.
 
 ---
 
-*Don't let fleas take over your home. Professional treatment breaks the cycle and provides lasting relief. Call now for immediate help.*
+> ### Stop the itching and biting today!
+> ## Call [(626) 256-3200](tel:6262563200) for immediate relief.
+> **Pet-Safe Treatment • Same-Day Service • Guaranteed Results**
+
+---
+
+*Armed Exterminators - Your Local Flea Elimination Experts Since 1997*

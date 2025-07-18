@@ -1,109 +1,143 @@
 ---
 title: "Cockroach Exterminator Services | Professional Roach Control"
-description: "Expert cockroach extermination throughout San Gabriel Valley. Choose your city for fast roach elimination. Health-safe methods. Call (626) 256-3200."
+description: "Expert cockroach extermination throughout San Gabriel Valley and Greater Los Angeles. Choose your city for fast roach elimination. Health-safe methods. Call (626) 256-3200."
+service_type: "roach"
 draft: false
 ---
 
 # Professional Cockroach Extermination Services
 
-Found roaches in your home or business? Armed Exterminators provides expert cockroach elimination throughout the San Gabriel Valley. With 28 years of experience and technicians in every major city, we deliver fast, discreet roach control exactly where you need it.
-
-## Choose Your City for Local Roach Control
-
-{{< service-areas-grid >}}
-
-### [Pasadena](/roach-control-pasadena/)
-Urban roach specialists serving apartments, restaurants, and homes. Experts in German cockroach elimination.
-
-### [Arcadia](/roach-control-arcadia/)
-Residential roach control for single-family homes and estates. Fast response for kitchen and bathroom infestations.
-
-### [Monrovia](/roach-control-monrovia/)
-Foothill community specialists. American cockroach experts for older homes with mature landscaping.
-
-### [San Gabriel](/roach-control-san-gabriel/)
-Restaurant and commercial roach control. Discreet service for businesses and multi-family properties.
-
-### [Altadena](/locations/altadena/)
-Mountain-area roach control. Specialists in moisture-related infestations and sewer roaches.
-
-### [San Marino](/locations/san-marino/)
-Discrete roach elimination for luxury properties. Professional service that protects your privacy.
-
-### [South Pasadena](/locations/south-pasadena/)
-Historic home specialists. Careful treatment for vintage properties and apartment buildings.
-
-### [Sierra Madre](/locations/sierra-madre/)
-Canyon community experts. Oriental cockroach specialists for moisture-prone areas.
-
-### [La Cañada Flintridge](/locations/la-canada-flintridge/)
-Hillside home roach control. Expert treatment for challenging properties.
-
-### [Rosemead](/locations/rosemead/)
-Valley community specialists. Affordable roach control for homes and businesses.
-
-{{< /service-areas-grid >}}
+Found roaches in your home or business? Armed Exterminators provides expert cockroach elimination throughout the San Gabriel Valley and Greater Los Angeles areas. With 28 years of experience and technicians in every major city, we deliver fast, discreet roach control exactly where you need it.
 
 ## Cockroach Species We Eliminate
 
 ### German Cockroaches
-The most common indoor species. Small, tan roaches that multiply rapidly in kitchens and bathrooms. Require professional treatment for complete elimination.
+The most common indoor species. Small, tan roaches that multiply rapidly in kitchens and bathrooms. They can produce up to 400 offspring per year, making professional treatment essential for complete elimination.
 
 ### American Cockroaches
-Large reddish-brown "sewer roaches" that enter through drains and pipes. Common in basements and commercial buildings.
+Large reddish-brown "sewer roaches" or "palmetto bugs" that can grow up to 2 inches long. They enter through drains, pipes, and foundation cracks. Common in basements, sewers, and commercial buildings.
 
 ### Oriental Cockroaches
-Dark "water bugs" that thrive in cool, damp areas. Often found in basements, crawl spaces, and around floor drains.
+Dark "water bugs" that thrive in cool, damp areas. Often found in basements, crawl spaces, and around floor drains. They're slower moving but extremely hardy and difficult to eliminate.
 
 ### Brown-Banded Cockroaches
-Smaller roaches that prefer warm, dry locations. Hide in furniture, electronics, and upper cabinets.
+Smaller roaches that prefer warm, dry locations. They hide in furniture, electronics, and upper cabinets. Unlike other species, they don't need much moisture to survive.
 
 ## Health Risks of Roach Infestations
 
-- **Disease transmission**: Salmonella, E. coli, and other pathogens
-- **Asthma triggers**: Especially dangerous for children
-- **Food contamination**: Spreading bacteria to surfaces
-- **Allergic reactions**: From droppings and shed skins
-- **Property damage**: To books, wallpaper, and electronics
+Cockroaches are more than just disturbing - they're dangerous:
 
-## Our Proven Elimination Process
+- **Disease Transmission**: Carry 33 types of bacteria including Salmonella and E. coli
+- **Asthma Triggers**: Major cause of asthma in children, especially in urban areas
+- **Food Contamination**: Spread pathogens to every surface they touch
+- **Allergic Reactions**: Droppings and shed skins cause respiratory issues
+- **Property Damage**: Damage books, wallpaper, electronics, and fabrics
 
-1. **Complete Inspection** - Identify species and infestation severity
-2. **Multi-Method Treatment** - Baits, dusts, and growth regulators
-3. **Crack & Crevice Application** - Target hiding spots
-4. **Sanitation Guidance** - Eliminate food and water sources
-5. **Follow-Up Service** - Ensure complete elimination
+## Our Proven Cockroach Elimination Process
+
+### 1. **Comprehensive Inspection**
+- Identify exact species (critical for effective treatment)
+- Locate breeding sites and harborage areas
+- Assess sanitation issues contributing to infestation
+- Check all potential entry points
+
+### 2. **Multi-Method Treatment Approach**
+- **Gel Baits**: Applied in cracks where roaches hide
+- **Dust Formulations**: For wall voids and electronics
+- **Growth Regulators**: Prevent reproduction
+- **Residual Sprays**: Create protective barriers
+- **Monitoring Stations**: Track population reduction
+
+### 3. **Targeted Application**
+- Kitchen: Behind appliances, under sinks, inside cabinets
+- Bathroom: Plumbing penetrations, medicine cabinets
+- Living Areas: Electronics, furniture, wall voids
+- Commercial: Food prep areas, storage, equipment
+
+### 4. **Sanitation & Exclusion**
+- Seal cracks and entry points
+- Fix moisture problems
+- Improve sanitation practices
+- Remove clutter and harborage
+
+### 5. **Follow-Up & Monitoring**
+- Return visits to ensure elimination
+- Adjust treatment based on results
+- Long-term prevention planning
+
+## Why Professional Treatment is Essential
+
+**DIY Sprays Make It Worse**: Over-the-counter sprays:
+- Scatter roaches to new areas
+- Don't reach hidden egg cases
+- Create pesticide-resistant populations
+- Miss 90% of the infestation
+
+**Professional Advantages**:
+- Access to restricted-use products
+- Knowledge of roach biology and behavior
+- Equipment to reach deep harborage
+- Guaranteed complete elimination
+
+## Treatment Timeline & Expectations
+
+**Week 1**: You may see increased activity as roaches come out for bait
+**Week 2-3**: Dramatic reduction in roach sightings
+**Week 4**: Near complete elimination
+**Follow-up**: Additional treatment if needed (covered under warranty)
+
+## Commercial Roach Control
+
+**Restaurants & Food Service**:
+- After-hours service available
+- Health department compliant methods
+- Documentation for inspections
+- Monthly service programs
+
+**Apartments & Property Management**:
+- Unit-by-unit treatment
+- Common area service
+- Tenant preparation instructions
+- Preventive maintenance programs
 
 ## Why Choose Armed Exterminators?
 
 - **Fast Response**: Same-day service available
-- **Discreet Service**: Unmarked vehicles available
+- **Discreet Service**: Unmarked vehicles for businesses
 - **Health-Safe**: EPA-registered products only
-- **Guaranteed Results**: 90-day warranty
-- **Experienced**: Eliminating roaches since 1996
+- **Guaranteed Results**: 90-day warranty on all treatments
+- **Experienced**: Eliminating roaches since 1997
+- **Licensed & Insured**: Full protection for your property
 
 ---
 
 ## Frequently Asked Questions
 
 ### How quickly can you eliminate roaches?
-Most infestations show dramatic improvement within 48 hours. Complete elimination typically takes 2-4 weeks depending on severity.
+Most infestations show dramatic improvement within 48 hours. Complete elimination typically takes 2-4 weeks depending on severity and species.
 
-### Is treatment safe for restaurants?
-Yes. We use commercial-grade products approved for food service areas and can work around your business hours.
+### Is treatment safe for my family and pets?
+Yes. We use EPA-registered products applied by licensed technicians in targeted applications. All products are applied according to label directions with safety as our priority.
 
 ### Why do roaches keep coming back?
-DIY treatments rarely reach hidden egg cases and breeding sites. Professional treatment targets all life stages and hidden harborage areas.
+DIY treatments rarely reach hidden egg cases and breeding sites. German roaches can hide in spaces as thin as a dime. Professional treatment targets all life stages and reaches deep harborage areas.
 
 ### Do you treat apartments?
-Yes. We work with both tenants and property managers to eliminate roaches in multi-unit buildings.
+Yes. We work with both tenants and property managers. We can treat individual units or entire buildings, and provide documentation for property management.
+
+### What should I do to prepare for treatment?
+We'll provide a detailed preparation sheet, but generally:
+- Clear kitchen counters and empty lower cabinets
+- Pull appliances away from walls if possible
+- Remove items from under sinks
+- Pick up pet food and water dishes
 
 ---
 
-> **Choose your city above for local pricing and same-day service.**  
-> ### Call [(626) 256-3200](tel:6262563200) for immediate roach elimination.  
-> Discreet Service • Health-Safe Methods • Guaranteed Results
+> ### Ready to eliminate roaches for good?
+> ## Call [(626) 256-3200](tel:6262563200) for immediate service.
+> **Same-Day Service • Discreet Treatment • 90-Day Warranty**
 
 ---
 
-*Can't find your city? [View all service areas](/locations/) or [contact us](/contact-us/) for assistance.*
+*Armed Exterminators - Your Local Roach Elimination Experts Since 1997*

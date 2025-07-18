@@ -1,0 +1,29 @@
+{{ $currentService := .Params.service_type | default "" }}
+
+<section class="service-areas-section">
+    <h2>Service Areas</h2>
+    <p class="service-areas-intro">
+        Armed Exterminators provides {{ if $currentService }}{{ $currentService }} control{{ else }}pest control{{ end }} services throughout the San Gabriel Valley and Greater Los Angeles areas.
+    </p>
+    
+    <div style="text-align: center; margin: 2rem 0;">
+        <a href="/locations/" class="cta-button cta-primary" style="display: inline-flex; align-items: center; gap: 0.5rem;">
+            <span>View All Service Areas</span>
+            <span>→</span>
+        </a>
+    </div>
+</section>
+
+<style>
+.service-areas-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 2px solid #39FF14;
+    text-align: center;
+}
+
+.service-areas-intro {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+</style>

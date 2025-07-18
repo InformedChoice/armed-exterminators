@@ -6,7 +6,7 @@ draft: false
 
 # Professional Pest Control for the San Gabriel Valley & Greater Los Angeles
 
-Choose your specific pest problem below for targeted solutions throughout the San Gabriel Valley, Los Angeles, and the San Fernando Valley. Armed Exterminators has been solving pest problems since 1997 with specialized treatments for every situation.
+Choose your specific pest problem below for targeted solutions throughout the San Gabriel Valley and Greater Los Angeles areas. Armed Exterminators has been solving pest problems since 1997 with specialized treatments for every situation.
 
 ## Select Your Pest Problem
 
@@ -24,7 +24,7 @@ Choose your specific pest problem below for targeted solutions throughout the Sa
 ### 🕷️ [Spider Control](/services/spider-control/)
 **Black Widow Experts** - Safe removal of venomous and common spiders. Web removal and prevention included.
 
-### 🦝 [Wildlife Control](/wildlife-control-services/)
+### 🦝 [Wildlife Control](/services/wildlife-control/)
 **Humane Removal** - Raccoons, opossums, skunks, and squirrels. Licensed wildlife specialists.
 
 ### 🛏️ [Bed Bug Treatment](/services/bed-bug-treatment/)
