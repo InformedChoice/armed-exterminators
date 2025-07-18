@@ -42,6 +42,9 @@ Choose your specific pest problem below for targeted solutions throughout the Sa
 ### 🦟 [Mosquito Control](/services/mosquito-control/)
 **West Nile Prevention** - Barrier treatments for yards and patios. Protect your family from mosquito-borne diseases. Eco-friendly options available.
 
+### 🦫 [Gopher Control](/services/gopher-control/)
+**Landscape Protection** - Stop pocket gophers from destroying lawns and gardens. Professional trapping and exclusion. Guaranteed results.
+
 </div>
 
 ## Service Areas
