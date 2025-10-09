@@ -83,16 +83,16 @@ We've been serving Pasadena since day one. We understand:
 ## Common Pasadena Pest Problems
 
 ### Spring & Summer
-- Argentine ant invasions seeking water
-- Increased spider activity
-- Wasp and bee nesting
-- Flea outbreaks from wildlife
+- Wolf spider and orb-weaver activity around patios
+- Roof rats and house mice moving through attics
+- Mosquito surges near pools, fountains, and shaded yards
+- Flea flare-ups triggered by neighborhood wildlife and pets
 
 ### Fall & Winter
-- Rodents seeking shelter
-- Indoor roach migrations
-- Overwintering spiders
-- Wildlife in attics
+- Rodents squeezing indoors to escape cooler nights
+- Argentine and odorous house ants pushing into kitchens
+- Pocket gophers tunneling through rain-softened soil
+- Urban wildlife (raccoons, opossums, skunks) denning in attics and crawlspaces
 
 ## Service Areas
 
