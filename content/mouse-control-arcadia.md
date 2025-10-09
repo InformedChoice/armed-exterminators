@@ -150,7 +150,7 @@ Yes, we regularly work with property managers, housekeepers, and stable staff to
 > **Stop mice from invading your Arcadia property.**  
 > ### Call [(626) 256-3200](tel:6262563200) for expert mouse control.  
 > Estate Specialists • Horse Property Safe • Same-Day Service  
-> 
+>
 > *"Mice were getting into our feed room constantly. Armed solved the problem and set up monthly service. Haven't seen a mouse since!"* ⭐⭐⭐⭐⭐  
 > — **Victoria R., Santa Anita Oaks**
 

@@ -41,7 +41,7 @@ Elegant architecture shouldn't come with unwanted "tenants." Rats burrow through
 - Insulation replacement in contaminated areas
 - Entry point sealing without damaging historic features
 
-### **Ant Barriers** 
+### **Ant Barriers**
 - Perimeter sprays tailored for water‑loving Argentine ants
 - Targeted baiting programs for kitchen invasions
 - Long-term prevention strategies

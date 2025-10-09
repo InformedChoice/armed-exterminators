@@ -84,7 +84,7 @@ If bed bugs return within the warranty period, so do we—free of charge.
 ## Quick Tips to Reduce Risk Today
 
 - Inspect second-hand furniture thoroughly before bringing it indoors
-- When traveling, keep luggage on racks away from beds and launder clothing on high heat upon return
+- When traveling, keep luggage on racks away from beds and launder clothing on the hottest safe dryer setting upon return
 - Reduce bedroom clutter to limit hiding spots
 - Vacuum mattresses, box springs, and bed frames regularly
 
@@ -126,16 +126,16 @@ Armed Exterminators provides professional bed bug treatment throughout:
 Bed bugs are excellent hitchhikers. Common sources include hotels, public transportation, movie theaters, used furniture, and visitors' belongings. They're not a sign of poor hygiene—even luxury hotels can have bed bugs.
 
 ### Can I treat bed bugs myself?
-DIY treatments rarely eliminate entire infestations. Store-bought sprays often scatter bugs deeper into walls and furniture, making professional treatment more difficult. Professional heat treatment or integrated approaches are most effective.
+DIY treatments rarely eliminate entire infestations. Store-bought sprays often scatter bugs deeper into walls and furniture, making professional treatment more difficult. Professional integrated approaches with targeted insecticide applications, crack-and-crevice dusting, vacuuming, and follow-up visits are most effective.
 
 ### How long does bed bug treatment take?
-Heat treatments typically take 6-8 hours and often require just one visit. Chemical treatments may require 2-3 visits over several weeks. Treatment time depends on infestation severity and chosen method.
+Most services take 2-4 hours per visit, with 2-3 visits scheduled over several weeks to break the life cycle. Treatment time depends on infestation severity and how many rooms are affected.
 
 ### Is bed bug treatment safe for my family and pets?
-Yes, when performed by professionals. Heat treatment is chemical-free. When pesticides are necessary, we use EPA-registered products applied precisely to minimize exposure. We provide clear safety instructions for each treatment type.
+Yes, when performed by professionals. We use EPA-registered products applied precisely to minimize exposure and provide clear safety instructions. Pets and people should stay out of treated rooms until products are dry and the space is ventilated.
 
 ### Will I need to throw away my furniture?
-Usually not. Most furniture can be successfully treated with heat, steam, or targeted chemicals. We only recommend disposal for severely damaged or infested items that can't be effectively treated.
+Usually not. Most furniture can be successfully treated with thorough vacuuming, encasements, and targeted insecticides. We only recommend disposal for severely damaged or infested items that can't be effectively treated.
 
 ### How can I prevent bed bugs from coming back?
 Regular inspections, protective mattress encasements, reducing clutter, and being cautious with second-hand items all help. We provide a comprehensive prevention guide after treatment.
@@ -144,7 +144,7 @@ Regular inspections, protective mattress encasements, reducing clutter, and bein
 
 > ### Ready for a bite-free night? Don't let bed bugs rob you of restful sleep—or peace of mind.
 > ## Call [(626) 256-3200](tel:6262563200) for your FREE inspection today.
-> **Discrete Service Available • Heat Treatment Experts • Satisfaction Guaranteed**
+> **Discrete Service Available • Bed Bug Specialists • Satisfaction Guaranteed**
 
 ---
 

@@ -161,7 +161,7 @@ Yes, we're seeing increasing Turkestan roach populations in Monrovia, especially
 > **Eliminate roaches from your Monrovia foothill home.**  
 > ### Call [(626) 256-3200](tel:6262563200) for expert roach control.  
 > Canyon Specialists • Moisture Experts • Pet-Safe Methods  
-> 
+>
 > *"Living next to the canyon, we always had roaches. Armed treated inside and created a barrier outside - haven't seen one in months!"* ⭐⭐⭐⭐⭐  
 > — **David K., North Monrovia**
 

@@ -134,6 +134,6 @@ Skunks are poor climbers but excellent diggers. They'll go under rather than ove
 > **Don't risk getting sprayed - let professionals handle it.**  
 > ### Call [(626) 256-3200](tel:6262563200) for immediate skunk removal in Monrovia.  
 > Licensed & Insured • Humane Methods • Odor Removal Available  
-> 
+>
 > *"Armed Exterminators removed a family of skunks from under our deck without any spraying! They were professional, careful, and sealed everything up perfectly."* ⭐⭐⭐⭐⭐  
 > — **Jennifer K., Monrovia**

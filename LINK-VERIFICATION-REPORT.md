@@ -122,9 +122,9 @@ All location-specific service pages remain intact with proper internal linking:
 ## Validation Tools
 
 After deployment, validate schema markup at:
-- https://validator.schema.org/
-- https://search.google.com/test/rich-results
-- https://developers.facebook.com/tools/debug/ (for Open Graph)
+- [validator.schema.org](https://validator.schema.org/)
+- [Google Rich Results Test](https://search.google.com/test/rich-results)
+- [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/) (for Open Graph)
 
 The site is now properly structured with:
 - ✅ Correct internal linking

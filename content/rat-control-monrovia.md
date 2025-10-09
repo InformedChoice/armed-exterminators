@@ -133,7 +133,7 @@ Monrovia's foothill properties typically require more extensive exclusion work, 
 > **Protect your Monrovia home from foothill rat invasions.**  
 > ### Call [(626) 256-3200](tel:6262563200) for immediate rat control.  
 > Canyon Specialists • Same-Day Service • Family-Owned Since 1996  
-> 
+>
 > *"Living near Monrovia Canyon, we thought rats were inevitable. Armed Exterminators proved us wrong - they sealed our home completely and we've been rat-free for over a year!"* ⭐⭐⭐⭐⭐  
 > — **Robert H., North Monrovia**
 

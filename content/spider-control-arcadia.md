@@ -142,7 +142,7 @@ Most Arcadia properties benefit from quarterly service due to large outdoor area
 > **Protect your Arcadia estate from dangerous spiders.**  
 > ### Call [(626) 256-3200](tel:6262563200) for professional spider control.  
 > Estate Specialists • Black Widow Experts • Discrete Service  
-> 
+>
 > *"Found multiple black widows near our pool. Armed treated everything thoroughly and explained prevention. Haven't seen a spider in months!"* ⭐⭐⭐⭐⭐  
 > — **Victoria H., Upper Rancho**
 

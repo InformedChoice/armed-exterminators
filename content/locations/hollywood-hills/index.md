@@ -61,7 +61,7 @@ Custom metal flashing and one-way exits for **Laurel Canyon**, **Nichols Canyon*
 * **Wildlife deterrent** for properties backing to open space
 * **Tree-based ant control** for extensive landscaping
 
-**Beachwood Canyon** 
+**Beachwood Canyon**
 * **Vintage home pest proofing** respecting architectural integrity
 * **Hillside erosion pest control** for properties on slopes
 * **Tourist area discrete service** for privacy protection

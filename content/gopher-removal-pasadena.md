@@ -152,6 +152,6 @@ No - if your yard provides food (roots) and good soil, gophers will stay and mul
 > **Stop gophers from destroying your beautiful Pasadena landscape.**  
 > ### Call [(626) 256-3200](tel:6262563200) for professional gopher removal today.  
 > Fast Results • Safe Methods • Damage Prevention  
-> 
+>
 > *"Our lawn was being destroyed by gophers. Armed Exterminators eliminated them quickly and helped us prevent future problems. Highly recommend!"* ⭐⭐⭐⭐⭐  
 > — **Maria L., South Pasadena**

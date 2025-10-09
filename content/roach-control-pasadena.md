@@ -142,7 +142,7 @@ Pasadena's dense housing, numerous restaurants, and older buildings create ideal
 > **Don't let roaches take over your Pasadena home.**  
 > ### Call [(626) 256-3200](tel:6262563200) for fast roach elimination.  
 > Apartment Safe • Same-Day Service • Guaranteed Results  
-> 
+>
 > *"I was embarrassed about my roach problem, but Armed was professional and discreet. They treated my apartment and I haven't seen a roach since!"* ⭐⭐⭐⁐⭐  
 > — **Maria G., South Lake Avenue**
 

@@ -135,7 +135,7 @@ Rain floods underground nests, driving ants inside. Arcadia's clay soil doesn't 
 > **Stop ants from ruining your beautiful Arcadia home.**  
 > ### Call [(626) 256-3200](tel:6262563200) for professional ant control.  
 > Horse-Safe Methods • Same-Day Service • Family-Owned Since 1996  
-> 
+>
 > *"We tried everything for months. Armed solved our ant problem in one visit and they haven't returned. Worth every penny for our Peacock District home!"* ⭐⭐⭐⭐⭐  
 > — **Sarah K., Santa Anita Oaks**
 

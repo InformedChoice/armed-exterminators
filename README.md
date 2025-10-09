@@ -107,7 +107,7 @@ armed-exterminators/
 ### Adding a Service Location Page (Future)
 
 1. **Location pages are already set up in:** `/content/locations/`
-   
+
 2. **Current location pages:**
    - `/locations/pasadena/` - Primary city
    - `/locations/arcadia/`
@@ -124,7 +124,7 @@ armed-exterminators/
    ```bash
    # Use Hugo's archetype to create properly formatted page
    hugo new locations/wilshire-district/index.md
-   
+
    # Or create manually:
    mkdir content/locations/wilshire-district
    touch content/locations/wilshire-district/index.md

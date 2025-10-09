@@ -45,7 +45,7 @@ The bustling **Larchmont Boulevard** dining strip means constant deliveries—an
 ### **For Homeowners**
 - Rat trapping & exclusion with crawl‑space screening
 - Ant & spider treatments—pet‑safe, odorless formulas
-- Bed bug heat treatments for quick resolution
+- Bed bug treatment programs for quick resolution
 - Quarterly residential maintenance plans
 
 ## Our Local Services
@@ -54,7 +54,7 @@ The bustling **Larchmont Boulevard** dining strip means constant deliveries—an
 * **Rodent Control** - Comprehensive rat and mouse elimination
 * **Ant Control** - Targeted treatments for kitchen invasions
 * **Spider Control** - Black widow and common spider removal
-* **Bed Bug Treatment** - Heat and chemical treatment options
+* **Bed Bug Treatment** - Multi-visit chemical treatment options
 
 ### Commercial Services:
 * **Restaurant Pest Control** - Health code compliant treatments

@@ -142,7 +142,7 @@ We offer web removal services, but without treating the spiders, webs typically 
 > **Eliminate dangerous spiders from your Pasadena home.**  
 > ### Call [(626) 256-3200](tel:6262563200) for expert spider control.  
 > Black Widow Specialists • Historic Home Safe • Same-Day Service  
-> 
+>
 > *"Found multiple black widows in our garage. Armed came immediately, found more we missed, and treated everything. Very thorough!"* ⭐⭐⭐⭐⭐  
 > — **Linda S., Madison Heights**
 

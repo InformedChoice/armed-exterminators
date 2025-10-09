@@ -138,6 +138,6 @@ Start with professional grub control for your lawn, secure all potential den sit
 > **Don't wait until someone gets sprayed.**  
 > ### Call [(626) 256-3200](tel:6262563200) for expert skunk removal in San Gabriel.  
 > Spray-Free Removal • Complete Solutions • Local Experts  
-> 
+>
 > *"Armed Exterminators safely removed skunks from our property and helped us prevent future problems. No spray incidents!"* ⭐⭐⭐⭐⭐  
 > — **Maria S., Mission District**

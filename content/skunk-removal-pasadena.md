@@ -142,6 +142,6 @@ Fall through early winter is ideal - after babies are independent but before dee
 > **Don't risk getting sprayed - let professionals handle it.**  
 > ### Call [(626) 256-3200](tel:6262563200) for safe skunk removal in Pasadena.  
 > Odor-Free Removal • Licensed Experts • Emergency Service  
-> 
+>
 > *"Armed removed a skunk family from under our deck without any spraying! They were careful, professional, and solved the problem completely."* ⭐⭐⭐⭐⭐  
 > — **Jennifer R., San Rafael Hills**

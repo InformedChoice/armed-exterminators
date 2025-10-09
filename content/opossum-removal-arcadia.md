@@ -138,6 +138,6 @@ This involuntary response (thanatosis) occurs when opossums are extremely fright
 > **Don't let opossums damage your property or threaten your pets.**  
 > ### Call [(626) 256-3200](tel:6262563200) for immediate opossum removal in Arcadia.  
 > Humane Methods • Licensed & Insured • Same-Day Service Available  
-> 
+>
 > *"Armed Exterminators removed a family of opossums from under our deck quickly and humanely. They sealed everything up so well - no more nighttime visitors!"* ⭐⭐⭐⭐⭐  
 > — **Susan M., North Arcadia**

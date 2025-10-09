@@ -97,6 +97,6 @@ These Terms of Service constitute the entire agreement between you and Armed Ext
 For questions about these Terms of Service, please contact us:
 
 **Armed Exterminators**  
-Email: armedex@sbcglobal.net  
+Email: [armedex@sbcglobal.net](mailto:armedex@sbcglobal.net)  
 Phone: (626) 256-3200  
 Office: Duarte, CA

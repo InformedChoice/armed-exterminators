@@ -61,20 +61,14 @@ Pasadena faces unique bed bug challenges:
 
 ## Treatment Options
 
-### Heat Treatment
-- **Kills all life stages** including eggs
-- **Single day** treatment
-- **No chemical residue**
-- **Ideal for**: Severe infestations, sensitive residents
-
 ### Chemical Treatment
 - **Residual protection** for weeks
 - **Multiple visits** for complete control
-- **Lower cost** than heat
+- **Lower cost** than replacement furniture
 - **Ideal for**: Moderate infestations, preventive treatment
 
 ### Integrated Approach
-- **Combines methods** for best results
+- **Combines targeted products and mechanical removal** for best results
 - **Customized** to your situation
 - **Maximum effectiveness**
 - **Ideal for**: Apartments, recurring problems
@@ -97,7 +91,7 @@ Pasadena faces unique bed bug challenges:
 
 ✓ **Discrete Service** - Unmarked vehicles available
 ✓ **Fast Response** - Same-week appointments
-✓ **Proven Methods** - Both heat and chemical
+✓ **Proven Methods** - Multi-step chemical & mechanical
 ✓ **Apartment Experience** - Work with property managers
 ✓ **Guaranteed Results** - Free re-treatments if needed
 
@@ -107,7 +101,6 @@ Pasadena faces unique bed bug challenges:
 |--------------|-----------------|-------------|
 | Single Room | Chemical | $350-$550 |
 | Full Apartment | Chemical | $650-$1,250 |
-| Heat Treatment | Per room | $1,200-$1,800 |
 | Preventive | Monitoring | $125-$225 |
 
 *Multi-unit discounts available. Inspection fees waived with treatment.*
@@ -126,7 +119,7 @@ We provide bed bug treatment throughout:
 2. **Check hotel rooms** when traveling
 3. **Use mattress encasements** as barriers
 4. **Reduce clutter** around sleeping areas
-5. **Wash and dry** items on high heat regularly
+5. **Wash and dry** items on the hottest safe setting regularly
 
 ---
 
@@ -152,20 +145,20 @@ Bed bugs hitchhike on luggage, used furniture, clothing, and even electronics. I
 No! Most furniture can be successfully treated. We only recommend disposal for severely damaged items. Our treatments penetrate deep into furniture to eliminate all bed bugs.
 
 ### How long does treatment take?
-Chemical treatments take 2-4 hours per unit with 2-3 visits needed. Heat treatments take 6-8 hours but usually require just one visit. You can typically return the same day.
+Chemical treatments take 2-4 hours per unit with 2-3 visits needed. Follow-up visits are scheduled 10-14 days apart to break the life cycle. You can typically return the same day once products have dried.
 
 ### Will bed bugs spread to neighbors?
 Yes, bed bugs can travel between units through wall voids, electrical outlets, and under doors. We recommend notifying property management so adjacent units can be inspected.
 
 ### Is treatment safe for pets and children?
-Yes, when properly applied. We use EPA-registered products and follow all safety protocols. For heat treatments, pets and people must leave during service but can return immediately after.
+Yes, when properly applied. We use EPA-registered products and follow all safety protocols. Pets and people should leave during service and can return once treated areas are dry and ventilated.
 
 ---
 
 > **Don't let bed bugs disrupt your life. Fast, discrete solutions available.**  
 > ### Call [(626) 256-3200](tel:6262563200) for immediate bed bug help.  
-> Heat Treatment Available • Apartment Specialists • Guaranteed Results  
-> 
+> Apartment Specialists • Guaranteed Results  
+>
 > *"Armed eliminated our bed bug nightmare quickly and discretely. They coordinated with our property manager and solved the problem completely!"* ⭐⭐⭐⭐⭐  
 > — **Rachel M., South Lake District**
 

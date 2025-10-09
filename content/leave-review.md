@@ -13,17 +13,17 @@ We hope you're satisfied with our pest control service. Your feedback helps us i
 Please take a moment to share your experience:
 
 <div class="review-buttons">
-    <a href="https://g.page/r/Cac9ypkl5JT6EAI/review" 
-       class="review-button google-button" 
-       target="_blank" 
+    <a href="https://g.page/r/Cac9ypkl5JT6EAI/review"
+       class="review-button google-button"
+       target="_blank"
        rel="noopener">
         <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" style="height: 40px;">
         <span>Review on Google</span>
     </a>
-    
-    <a href="https://www.yelp.com/biz/armed-exterminators-duarte" 
-       class="review-button yelp-button" 
-       target="_blank" 
+
+    <a href="https://www.yelp.com/biz/armed-exterminators-duarte"
+       class="review-button yelp-button"
+       target="_blank"
        rel="noopener">
         <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Yelp_Logo.svg" alt="Yelp" style="height: 40px;">
         <span>Review on Yelp</span>
@@ -122,7 +122,7 @@ We're committed to your satisfaction and will address any issues promptly.
         flex-direction: row;
         max-width: 600px;
     }
-    
+
     .review-button {
         flex: 1;
     }

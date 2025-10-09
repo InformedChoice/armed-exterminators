@@ -135,7 +135,7 @@ Absolutely. We use eco-friendly methods near wilderness interfaces and ensure ou
 > **Stop foothill ant invasions in your Monrovia home.**  
 > ### Call [(626) 256-3200](tel:6262563200) for expert ant control.  
 > Canyon Specialists • Historic Home Experts • Same-Day Service  
-> 
+>
 > *"Living against the foothills, we battled ants every summer. Armed created a barrier treatment that actually works - first ant-free summer in years!"* ⭐⭐⭐⭐⭐  
 > — **Michael T., North Monrovia**
 

@@ -128,7 +128,7 @@ Yes! We cover all [Location] ZIP codes including [list]. We also service nearby 
 > **Don't let [pest/problem] take over your [Location] home.**  
 > ### Call [(626) 256-3200](tel:6262563200) for immediate [service].  
 > Same-Day Service • Licensed & Insured • Family-Owned Since 1996  
-> 
+>
 > *"[Customer testimonial specific to this service and location]"* ⭐⭐⭐⭐⭐  
 > — **[Name], [Location neighborhood]**
 

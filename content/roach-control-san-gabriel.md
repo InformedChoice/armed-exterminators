@@ -149,7 +149,7 @@ Yes, we have bilingual technicians who speak Spanish and Mandarin, important for
 > **Protect your San Gabriel business from roach infestations.**  
 > ### Call [(626) 256-3200](tel:6262563200) for discrete commercial service.  
 > Restaurant Specialists • Health Code Compliant • Bilingual Service  
-> 
+>
 > *"Armed saved our restaurant during a health inspection crisis. Fast, professional, and discrete. They know the restaurant business!"* ⭐⭐⭐⭐⭐  
 > — **Tommy L., Valley Blvd Restaurant Owner**
 

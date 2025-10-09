@@ -154,7 +154,7 @@ Business lighting attracts insects that spiders eat. Restaurants, stores, and of
 > **Eliminate spiders from your San Gabriel property.**  
 > ### Call [(626) 256-3200](tel:6262563200) for professional spider control.  
 > Commercial Specialists • Bilingual Service • Fast Response  
-> 
+>
 > *"Our restaurant had a spider problem that scared customers. Armed came after hours, treated everything discretely. No more complaints!"* ⭐⭐⭐⭐⭐  
 > — **Lisa W., Valley Boulevard**
 

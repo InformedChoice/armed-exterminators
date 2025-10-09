@@ -46,7 +46,7 @@ With 24/7 dining and some of the highest population density in L.A. County, **K-
 
 **High-Density Apartments (Wilshire Center, Olympic Corridor)**
 * **German cockroach elimination** - unit-by-unit treatments
-* **Bed bug heat treatments** for furnished apartments
+* **Bed bug treatment programs** for furnished apartments
 * **Rodent exclusion** for shared attic spaces
 * **Flea control** for pet-friendly buildings
 

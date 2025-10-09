@@ -140,7 +140,7 @@ Looking for pest control in nearby cities?
 > **Protect your Temple City property from wildlife invasions.**  
 > ### Call [(626) 256-3200](tel:6262563200) for professional wildlife control.  
 > Licensed by CA Fish & Wildlife • Humane Methods • Permit Assistance  
-> 
+>
 > *"Found a family of skunks under our deck. Armed handled all the permits and removed them humanely. Very professional!"* ⭐⭐⭐⭐⭐  
 > — **Jennifer L., Temple City**
 

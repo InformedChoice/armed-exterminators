@@ -145,7 +145,7 @@ Pest control in neighboring cities:
 > **Stop wildlife and rodent damage to your El Monte property.**  
 > ### Call [(626) 256-3200](tel:6262563200) for expert pest control.  
 > All ZIP Codes Served • Same-Day Response • Licensed & Insured  
-> 
+>
 > *"Rats from the river were getting into our restaurant. Armed solved it fast and helped us pass health inspection!"* ⭐⭐⭐⭐⭐  
 > — **Miguel R., El Monte Business Owner**
 

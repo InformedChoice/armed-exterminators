@@ -23,7 +23,7 @@ Complete evaluation of high-rise and mixed-use pest pathways.
 ### 2. **German Roach Treatment**
 Targeted gel baits and crack-and-crevice treatments for kitchen areas.
 
-### 3. **Multi-Unit Coordination** 
+### 3. **Multi-Unit Coordination**
 Treating connected units simultaneously to prevent spread.
 
 ### 4. **Ongoing Monitoring**

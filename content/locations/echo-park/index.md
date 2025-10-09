@@ -50,7 +50,7 @@ From historic **Angelino Heights** Victorians to modern condos overlooking **Ech
 
 **Modern Condos & Apartments (Echo Park Lake Area)**
 * **Cockroach eradication** - German roach treatments for shared kitchens  
-* **Bed bug treatments** - heat therapy for furnished rentals
+* **Bed bug treatments** - multi-visit programs for furnished rentals
 * **Ant, spider, and flea control** for pets and patio gardens  
 * **Multi-unit coordination** - preventing spread between units
 

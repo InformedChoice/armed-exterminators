@@ -141,7 +141,7 @@ American roaches ("palmetto bugs") live in mulch and landscaping but enter homes
 > **Protect your Arcadia estate from roach infestations.**  
 > ### Call [(626) 256-3200](tel:6262563200) for discrete roach control.  
 > Luxury Property Specialists • Unmarked Service • Horse-Safe  
-> 
+>
 > *"Armed handled our roach problem professionally and discretely. They worked around our pool service and gardeners. Haven't seen a roach since!"* ⭐⭐⭐⭐⭐  
 > — **Patricia M., Peacock District**
 

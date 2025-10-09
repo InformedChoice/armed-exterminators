@@ -138,6 +138,6 @@ Yes, we provide quarterly inspection and prevention programs ideal for large est
 > **Protect your San Marino estate from wildlife intrusions.**  
 > ### Call [(626) 256-3200](tel:6262563200) for discrete opossum removal service.  
 > Premium Solutions • Complete Discretion • Estate Specialists  
-> 
+>
 > *"Excellent service for our property. They were discrete, professional, and solved our opossum problem without disrupting our landscape. Exactly what we needed."* ⭐⭐⭐⭐⭐  
 > — **William H., Huntington Drive**

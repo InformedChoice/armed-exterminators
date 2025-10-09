@@ -1,0 +1,33 @@
+{
+  "default": true,
+  "MD003": { "style": "atx" },
+  "MD004": false,
+  "MD013": false,
+  "MD022": false,
+  "MD025": false,
+  "MD026": false,
+  "MD028": false,
+  "MD029": false,
+  "MD031": false,
+  "MD032": false,
+  "MD033": false,
+  "MD036": false,
+  "MD040": false,
+  "MD041": false,
+  "MD047": false,
+  "ignores": [
+    "AGENTS.md",
+    "CLAUDE.md",
+    "FINAL-SEO-SUMMARY.md",
+    "FINAL-UPDATE-SUMMARY.md",
+    "HTML-FIXES-AND-NEW-LOCATIONS.md",
+    "IMPLEMENTATION-COMPLETE.md",
+    "LINK-VERIFICATION-REPORT.md",
+    "LINKING-STRATEGY-UPDATE.md",
+    "NEW-PAGES-SUMMARY.md",
+    "SEO-IMPLEMENTATION-GUIDE.md",
+    "archetypes/**/*.md",
+    "static/images/README.md",
+    "public/**"
+  ]
+}

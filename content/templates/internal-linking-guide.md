@@ -70,14 +70,14 @@ These pages need the most strategic linking:
 
 ```markdown
 <!-- Within the content -->
-[Location]'s proximity to [landmark] means residents often need both 
-**[current service]** and [related service in same city](/[related-service]-[city]/). 
+[Location]'s proximity to [landmark] means residents often need both
+**[current service]** and [related service in same city](/[related-service]-[city]/).
 
 <!-- After main content -->
 ## Other [City] Pest Control Services
 
 Dealing with multiple pests? We also offer:
-- **[Spider Control in [City]](/spider-control-[city]/)** 
+- **[Spider Control in [City]](/spider-control-[city]/)**
 - **[Ant Control in [City]](/ant-control-[city]/)**
 - **[Wildlife Removal in [City]](/wildlife-removal-[city]/)**
 
@@ -98,22 +98,22 @@ Dealing with multiple pests? We also offer:
 
 ### Within Problem Description
 ```markdown
-Argentine ants in Arcadia often enter homes seeking water during our hot summers. 
-These persistent invaders differ from [carpenter ants](/ant-control-arcadia/#carpenter-ants), 
+Argentine ants in Arcadia often enter homes seeking water during our hot summers.
+These persistent invaders differ from [carpenter ants](/ant-control-arcadia/#carpenter-ants),
 which actually damage wood structures similar to [termites](link-to-termite-info).
 ```
 
 ### Within Solution Text
 ```markdown
-Our technicians serving [South Pasadena](/locations/south-pasadena/) use the same 
-proven methods we've perfected over 28 years in [Pasadena](/locations/pasadena/) 
+Our technicians serving [South Pasadena](/locations/south-pasadena/) use the same
+proven methods we've perfected over 28 years in [Pasadena](/locations/pasadena/)
 and [San Marino](/locations/san-marino/).
 ```
 
 ### In Prevention Tips
 ```markdown
-While treating your current ant problem, consider our [quarterly maintenance plans](/services/#maintenance) 
-to prevent future invasions. Many Arcadia customers near [Santa Anita Park](/ant-control-arcadia/#santa-anita) 
+While treating your current ant problem, consider our [quarterly maintenance plans](/services/#maintenance)
+to prevent future invasions. Many Arcadia customers near [Santa Anita Park](/ant-control-arcadia/#santa-anita)
 find this especially valuable during racing season.
 ```
 

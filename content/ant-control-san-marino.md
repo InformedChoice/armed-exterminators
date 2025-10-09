@@ -155,7 +155,7 @@ Yes, we regularly coordinate with landscape crews, pool services, and property m
 > **Protect your San Marino estate from ant invasions.**  
 > ### Call [(626) 256-3200](tel:6262563200) for discrete ant control.  
 > Estate Specialists • Luxury Property Experts • Guaranteed Results  
-> 
+>
 > *"Armed understands the unique needs of San Marino properties. Discrete, professional, and completely eliminated our ant problem without disturbing our landscaping."* ⭐⭐⭐⭐⭐  
 > — **Margaret H., Huntington Area**
 

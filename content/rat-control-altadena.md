@@ -155,7 +155,7 @@ Yes, wild rats can carry hantavirus, plague, and other diseases. This is why pro
 > **Protect your Altadena home from mountain rat invasions.**  
 > ### Call [(626) 256-3200](tel:6262563200) for specialized rat control.  
 > Canyon Experts • Wildlife Safe • Emergency Service Available  
-> 
+>
 > *"Living near Eaton Canyon, rats were constant. Armed sealed our home completely and set up monitoring. First rat-free winter in years!"* ⭐⭐⭐⭐⭐  
 > — **James T., Upper Altadena**
 

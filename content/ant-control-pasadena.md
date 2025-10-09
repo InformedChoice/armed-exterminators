@@ -154,7 +154,7 @@ Yes, we use pet-safe products and application methods. Baits are placed in areas
 > **Stop the ant invasion in your Pasadena home.**  
 > ### Call [(626) 256-3200](tel:6262563200) for professional ant control.  
 > Urban Ant Experts • Same-Day Service • Guaranteed Results  
-> 
+>
 > *"Tried everything for months. Armed solved our ant problem in one treatment. They understood our old Craftsman's unique issues!"* ⭐⭐⭐⭐⭐  
 > — **Michael R., Bungalow Heaven**
 

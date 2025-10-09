@@ -48,7 +48,7 @@ From historic **movie palaces on Hollywood Blvd.** to hillside bungalows in **Be
 * **Multi-unit coordination** for apartment complexes
 
 **Hollywood Dell & Los Feliz Border**  
-* **Bed bug heat remediation** for furnished rentals  
+* **Bed bug treatment programs** for furnished rentals  
 * **Rodent exclusion** for hillside properties
 * **Spider control** for outdoor entertaining areas
 * **Monthly maintenance** for luxury homes
@@ -75,7 +75,7 @@ From historic **movie palaces on Hollywood Blvd.** to hillside bungalows in **Be
 * **Preventive maintenance** to avoid shutdowns
 
 **Boutique Hotels & Event Venues**  
-* **Bed bug K-9 inspections** and heat treatments
+* **Bed bug K-9 inspections** and treatment programs
 * **Mattress encasements** and room protection
 * **Discrete vehicle requests** for high-profile properties
 * **Emergency response** for guest complaints

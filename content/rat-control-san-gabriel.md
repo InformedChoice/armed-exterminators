@@ -139,7 +139,7 @@ Monthly service for San Gabriel businesses typically starts at $125, depending o
 > **Don't let rats threaten your San Gabriel property or business.**  
 > ### Call [(626) 256-3200](tel:6262563200) for immediate rat control.  
 > Commercial Specialists • Discreet Service • Se Habla Español  
-> 
+>
 > *"Armed Exterminators saved our restaurant. They came quickly, worked discreetly, and helped us pass our health inspection. Highly professional!"* ⭐⭐⭐⭐⭐  
 > — **Lisa C., Valley Boulevard Restaurant Owner**
 

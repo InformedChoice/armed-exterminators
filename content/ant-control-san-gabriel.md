@@ -148,7 +148,7 @@ For San Gabriel food businesses, yes. The combination of food odors, grease, moi
 > **Protect your San Gabriel home or business from ants.**  
 > ### Call [(626) 256-3200](tel:6262563200) for professional ant control.  
 > Commercial Specialists • Bilingual Service • Same-Day Available  
-> 
+>
 > *"Our restaurant had a serious ant problem. Armed came after hours, treated everything discretely, and we passed our health inspection!"* ⭐⭐⭐⭐⭐  
 > — **David L., Valley Boulevard Restaurant**
 

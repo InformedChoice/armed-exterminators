@@ -10,8 +10,6 @@ Dealing with unwanted wildlife? Armed Exterminators provides expert wildlife rem
 
 ## Choose Your City for Local Wildlife Control
 
-
-
 ### [Pasadena](/wildlife-control-pasadena/)
 Urban wildlife specialists. Experts in raccoons, opossums, and attic invasions near the Arroyo.
 
@@ -41,8 +39,6 @@ Hillside wildlife management. Deer-resistant strategies and slope protection.
 
 ### [Rosemead](/locations/rosemead/)
 Valley wildlife control. Affordable solutions for common urban species.
-
-
 
 ## Wildlife Species We Handle
 

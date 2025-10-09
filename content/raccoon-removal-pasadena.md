@@ -138,6 +138,6 @@ Listen for heavy footsteps at night, chattering or crying sounds (especially spr
 > **Don't let raccoons damage your home or endanger your family.**  
 > ### Call [(626) 256-3200](tel:6262563200) for professional raccoon removal in Pasadena.  
 > 24/7 Emergency Service • Humane Methods • Complete Restoration  
-> 
+>
 > *"Armed responded immediately when we had raccoons in our attic. They removed the whole family humanely and repaired all the damage. Excellent service!"* ⭐⭐⭐⭐⭐  
 > — **David L., Linda Vista**

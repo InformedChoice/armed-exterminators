@@ -48,7 +48,7 @@ Whether you live in a mid-century hillside home in **Baldwin Hills**, a historic
 * **Community-focused service** - understanding local needs
 
 **Student Housing & Rentals (USC/Expo Park Area)**
-* **Bed bug heat treatments** for high-turnover properties
+* **Bed bug treatment programs** for high-turnover properties
 * **Multi-unit coordination** - preventing spread between apartments
 * **Property manager partnerships** - streamlined service for complexes
 * **Academic calendar scheduling** - timing treatments appropriately
@@ -63,7 +63,7 @@ Whether you live in a mid-century hillside home in **Baldwin Hills**, a historic
 ## Commercial & Institutional Services
 
 **USC/Exposition Park Area Rentals**  
-* **Bed bug heat treatments** - comprehensive elimination for student housing
+* **Bed bug treatment programs** - comprehensive elimination for student housing
 * **Roach clean-outs** - maintaining health code compliance
 * **Preventive maintenance** - reducing pest pressure year-round
 * **Emergency response** - rapid solutions for urgent issues

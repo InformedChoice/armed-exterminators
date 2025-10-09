@@ -1,6 +1,6 @@
 ---
-title: "Bed Bug Treatment Koreatown | Heat Treatment & K-9 Detection K-Town"
-description: "Expert bed bug elimination in Koreatown apartments and hotels. Heat treatment available. Fast response for high-density housing. Call (626) 256-3200."
+title: "Bed Bug Treatment Koreatown | K-9 Detection & Rapid Response K-Town"
+description: "Expert bed bug elimination in Koreatown apartments and hotels. Targeted treatments with fast response for high-density housing. Call (626) 256-3200."
 draft: false
 ---
 
@@ -20,8 +20,8 @@ draft: false
 ### 1. **K-9 Detection Service**
 Certified bed bug detection dogs pinpoint exactly where bugs are hiding.
 
-### 2. **Heat Treatment Option**
-Whole-room heat treatments that kill all life stages in one session.
+### 2. **Targeted Treatment Service**
+Comprehensive insecticide applications with vacuuming and encasements to eliminate all life stages.
 
 ### 3. **Multi-Unit Coordination**
 Treating adjacent units simultaneously to prevent spread.
@@ -39,7 +39,7 @@ Ensuring complete elimination with monitoring visits.
 
 **Furnished Rentals & Short-Term Housing**
 * **Pre-tenant inspections** - preventing infestations
-* **Heat treatment** - killing bugs in furniture and belongings
+* **Comprehensive treatments** - protecting furniture and belongings
 * **Rapid response** - minimizing rental income loss
 * **Documentation** - detailed service records
 
@@ -53,7 +53,7 @@ Ensuring complete elimination with monitoring visits.
 
 **Extended Stay Properties**
 * **Comprehensive inspections** of all units
-* **Heat treatment** for furnished accommodations
+* **Recurring treatment plans** for furnished accommodations
 * **Ongoing monitoring** programs
 * **Property manager coordination**
 

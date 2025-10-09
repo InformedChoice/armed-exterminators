@@ -76,6 +76,6 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 If you have questions about this Privacy Policy or our privacy practices, please contact us:
 
 **Armed Exterminators**  
-Email: armedex@sbcglobal.net  
+Email: [armedex@sbcglobal.net](mailto:armedex@sbcglobal.net)  
 Phone: (626) 256-3200  
 Office: Duarte, CA

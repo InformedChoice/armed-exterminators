@@ -138,6 +138,6 @@ Keep pets outside initially. Mix 1 quart hydrogen peroxide, 1/4 cup baking soda,
 > **Protect your Arcadia property from skunk problems.**  
 > ### Call [(626) 256-3200](tel:6262563200) for professional skunk removal today.  
 > Safe Removal • Odor Control • Foothill Wildlife Experts  
-> 
+>
 > *"They removed skunks from our property without any spraying incidents. Very professional and knowledgeable about local wildlife patterns."* ⭐⭐⭐⭐⭐  
 > — **David L., Upper Arcadia**

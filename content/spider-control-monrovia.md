@@ -141,7 +141,7 @@ Yes, canyon properties require perimeter barriers to prevent migration from natu
 > **Eliminate dangerous spiders from your Monrovia property.**  
 > ### Call [(626) 256-3200](tel:6262563200) for expert spider control.  
 > Black Widow Specialists • Canyon Experts • Same-Day Service  
-> 
+>
 > *"Found three black widows in our garage. Armed came immediately, found several more we missed, and treated everything. Haven't seen a spider since!"* ⭐⭐⭐⭐⭐  
 > — **Jennifer R., North Monrovia**
 

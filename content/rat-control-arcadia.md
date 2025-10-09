@@ -106,7 +106,7 @@ We provide fast rat control throughout:
 
 Looking for pest control in nearby areas?
 - [Rat Control in Monrovia](/rat-control-monrovia/)
-- [Rat Control in Pasadena](/rat-control-pasadena/) 
+- [Rat Control in Pasadena](/rat-control-pasadena/)
 - [Rat Control in Temple City](/rat-control-temple-city/)
 
 ---
@@ -133,7 +133,7 @@ Yes! We cover all Arcadia ZIP codes including 91006, 91007, 91066, and 91077. We
 > **Don't let rats damage your Arcadia home.**  
 > ### Call [(626) 256-3200](tel:6262563200) for immediate rat control.  
 > Same-Day Service • Licensed & Insured • Family-Owned Since 1996  
-> 
+>
 > *"Armed Exterminators solved our roof rat problem in just one week. They sealed everything and even trimmed our trees. Haven't heard a scratch since!"* ⭐⭐⭐⭐⭐  
 > — **Jennifer M., Peacock District**
 

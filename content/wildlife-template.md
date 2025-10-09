@@ -127,6 +127,6 @@ We provide fast [animal] removal throughout:
 > **[Call to action headline]**  
 > ### Call [(626) 256-3200](tel:6262563200) for immediate [animal] removal in [City].  
 > [Service promise 1] • [Service promise 2] • [Service promise 3]  
-> 
+>
 > *"[Relevant testimonial about this specific animal removal]"* ⭐⭐⭐⭐⭐  
 > — **[Customer Name], [City/Neighborhood]**

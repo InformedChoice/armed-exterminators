@@ -53,7 +53,7 @@ The urban heart of Los Angeles, from the **Arts District** and **Historic Core**
 **Lofts & Condos (Arts District, Little Tokyo, South Park)**  
 * **Rodent removal & exclusion** - seal entry points in brick facades  
 * **German cockroach clean-outs** in kitchenettes  
-* **Bed bug heat treatments** for furnished rentals  
+* **Bed bug treatment programs** for furnished rentals  
 * **Ant control** for high-rise living spaces
 
 ### Featured Neighborhoods:
@@ -76,7 +76,7 @@ The urban heart of Los Angeles, from the **Arts District** and **Historic Core**
 * **Emergency response** for health department issues
 
 **Hotels & Event Venues**
-* **Bed bug K-9 inspections** and heat treatments
+* **Bed bug K-9 inspections** and treatment programs
 * **Preventive maintenance programs**
 * **24/7 emergency response**
 

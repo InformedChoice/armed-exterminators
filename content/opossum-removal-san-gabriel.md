@@ -139,6 +139,6 @@ Opossums are generally solitary except when mating or raising young. However, go
 > **Don't let opossums take over your San Gabriel property.**  
 > ### Call [(626) 256-3200](tel:6262563200) for expert opossum removal today.  
 > Fast Response • Humane Methods • Lasting Solutions  
-> 
+>
 > *"They handled our opossum problem quickly and professionally. Sealed up our crawl space and haven't had issues since. Highly recommend!"* ⭐⭐⭐⭐⭐  
 > — **Michael C., Mission District**

@@ -144,6 +144,6 @@ Extremely fast - females can have 4-6 litters per year with 5-10 pups each. A pa
 > **Don't let roof rats destroy your attic or endanger your family.**  
 > ### Call [(626) 256-3200](tel:6262563200) for expert roof rat removal in Pasadena.  
 > Complete Elimination • Attic Restoration • Guaranteed Results  
-> 
+>
 > *"Finally quiet nights! Armed found how the rats were getting in, removed them all, and sealed everything. Worth every penny for the peace of mind."* ⭐⭐⭐⭐⭐  
 > — **John T., Bungalow Heaven**

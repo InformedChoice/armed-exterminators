@@ -139,6 +139,6 @@ In North America, we have Virginia opossums (often called possums colloquially).
 > **Protect your Monrovia home from opossum damage.**  
 > ### Call [(626) 256-3200](tel:6262563200) for fast opossum removal service.  
 > Foothill Wildlife Experts • Humane Solutions • Guaranteed Results  
-> 
+>
 > *"Great service! They removed the opossum family from our crawl space and secured everything. Very professional and knowledgeable about local wildlife."* ⭐⭐⭐⭐⭐  
 > — **Linda T., North Monrovia**

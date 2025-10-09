@@ -18,7 +18,7 @@ The most common stored food pest in homes:
 - **Target**: Grains, cereals, nuts, dried fruit, pet food, birdseed, chocolate
 - **Damage**: Contaminate entire pantries, create webbing and waste
 
-### Clothes Moths
+### Clothes Moth Damage Signs
 Two species attack natural fabrics:
 - **Webbing Clothes Moths**: Most common, create silky tubes on fabrics
 - **Casemaking Clothes Moths**: Larvae drag portable cases as they feed
@@ -60,7 +60,7 @@ Similar to Indian meal moths:
 - Small moths walking on pantry shelves rather than flying
 - Cocoons in corners of cabinets or food packages
 
-### Clothes Moths
+### Closet Infestation Warning Signs
 - Tiny holes or threadbare patches on wool, cashmere, or silk
 - Silky tubes or cases on fabric surfaces
 - Moths flying from closets when disturbed

@@ -138,6 +138,6 @@ Opossums have white faces, naked tails, and move slowly. Raccoons have masked fa
 > **Don't let opossums disturb your peace or damage your property.**  
 > ### Call [(626) 256-3200](tel:6262563200) for professional opossum removal in Pasadena.  
 > Licensed & Insured • Humane Methods • Quick Response  
-> 
+>
 > *"Armed Exterminators removed opossums from under our house professionally and sealed everything up. No more late-night noises!"* ⭐⭐⭐⭐⭐  
 > — **Robert K., Linda Vista**

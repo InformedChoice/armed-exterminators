@@ -144,7 +144,7 @@ Yes. Mice can carry hantavirus, salmonella, and other diseases. Their droppings 
 > **Stop mice before they multiply in your Pasadena home.**  
 > ### Call [(626) 256-3200](tel:6262563200) for immediate mouse control.  
 > Fast Response • Discrete Service • Guaranteed Results  
-> 
+>
 > *"Had mice in our Old Town apartment. Armed came same day, found how they got in, and solved the problem completely. Very professional!"* ⭐⭐⭐⭐⭐  
 > — **Kevin T., South Lake Avenue**
 

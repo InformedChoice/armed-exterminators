@@ -165,7 +165,7 @@ Install motion-activated sprinklers, use pond netting at night, create steep sid
 > **Don't let raccoons damage your Arcadia property.**  
 > ### Call [(626) 256-3200](tel:6262563200) for humane raccoon removal.  
 > Estate Specialists • Emergency Service • Licensed & Insured  
-> 
+>
 > *"Raccoons destroyed our koi pond twice before we called Armed. They removed the whole family, sealed our attic, and showed us how to protect the pond. Very professional!"* ⭐⭐⭐⭐⭐  
 > — **David L., Upper Rancho**
 
