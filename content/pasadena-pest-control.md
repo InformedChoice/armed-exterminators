@@ -105,6 +105,20 @@ We've been serving Hollywood and greater Los Angeles since day one. We understan
 - Black widows, brown widows, and cellar spiders in garages, courtyards, and under outdoor lighting
 - Raccoons, skunks, and opossums denning beneath decks and in crawlspaces near Griffith Park and Runyon Canyon
 
+## Hollywood Neighborhood Solutions
+
+### Hollywood Hills & Beachwood Canyon
+Hillside homes and canyon streets hide endless entry points for rodents and wildlife. Our team seals and protects view properties with targeted [rodent control](/services/rodent-control/) and humane [wildlife removal](/wildlife-control-services/) programs, backed by ongoing monitoring. Need a walk-through of your exact block? Start with our [Hollywood Hills service guide](/locations/hollywood-hills/).
+
+### Sunset Strip & Production Corridor
+Restaurants, music venues, and studios along Sunset need quiet, after-hours service. We pair discreet [cockroach elimination](/services/cockroach-exterminator/) with rodent-proofing that keeps craft services, green rooms, and audience areas clean. See how we handle high-profile properties in our main [Hollywood location page](/locations/hollywood/).
+
+### Los Feliz & Franklin Village
+From historic Spanish duplexes to modern lofts, Los Feliz properties battle spiders, ants, and the occasional bed bug hitchhiker. We combine low-odor [spider treatments](/services/spider-control/) with proactive inspections for vintage buildings. Explore neighborhood-specific tips in [Los Feliz pest control](/locations/los-feliz/).
+
+### Silver Lake & Echo Park
+Creative workspaces and hillside multiplexes thrive in these neighborhoods—but so do mosquitoes, fleas, and pantry moths. Our crews deliver pet-friendly [flea treatments](/services/flea-treatment/) and standing-water reduction plans alongside [mosquito control](/services/mosquito-control/). Want a deeper dive? Check out our [Silver Lake](/locations/silver-lake/) and [Echo Park](/locations/echo-park/) service hubs.
+
 ## Service Areas
 
 ### Los Angeles & Hollywood
