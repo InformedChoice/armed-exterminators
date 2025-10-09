@@ -112,8 +112,10 @@ Complete service records for property managers and location teams.
 
 ### Recent Hollywood Success Story
 
-> *"Armed Exterminators worked around our tight filming schedule to eliminate a rat problem in our Sunset soundstage. They used quiet methods during breaks and completely solved the issue without delaying production. True professionals who understand the industry."*  
-> — **Mike R., Location Manager, Sunset Strip Studio**
+> *"After weeks of scratching in our Hollywood Hills attic, Armed Exterminators sealed every entry and the noise vanished within a day. They explained each step and checked back the next week to be sure everything stayed quiet. True pros."*  
+> — **Lisa M., Beachwood Canyon Homeowner**
+
+Curious how other Hollywood residents feel? Read our latest [Yelp reviews](https://www.yelp.com/biz/armed-exterminators-duarte).
 
 ## Service Coverage Areas
 

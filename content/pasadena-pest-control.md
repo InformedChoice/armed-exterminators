@@ -1,12 +1,14 @@
 ---
-title: "Pasadena Pest Control | Professional Exterminator Services"
-description: "Complete pest control services in Pasadena, CA. Ants, roaches, rodents, spiders & more. Family-owned, licensed & insured. Call (626) 256-3200."
+title: "Hollywood Pest Control | Professional Exterminator Services"
+description: "Complete pest control for Hollywood, Los Feliz, and Central Los Angeles. Ants, roaches, rodents, spiders & more. Family-owned, licensed & insured. Call (626) 256-3200."
 draft: false
 ---
 
-# Pasadena Pest Control Services
+# Hollywood Pest Control Services
 
-Armed Exterminators provides comprehensive pest control solutions for homes and businesses throughout Pasadena and the San Gabriel Valley. As a family-owned company with 28 years of experience, we understand the unique pest challenges our community faces and deliver personalized service that larger companies can't match.
+Armed Exterminators provides comprehensive pest control solutions for homes and businesses throughout Hollywood, Los Feliz, and the surrounding Central Los Angeles neighborhoods. As a family-owned company with 28 years of experience, we understand the unique pest pressures that come with hillside homes, production schedules, and round-the-clock entertainment venues—and we deliver personalized service that larger companies can't match.
+
+Whether you're caring for a mid-century home above the Hollywood Reservoir, managing furnished rentals near Sunset Boulevard, or keeping a studio pest-free during filming, our licensed team builds treatment plans that match your building type, climate zone, and pest history. Need help east of the 5? The same crew also serves Pasadena and the San Gabriel Valley when you have multi-city properties.
 
 <div style="text-align: center; margin: 2rem 0;">
     <a href="tel:(626) 256-3200" style="display: inline-block; background: #FF0000; color: white; padding: 1rem 2.5rem; font-size: 1.25rem; font-weight: bold; text-decoration: none; border-radius: 5px; box-shadow: 0 0 20px rgba(255, 0, 0, 0.4); transition: all 0.3s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 30px rgba(255, 0, 0, 0.6)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px rgba(255, 0, 0, 0.4)'">
@@ -51,11 +53,11 @@ We service:
 ## Why Choose Armed Exterminators?
 
 ### Local Expertise
-We've been serving Pasadena since day one. We understand:
-- The seasonal pest patterns unique to our area
-- Which pests are most problematic in different neighborhoods
-- How our Mediterranean climate affects pest behavior
-- The specific challenges of Pasadena's older homes
+We've been serving Hollywood and greater Los Angeles since day one. We understand:
+- The seasonal pest patterns unique to each microclimate from Beachwood Canyon to the Sunset Strip
+- Which pests are most problematic in Spanish-style duplexes, hillside estates, and production spaces
+- How marine layer mornings, canyon winds, and busy nightlife change pest behavior block by block
+- The specific challenges of keeping studios, boutique hotels, and historic homes pest-free without disrupting daily operations
 
 ### Our Approach
 1. **Thorough Inspection** - We identify pest species, entry points, and contributing factors
@@ -80,31 +82,49 @@ We've been serving Pasadena since day one. We understand:
     </a>
 </div>
 
-## Common Pasadena Pest Problems
+## Hollywood Seasonal Pest Pressures
 
 ### Spring & Summer
-- Wolf spider and orb-weaver activity around patios
-- Roof rats and house mice moving through attics
-- Mosquito surges near pools, fountains, and shaded yards
-- Flea flare-ups triggered by neighborhood wildlife and pets
+- Orb-weaver and cellar spider activity around patios, balconies, and pool decks
+- Roof rats and house mice nesting in canyon vegetation and slipping into attics
+- Mosquito surges near hillside water features, koi ponds, and shared courtyards
+- Flea flare-ups triggered by neighborhood wildlife roaming through yards and garages
 
 ### Fall & Winter
-- Rodents squeezing indoors to escape cooler nights
-- Argentine and odorous house ants pushing into kitchens
-- Pocket gophers tunneling through rain-softened soil
-- Urban wildlife (raccoons, opossums, skunks) denning in attics and crawlspaces
+- Rodents squeezing indoors to escape chilly canyon nights
+- Argentine and pharaoh ants invading kitchens, break rooms, and craft service tables
+- Pocket gophers tunneling through rain-softened landscaping along the hillsides
+- Urban wildlife (raccoons, opossums, skunks) denning in crawlspaces, under decks, and near studio lots
+
+## Common Hollywood & Central Los Angeles Pest Problems
+
+- German cockroaches and pharaoh ants thriving in 24/7 restaurants on Sunset and Hollywood Boulevard
+- Roof rats nesting in Spanish-style attics and hillside vegetation across Beachwood Canyon and Hollywood Dell
+- Bed bugs hitchhiking through furnished rentals, boutique hotels, and production housing
+- Drain flies and filth flies around commercial kitchens, sound stages, and event venues
+- Black widows, brown widows, and cellar spiders in garages, courtyards, and under outdoor lighting
+- Raccoons, skunks, and opossums denning beneath decks and in crawlspaces near Griffith Park and Runyon Canyon
 
 ## Service Areas
 
-We proudly serve:
-- Pasadena
-- South Pasadena
-- Altadena
-- San Marino
-- Arcadia
-- Monrovia
-- Sierra Madre
-- Duarte
+### Los Angeles & Hollywood
+- **[Hollywood](/locations/hollywood/)** - Entertainment corridor, boutique hotels, and hillside rentals
+- **[Hollywood Hills](/locations/hollywood-hills/)** - View properties and hillside wildlife control
+- **[Los Feliz](/locations/los-feliz/)** - Historic homes and multi-unit communities
+- **[Silver Lake](/locations/silver-lake/)** - Mid-century apartments and creative spaces
+- **[Echo Park](/locations/echo-park/)** - Multi-unit buildings and lakefront condos
+- **[Downtown LA](/locations/downtown-los-angeles/)** - Lofts, restaurants, and mixed-use towers
+- **[Koreatown](/locations/koreatown/)** - High-density housing and 24/7 restaurants
+
+### San Gabriel Valley (Extended Service)
+- **[Pasadena](/locations/pasadena/)** - Historic homes, apartments, and estates
+- **[South Pasadena](/locations/south-pasadena/)** - Craftsman neighborhoods and condos
+- **[Altadena](/locations/altadena/)** - Foothill properties and canyon lots
+- **[San Marino](/locations/san-marino/)** - Estate and garden pest control
+- **[Arcadia](/locations/arcadia/)** - Equine properties and suburban homes
+- **[Monrovia](/locations/monrovia/)** - Foothill wildlife and rodent issues
+- **[Sierra Madre](/locations/sierra-madre/)** - Canyon living and wildlife pressure
+- **[Duarte](/locations/duarte/)** - Residential and light commercial properties
 
 ## Get Started Today
 
@@ -112,7 +132,7 @@ Don't let pests take over your property. Our experienced technicians are ready t
 
 <div style="background: linear-gradient(135deg, #fff5f5, #ffe0e0); border: 3px solid #FF0000; padding: 3rem; margin: 3rem 0; text-align: center; border-radius: 10px; box-shadow: 0 0 30px rgba(255, 0, 0, 0.2);">
     <h2 style="color: #1a1a1a; font-size: 2rem; margin-bottom: 1rem;">Ready for a Pest-Free Property?</h2>
-    <p style="font-size: 1.25rem; color: #333; margin-bottom: 2rem;">Join hundreds of satisfied customers in Pasadena</p>
+    <p style="font-size: 1.25rem; color: #333; margin-bottom: 2rem;">Join hundreds of satisfied customers from Hollywood to the surrounding LA neighborhoods</p>
     <a href="tel:(626) 256-3200" style="display: inline-block; background: #FF0000; color: white; padding: 1.25rem 3rem; font-size: 1.5rem; font-weight: bold; text-decoration: none; border-radius: 50px; box-shadow: 0 0 30px rgba(255, 0, 0, 0.5); animation: pulse 2s infinite;">
         📞 (626) 256-3200
     </a>
