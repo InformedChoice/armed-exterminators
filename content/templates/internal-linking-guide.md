@@ -140,7 +140,7 @@ Wildlife Removal        South Pasadena             Wildlife
 Quick Links             Resources                  Company
 -----------             ---------                  -------
 Emergency Service       Pest Prevention Tips       About Us
-Free Inspection        Seasonal Pest Guide        Contact
+Schedule Inspection    Seasonal Pest Guide        Contact
 Service Plans          FAQ                        Reviews
 ```
 

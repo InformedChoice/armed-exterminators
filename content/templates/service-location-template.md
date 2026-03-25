@@ -74,7 +74,7 @@ draft: true
 | Quarterly Service | Ongoing protection | Save 15% |
 | Bi-Monthly Plan | Maximum protection | Best value |
 
-*Prices vary based on property size and severity. Free inspections available.*
+*Prices vary based on property size and severity.*
 
 ## Serving All [Location] Neighborhoods
 
@@ -118,7 +118,7 @@ Yes, we use EPA-registered products safe for California homes. We take extra pre
 [Location-specific answer mentioning local weather, geography, or conditions]
 
 ### How much does [service] cost in [Location]?
-Pricing depends on property size and severity. [Location] homes typically range from $[X] to $[Y]. We offer free inspections to provide accurate quotes.
+Pricing depends on property size and severity. [Location] homes typically range from $[X] to $[Y]. Contact us for an accurate quote.
 
 ### Do you service all of [Location]?
 Yes! We cover all [Location] ZIP codes including [list]. We also service nearby [adjacent city 1] and [adjacent city 2].

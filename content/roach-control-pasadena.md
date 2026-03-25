@@ -88,7 +88,7 @@ Pasadena's urban landscape supports roach populations:
 | Whole Building | Landlords | Custom quote |
 | Monthly Service | Severe cases | From $89/mo |
 
-*Free inspections for Pasadena properties.*
+*Call for a quote on your Pasadena property.*
 
 ## Serving All Pasadena Neighborhoods
 

@@ -1,6 +1,6 @@
 ---
 title: "Pest Control Services | San Gabriel Valley, Los Angeles & San Fernando Valley"
-description: "Since 1997, Armed Exterminators has delivered fast, effective pest control across the San Gabriel Valley, Los Angeles & the San Fernando Valley. Call for a free quote."
+description: "Since 1997, Armed Exterminators has delivered fast, effective pest control across the San Gabriel Valley, Los Angeles & the San Fernando Valley. Call for a quote."
 draft: false
 ---
 
@@ -108,7 +108,7 @@ Now serving:
 
 ## Service Process
 
-1. **Free Inspection** - Identify pest, extent, and causes
+1. **Inspection** - Identify pest, extent, and causes
 2. **Custom Plan** - Tailored to your specific situation
 3. **Safe Treatment** - EPA-approved methods
 4. **Follow-Up** - Ensure complete elimination
@@ -119,7 +119,7 @@ Now serving:
 ## Common Questions
 
 ### Which service do I need?
-Not sure what pest you have? Our free inspection will identify the problem and recommend the right solution. Many pests look similar but require different treatments.
+Not sure what pest you have? Our inspection will identify the problem and recommend the right solution. Many pests look similar but require different treatments.
 
 ### How quickly can you respond?
 Same-day service is available for most pest problems. Emergency wildlife removal and stinging insect issues get priority scheduling.
@@ -134,7 +134,7 @@ Each service includes inspection, treatment, and warranty. Most include follow-u
 
 > **Ready to solve your pest problem? Select your specific pest above or call for expert guidance.**
 > ### Call [(626) 256-3200](tel:6262563200) for immediate assistance.
-> Free Inspections • Same-Day Service • 90-Day Guarantee
+> Same-Day Service • 90-Day Guarantee
 
 ---
 

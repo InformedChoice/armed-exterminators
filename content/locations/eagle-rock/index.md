@@ -125,7 +125,7 @@ Building long-term relationships with residents and businesses.
 
 **Colorado Boulevard** • **Hill Drive** • **Dahlia Heights** • **Yosemite Drive** • **Eagle Rock Boulevard** • **Occidental College Area**
 
-Contact us for a **free Eagle Rock quote**—same-day service available.
+Contact us for an **Eagle Rock quote**—same-day service available.
 
 **Call (626) 256-3200** or [email us](mailto:armedex@sbcglobal.net).
 

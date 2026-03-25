@@ -79,7 +79,7 @@ Monrovia's foothill environment attracts rats year-round:
 | Quarterly Service | Ongoing prevention | Save 15% |
 | Full Exclusion | Complete sealing | $895-$1,595 |
 
-*Foothill properties may require additional exclusion work. Free inspections available.*
+*Foothill properties may require additional exclusion work.*
 
 ## Serving All Monrovia Neighborhoods
 
@@ -126,7 +126,7 @@ Late fall through winter, when cold canyon winds drive rats to seek warm shelter
 The combination of historic homes with original wood construction, mature fruit trees, and established ivy or vegetation creates perfect roof rat habitat. These rats excel at climbing and love Monrovia's tree canopy.
 
 ### How much does rat exclusion cost for foothill homes?
-Monrovia's foothill properties typically require more extensive exclusion work, ranging from $895 to $1,595. Canyon-facing homes may need additional fortification. We provide free inspections to assess your specific needs.
+Monrovia's foothill properties typically require more extensive exclusion work, ranging from $895 to $1,595. Canyon-facing homes may need additional fortification. Contact us for a quote tailored to your specific needs.
 
 ---
 

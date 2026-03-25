@@ -85,7 +85,7 @@ San Gabriel's unique urban landscape attracts rats:
 | Multi-Unit | Apartments | Custom quote |
 | Monthly Service | Food businesses | From $125/mo |
 
-*Commercial properties receive free initial inspections.*
+*Commercial properties welcome—call for a quote.*
 
 ## Serving All San Gabriel Areas
 
@@ -132,7 +132,7 @@ This is common in San Gabriel's older commercial buildings. We coordinate treatm
 Absolutely. We use EPA-approved methods specifically designed for food service environments. All treatments comply with health department regulations for restaurants and food storage.
 
 ### How much does monthly commercial service cost?
-Monthly service for San Gabriel businesses typically starts at $125, depending on property size and service needs. We offer free inspections to provide accurate quotes for your specific situation.
+Monthly service for San Gabriel businesses typically starts at $125, depending on property size and service needs. Contact us for an accurate quote for your specific situation.
 
 ---
 

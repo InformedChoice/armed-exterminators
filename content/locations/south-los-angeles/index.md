@@ -125,7 +125,7 @@ Whether you live in a mid-century hillside home in **Baldwin Hills**, a historic
 
 **Baldwin Hills** • **View Park–Windsor Hills** • **Leimert Park** • **Jefferson Park** • **USC/Expo Park** • **Crenshaw District** • **Mid-City South**
 
-**Call (626) 256-3200** for a free South L.A. inspection—fast, friendly, and local.
+**Call (626) 256-3200** to schedule a South L.A. inspection—fast, friendly, and local.
 
 **ZIP Codes Served:** 90008, 90016, 90018, 90037, 90043
 

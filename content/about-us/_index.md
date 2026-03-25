@@ -145,7 +145,7 @@ Join thousands of satisfied customers who trust Dale and his team for all their 
 
 > ### 📞 Call [(626) 256-3200](tel:6262563200) Today
 >
-> **Same-Day Service • Free Estimates • 90-Day Guarantee**
+> **Same-Day Service • 90-Day Guarantee**
 
 **Family-Owned • Locally Operated • Trusted Since 1997**
 

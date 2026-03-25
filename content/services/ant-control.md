@@ -117,7 +117,7 @@ No. Our methods allow you to remain home during service. We use targeted applica
 
 > ### Ready to eliminate your ant problem for good?
 > ## Call [(626) 256-3200](tel:6262563200) for immediate service.
-> **Same-Day Service Available • Free Inspections • 90-Day Warranty**
+> **Same-Day Service Available • 90-Day Warranty**
 
 ---
 

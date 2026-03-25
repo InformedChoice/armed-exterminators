@@ -117,7 +117,7 @@ We never separate mothers from babies. We use exclusion methods that keep famili
 No. We use humane removal methods including one-way doors, live trapping, and eviction techniques. Animals are relocated following state guidelines.
 
 ### How much does wildlife removal cost?
-Costs vary by species, location, and extent of problem. Most services range from $295-$795. We provide free inspections and written quotes.
+Costs vary by species, location, and extent of problem. Most services range from $295-$795. We provide written quotes after inspection.
 
 ---
 

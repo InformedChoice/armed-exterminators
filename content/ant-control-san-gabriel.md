@@ -87,7 +87,7 @@ San Gabriel's diverse environment attracts multiple ant species:
 | Monthly Plans | Restaurants | From $95/mo |
 | Apartments | Multi-unit | Custom quote |
 
-*Free inspections for San Gabriel properties.*
+*Call for a quote on your San Gabriel property.*
 
 ## Serving All San Gabriel Areas
 

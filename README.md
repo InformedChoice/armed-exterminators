@@ -56,7 +56,7 @@ armed-exterminators/
    ```markdown
    ---
    title: "Termite Control Pasadena | Professional Termite Treatment"
-   description: "Expert termite control in Pasadena. Protect your home from costly damage. Free inspections. Call (626) 256-3200."
+   description: "Expert termite control in Pasadena. Protect your home from costly damage. Call (626) 256-3200."
    draft: false
    ---
 

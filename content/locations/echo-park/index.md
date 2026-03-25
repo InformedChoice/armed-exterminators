@@ -112,7 +112,7 @@ Working with local businesses and residents for area-wide prevention.
 
 **Angelino Heights** • **Echo Park Lake** • **Baxter Street** • **Temple-Beaudry** • **Historic Filipinotown Edge** • **Elysian Park Border**
 
-**Call (626) 256-3200** or [email us](mailto:armedex@sbcglobal.net) for a free Echo Park inspection today.
+**Call (626) 256-3200** or [email us](mailto:armedex@sbcglobal.net) to schedule an Echo Park inspection today.
 
 **ZIP Codes Served:** 90026
 

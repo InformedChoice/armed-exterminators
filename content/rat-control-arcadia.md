@@ -79,7 +79,7 @@ Arcadia's unique environment creates ideal rat conditions:
 | Quarterly Service | Ongoing protection | Save 15% |
 | Full Exclusion | Complete sealing | $795-$1,495 |
 
-*Prices vary based on property size and severity. Free inspections available.*
+*Prices vary based on property size and severity.*
 
 ## Serving All Arcadia Neighborhoods
 
@@ -123,7 +123,7 @@ Yes, we use tamper-resistant bait stations and strategic trap placement that kee
 Arcadia's mature tree canopy creates "rat superhighways" between properties. The combination of older homes, horse facilities, and mountain proximity makes Arcadia particularly attractive to both roof rats and Norway rats.
 
 ### How much does rat control cost in Arcadia?
-Pricing depends on property size and severity. Arcadia homes typically range from $295 to $495 for initial treatment, with full exclusion services ranging from $795 to $1,495. We offer free inspections to provide accurate quotes.
+Pricing depends on property size and severity. Arcadia homes typically range from $295 to $495 for initial treatment, with full exclusion services ranging from $795 to $1,495. Contact us for an accurate quote.
 
 ### Do you service all of Arcadia?
 Yes! We cover all Arcadia ZIP codes including 91006, 91007, 91066, and 91077. We also service nearby Monrovia, Temple City, and El Monte.

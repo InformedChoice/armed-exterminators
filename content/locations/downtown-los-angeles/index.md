@@ -107,7 +107,7 @@ Regular monitoring and maintenance to prevent re-infestation.
 > *"Armed Exterminators eliminated a massive roach problem in our Grand Central Market restaurant space overnight. They worked after hours, used odorless treatments, and we opened pest-free the next morning. Professional service that saved our health department rating."*  
 > — **Maria L., Restaurant Manager, Historic Core**
 
-## Get Your Free DTLA Inspection
+## Schedule Your DTLA Inspection
 
 **Call (626) 256-3200** or [email us](mailto:armedex@sbcglobal.net) for a same-day site visit anywhere between **7th Street** and **Alameda**. Stay ahead of pests—keep Downtown thriving!
 

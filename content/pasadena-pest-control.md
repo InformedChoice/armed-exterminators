@@ -14,7 +14,7 @@ Whether you're caring for a mid-century home above the Hollywood Reservoir, mana
     <a href="tel:(626) 256-3200" style="display: inline-block; background: #FF0000; color: white; padding: 1rem 2.5rem; font-size: 1.25rem; font-weight: bold; text-decoration: none; border-radius: 5px; box-shadow: 0 0 20px rgba(255, 0, 0, 0.4); transition: all 0.3s;" onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 30px rgba(255, 0, 0, 0.6)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 0 20px rgba(255, 0, 0, 0.4)'">
         📞 CALL NOW: (626) 256-3200
     </a>
-    <p style="margin-top: 1rem; font-style: italic; color: #666;">Free Estimates • Same-Day Service Available</p>
+    <p style="margin-top: 1rem; font-style: italic; color: #666;">Same-Day Service Available</p>
 </div>
 
 ## Our Complete Pest Control Services
@@ -75,7 +75,7 @@ We've been serving Hollywood and greater Los Angeles since day one. We understan
 <div style="text-align: center; margin: 2rem 0;">
     <p style="font-size: 1.5rem; color: #cc4400; font-weight: bold; margin-bottom: 1rem;">⭐⭐⭐⭐⭐ 5-Star Rated Service</p>
     <a href="tel:(626) 256-3200" style="display: inline-block; background: #0099cc; color: white; padding: 1rem 2rem; font-size: 1.125rem; font-weight: bold; text-decoration: none; border-radius: 5px; margin: 0.5rem;">
-        Schedule Your Free Inspection
+        Schedule Your Inspection
     </a>
     <a href="/contact-us/" style="display: inline-block; background: transparent; color: #0099cc; border: 2px solid #0099cc; padding: 1rem 2rem; font-size: 1.125rem; font-weight: bold; text-decoration: none; border-radius: 5px; margin: 0.5rem;">
         Get a Quote Online
@@ -150,7 +150,7 @@ Don't let pests take over your property. Our experienced technicians are ready t
     <a href="tel:(626) 256-3200" style="display: inline-block; background: #FF0000; color: white; padding: 1.25rem 3rem; font-size: 1.5rem; font-weight: bold; text-decoration: none; border-radius: 50px; box-shadow: 0 0 30px rgba(255, 0, 0, 0.5); animation: pulse 2s infinite;">
         📞 (626) 256-3200
     </a>
-    <p style="margin-top: 1.5rem; font-size: 1.125rem; color: #666;">Same-Day Appointments Available • Free Quotes • Satisfaction Guaranteed</p>
+    <p style="margin-top: 1.5rem; font-size: 1.125rem; color: #666;">Same-Day Appointments Available • Satisfaction Guaranteed</p>
 </div>
 
 <style>
