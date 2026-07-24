@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section class="page-content" aria-labelledby="not-found-title">
+    <div class="container">
+        <h1 class="page-title" id="not-found-title">
+            <span class="title-main">Page Not Found</span>
+        </h1>
+
+        <div class="content-wrapper">
+            <p>The page you requested does not exist.</p>
+            <p>
+                Return to the <a href="/">Armed Exterminators homepage</a>, or call us for pest control service.
+            </p>
+            <p>
+                <a href="tel:{{ .Site.Params.phone }}" class="cta-button cta-primary">
+                    Call {{ .Site.Params.phone }}
+                </a>
+            </p>
+        </div>
+    </div>
+</section>
+{{ end }}
