@@ -1,0 +1,120 @@
+<div class="review-buttons">
+    <a href="/google-review"
+       class="review-button google-button"
+       target="_blank"
+       rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg"
+             alt="Google"
+             width="40"
+             height="40">
+        <span>Review on Google</span>
+    </a>
+
+    <a href="https://www.yelp.com/biz/armed-exterminators-duarte"
+       class="review-button yelp-button"
+       target="_blank"
+       rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Yelp_Logo.svg"
+             alt="Yelp"
+             width="80"
+             height="40">
+        <span>Review on Yelp</span>
+    </a>
+</div>
+
+<div class="qr-code-section">
+    <a href="/google-review" aria-label="Leave a Google review for Armed Exterminators">
+        <img class="google-review-qr"
+             src="/images/google-review-qr.svg"
+             alt="QR code to leave a Google review for Armed Exterminators"
+             width="320"
+             height="320">
+    </a>
+    <p><strong>Scan to review us on Google</strong></p>
+    <p class="qr-code-help">Point your phone's camera at the code, then tap the link that appears.</p>
+</div>
+
+<style>
+.review-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 3rem auto;
+    max-width: 400px;
+}
+
+.review-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.25rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.review-button img {
+    object-fit: contain;
+}
+
+.google-button {
+    background: #4285f4;
+    color: white;
+}
+
+.google-button:hover {
+    background: #3367d6;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(66, 133, 244, 0.3);
+}
+
+.yelp-button {
+    background: #ff1a1a;
+    color: white;
+}
+
+.yelp-button:hover {
+    background: #e60000;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 26, 26, 0.3);
+}
+
+.qr-code-section {
+    text-align: center;
+    margin: 3rem 0;
+    padding: 2rem;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.google-review-qr {
+    display: block;
+    width: min(100%, 320px);
+    height: auto;
+    margin: 0 auto 1rem;
+}
+
+.qr-code-section p {
+    margin: 0.5rem 0;
+}
+
+.qr-code-help {
+    color: #555;
+    font-size: 0.95rem;
+}
+
+@media (min-width: 768px) {
+    .review-buttons {
+        flex-direction: row;
+        max-width: 600px;
+    }
+
+    .review-button {
+        flex: 1;
+    }
+}
+</style>
